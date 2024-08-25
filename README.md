@@ -89,7 +89,7 @@ The other scenes are for testing pruposes:
 
 ## Documentation
 
-We provide an [online documentation](https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/), you can also access it in the `documentation` branch, under `docs/`.
+We provide an [online documentation](https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/), you can also access it in the `docs/` folder.
 
 The documentation is generated with DocFX, you can regenerate it with [DocFX](https://github.com/dotnet/docfx).
 
