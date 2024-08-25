@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.LocalInpaintingQuery
+  commentId: T:AiWorldGeneration.TCP.LocalInpaintingQuery
+  id: LocalInpaintingQuery
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.LocalInpaintingQuery.#ctor(System.String,System.String,System.String,System.String,System.Int32)
+  - AiWorldGeneration.TCP.LocalInpaintingQuery.imagePath
+  - AiWorldGeneration.TCP.LocalInpaintingQuery.maskPath
+  - AiWorldGeneration.TCP.LocalInpaintingQuery.outputFilePath
+  - AiWorldGeneration.TCP.LocalInpaintingQuery.prompt
+  - AiWorldGeneration.TCP.LocalInpaintingQuery.reportCompletion
+  langs:
+  - csharp
+  - vb
+  name: LocalInpaintingQuery
+  nameWithType: LocalInpaintingQuery
+  fullName: AiWorldGeneration.TCP.LocalInpaintingQuery
+  type: Class
+  source:
+    id: LocalInpaintingQuery
+    path: ''
+    startLine: 1253
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nQuery to do an inpainting task on a single computer.\n"
+  example: []
+  syntax:
+    content: 'public class LocalInpaintingQuery : BaseClientQuery'
+    content.vb: Public Class LocalInpaintingQuery Inherits BaseClientQuery
+  inheritance:
+  - System.Object
+  - AiWorldGeneration.TCP.BaseClientQuery
+  inheritedMembers:
+  - AiWorldGeneration.TCP.BaseClientQuery.type
+  - AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: AiWorldGeneration.TCP.LocalInpaintingQuery.imagePath
+  commentId: F:AiWorldGeneration.TCP.LocalInpaintingQuery.imagePath
+  id: imagePath
+  parent: AiWorldGeneration.TCP.LocalInpaintingQuery
+  langs:
+  - csharp
+  - vb
+  name: imagePath
+  nameWithType: LocalInpaintingQuery.imagePath
+  fullName: AiWorldGeneration.TCP.LocalInpaintingQuery.imagePath
+  type: Field
+  source:
+    id: imagePath
+    path: ''
+    startLine: 1259
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nBase image path on which to conduct the inpainting.\n"
+  example: []
+  syntax:
+    content: public string imagePath
+    return:
+      type: System.String
+    content.vb: Public imagePath As String
+- uid: AiWorldGeneration.TCP.LocalInpaintingQuery.maskPath
+  commentId: F:AiWorldGeneration.TCP.LocalInpaintingQuery.maskPath
+  id: maskPath
+  parent: AiWorldGeneration.TCP.LocalInpaintingQuery
+  langs:
+  - csharp
+  - vb
+  name: maskPath
+  nameWithType: LocalInpaintingQuery.maskPath
+  fullName: AiWorldGeneration.TCP.LocalInpaintingQuery.maskPath
+  type: Field
+  source:
+    id: maskPath
+    path: ''
+    startLine: 1264
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nPath to the mask. White areas will be inpainted.\n"
+  example: []
+  syntax:
+    content: public string maskPath
+    return:
+      type: System.String
+    content.vb: Public maskPath As String
+- uid: AiWorldGeneration.TCP.LocalInpaintingQuery.prompt
+  commentId: F:AiWorldGeneration.TCP.LocalInpaintingQuery.prompt
+  id: prompt
+  parent: AiWorldGeneration.TCP.LocalInpaintingQuery
+  langs:
+  - csharp
+  - vb
+  name: prompt
+  nameWithType: LocalInpaintingQuery.prompt
+  fullName: AiWorldGeneration.TCP.LocalInpaintingQuery.prompt
+  type: Field
+  source:
+    id: prompt
+    path: ''
+    startLine: 1269
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nPrompt guidance for the inpainting.\n"
+  example: []
+  syntax:
+    content: public string prompt
+    return:
+      type: System.String
+    content.vb: Public prompt As String
+- uid: AiWorldGeneration.TCP.LocalInpaintingQuery.outputFilePath
+  commentId: F:AiWorldGeneration.TCP.LocalInpaintingQuery.outputFilePath
+  id: outputFilePath
+  parent: AiWorldGeneration.TCP.LocalInpaintingQuery
+  langs:
+  - csharp
+  - vb
+  name: outputFilePath
+  nameWithType: LocalInpaintingQuery.outputFilePath
+  fullName: AiWorldGeneration.TCP.LocalInpaintingQuery.outputFilePath
+  type: Field
+  source:
+    id: outputFilePath
+    path: ''
+    startLine: 1274
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nPath where the generated file should be saved.\n"
+  example: []
+  syntax:
+    content: public string outputFilePath
+    return:
+      type: System.String
+    content.vb: Public outputFilePath As String
+- uid: AiWorldGeneration.TCP.LocalInpaintingQuery.reportCompletion
+  commentId: F:AiWorldGeneration.TCP.LocalInpaintingQuery.reportCompletion
+  id: reportCompletion
+  parent: AiWorldGeneration.TCP.LocalInpaintingQuery
+  langs:
+  - csharp
+  - vb
+  name: reportCompletion
+  nameWithType: LocalInpaintingQuery.reportCompletion
+  fullName: AiWorldGeneration.TCP.LocalInpaintingQuery.reportCompletion
+  type: Field
+  source:
+    id: reportCompletion
+    path: ''
+    startLine: 1279
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nReport completion at regular intervals.\n"
+  example: []
+  syntax:
+    content: public int reportCompletion
+    return:
+      type: System.Int32
+    content.vb: Public reportCompletion As Integer
+- uid: AiWorldGeneration.TCP.LocalInpaintingQuery.#ctor(System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:AiWorldGeneration.TCP.LocalInpaintingQuery.#ctor(System.String,System.String,System.String,System.String,System.Int32)
+  id: '#ctor(System.String,System.String,System.String,System.String,System.Int32)'
+  parent: AiWorldGeneration.TCP.LocalInpaintingQuery
+  langs:
+  - csharp
+  - vb
+  name: LocalInpaintingQuery(string, string, string, string, int)
+  nameWithType: LocalInpaintingQuery.LocalInpaintingQuery(string, string, string, string, int)
+  fullName: AiWorldGeneration.TCP.LocalInpaintingQuery.LocalInpaintingQuery(string, string, string, string, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1281
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public LocalInpaintingQuery(string inputImagePath = null, string maskPath = null, string destinationPath = null, string prompt = null, int reportCompletion = 0)
+    parameters:
+    - id: inputImagePath
+      type: System.String
+    - id: maskPath
+      type: System.String
+    - id: destinationPath
+      type: System.String
+    - id: prompt
+      type: System.String
+    - id: reportCompletion
+      type: System.Int32
+    content.vb: Public Sub New(inputImagePath As String = Nothing, maskPath As String = Nothing, destinationPath As String = Nothing, prompt As String = Nothing, reportCompletion As Integer = 0)
+  overload: AiWorldGeneration.TCP.LocalInpaintingQuery.#ctor*
+  nameWithType.vb: LocalInpaintingQuery.New(String, String, String, String, Integer)
+  fullName.vb: AiWorldGeneration.TCP.LocalInpaintingQuery.New(String, String, String, String, Integer)
+  name.vb: New(String, String, String, String, Integer)
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: AiWorldGeneration.TCP.BaseClientQuery
+  commentId: T:AiWorldGeneration.TCP.BaseClientQuery
+  parent: AiWorldGeneration.TCP
+  name: BaseClientQuery
+  nameWithType: BaseClientQuery
+  fullName: AiWorldGeneration.TCP.BaseClientQuery
+- uid: AiWorldGeneration.TCP.BaseClientQuery.type
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.type
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: type
+  nameWithType: BaseClientQuery.type
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.type
+- uid: AiWorldGeneration.TCP.BaseClientQuery.taskId
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.taskId
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: taskId
+  nameWithType: BaseClientQuery.taskId
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: AiWorldGeneration.TCP.LocalInpaintingQuery.#ctor*
+  commentId: Overload:AiWorldGeneration.TCP.LocalInpaintingQuery.#ctor
+  name: LocalInpaintingQuery
+  nameWithType: LocalInpaintingQuery.LocalInpaintingQuery
+  fullName: AiWorldGeneration.TCP.LocalInpaintingQuery.LocalInpaintingQuery
+  nameWithType.vb: LocalInpaintingQuery.New
+  fullName.vb: AiWorldGeneration.TCP.LocalInpaintingQuery.New
+  name.vb: New

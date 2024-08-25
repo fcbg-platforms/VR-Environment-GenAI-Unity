@@ -1,0 +1,8 @@
+{
+    "audioPath": "Temp/audio.wav",
+    "baseImage": "Assets/Textures/Rewritable Texture.PNG",
+    "maskPath": "Temp/mask.png",
+    "serverDefaultIp": "192.168.154.11",
+    "serverDefaultPort": 8999,
+    "pythonFallbackApiFile": "/home/h/Documents/dev/PycharmProjects/2024-int-aiworldgeneration/api.json"
+}

@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.Meditation.ViewTracker
+  commentId: T:AiWorldGeneration.Meditation.ViewTracker
+  id: ViewTracker
+  parent: AiWorldGeneration.Meditation
+  children:
+  - AiWorldGeneration.Meditation.ViewTracker.fixationPointRadius
+  - AiWorldGeneration.Meditation.ViewTracker.viewTarget
+  langs:
+  - csharp
+  - vb
+  name: ViewTracker
+  nameWithType: ViewTracker
+  fullName: AiWorldGeneration.Meditation.ViewTracker
+  type: Class
+  source:
+    id: ViewTracker
+    path: ''
+    startLine: 659
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Meditation
+  syntax:
+    content: 'public class ViewTracker : MonoBehaviour'
+    content.vb: Public Class ViewTracker Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.Meditation.ViewTracker.viewTarget
+  commentId: F:AiWorldGeneration.Meditation.ViewTracker.viewTarget
+  id: viewTarget
+  parent: AiWorldGeneration.Meditation.ViewTracker
+  langs:
+  - csharp
+  - vb
+  name: viewTarget
+  nameWithType: ViewTracker.viewTarget
+  fullName: AiWorldGeneration.Meditation.ViewTracker.viewTarget
+  type: Field
+  source:
+    id: viewTarget
+    path: ''
+    startLine: 663
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Meditation
+  syntax:
+    content: public GameObject viewTarget
+    return:
+      type: Global.GameObject
+    content.vb: Public viewTarget As GameObject
+- uid: AiWorldGeneration.Meditation.ViewTracker.fixationPointRadius
+  commentId: F:AiWorldGeneration.Meditation.ViewTracker.fixationPointRadius
+  id: fixationPointRadius
+  parent: AiWorldGeneration.Meditation.ViewTracker
+  langs:
+  - csharp
+  - vb
+  name: fixationPointRadius
+  nameWithType: ViewTracker.fixationPointRadius
+  fullName: AiWorldGeneration.Meditation.ViewTracker.fixationPointRadius
+  type: Field
+  source:
+    id: fixationPointRadius
+    path: ''
+    startLine: 665
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Meditation
+  syntax:
+    content: public float fixationPointRadius
+    return:
+      type: System.Single
+    content.vb: Public fixationPointRadius As Single
+references:
+- uid: AiWorldGeneration.Meditation
+  commentId: N:AiWorldGeneration.Meditation
+  name: AiWorldGeneration.Meditation
+  nameWithType: AiWorldGeneration.Meditation
+  fullName: AiWorldGeneration.Meditation
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.Meditation
+    name: Meditation
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.Meditation
+    name: Meditation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  commentId: '!:Global.GameObject'
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

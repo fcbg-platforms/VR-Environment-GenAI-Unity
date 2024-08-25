@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.Skybox
+  commentId: N:AiWorldGeneration.Skybox
+  id: AiWorldGeneration.Skybox
+  children:
+  - AiWorldGeneration.Skybox.SkyboxMasker
+  - AiWorldGeneration.Skybox.SkyboxOrchestrator
+  langs:
+  - csharp
+  - vb
+  name: AiWorldGeneration.Skybox
+  nameWithType: AiWorldGeneration.Skybox
+  fullName: AiWorldGeneration.Skybox
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator
+  commentId: T:AiWorldGeneration.Skybox.SkyboxOrchestrator
+  name: SkyboxOrchestrator
+  nameWithType: SkyboxOrchestrator
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator
+- uid: AiWorldGeneration.Skybox.SkyboxMasker
+  commentId: T:AiWorldGeneration.Skybox.SkyboxMasker
+  name: SkyboxMasker
+  nameWithType: SkyboxMasker
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker

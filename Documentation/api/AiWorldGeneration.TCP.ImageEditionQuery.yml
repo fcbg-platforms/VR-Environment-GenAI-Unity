@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.ImageEditionQuery
+  commentId: T:AiWorldGeneration.TCP.ImageEditionQuery
+  id: ImageEditionQuery
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.ImageEditionQuery.#ctor(System.String,System.String,System.Int32)
+  - AiWorldGeneration.TCP.ImageEditionQuery.imageBytes
+  - AiWorldGeneration.TCP.ImageEditionQuery.prompt
+  - AiWorldGeneration.TCP.ImageEditionQuery.reportCompletion
+  langs:
+  - csharp
+  - vb
+  name: ImageEditionQuery
+  nameWithType: ImageEditionQuery
+  fullName: AiWorldGeneration.TCP.ImageEditionQuery
+  type: Class
+  source:
+    id: ImageEditionQuery
+    path: ''
+    startLine: 1301
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nAbstract query to do an image edition task.\n"
+  example: []
+  syntax:
+    content: 'public abstract class ImageEditionQuery : BaseClientQuery'
+    content.vb: Public MustInherit Class ImageEditionQuery Inherits BaseClientQuery
+  inheritance:
+  - System.Object
+  - AiWorldGeneration.TCP.BaseClientQuery
+  derivedClasses:
+  - AiWorldGeneration.TCP.ExtendSkyboxQuery
+  - AiWorldGeneration.TCP.InpaintingQuery
+  - AiWorldGeneration.TCP.RefineSkyboxQuery
+  - AiWorldGeneration.TCP.RemoveSeamQuery
+  inheritedMembers:
+  - AiWorldGeneration.TCP.BaseClientQuery.type
+  - AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: AiWorldGeneration.TCP.ImageEditionQuery.imageBytes
+  commentId: F:AiWorldGeneration.TCP.ImageEditionQuery.imageBytes
+  id: imageBytes
+  parent: AiWorldGeneration.TCP.ImageEditionQuery
+  langs:
+  - csharp
+  - vb
+  name: imageBytes
+  nameWithType: ImageEditionQuery.imageBytes
+  fullName: AiWorldGeneration.TCP.ImageEditionQuery.imageBytes
+  type: Field
+  source:
+    id: imageBytes
+    path: ''
+    startLine: 1307
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nBase image path on which to conduct the edition.\n"
+  example: []
+  syntax:
+    content: public string imageBytes
+    return:
+      type: System.String
+    content.vb: Public imageBytes As String
+- uid: AiWorldGeneration.TCP.ImageEditionQuery.prompt
+  commentId: F:AiWorldGeneration.TCP.ImageEditionQuery.prompt
+  id: prompt
+  parent: AiWorldGeneration.TCP.ImageEditionQuery
+  langs:
+  - csharp
+  - vb
+  name: prompt
+  nameWithType: ImageEditionQuery.prompt
+  fullName: AiWorldGeneration.TCP.ImageEditionQuery.prompt
+  type: Field
+  source:
+    id: prompt
+    path: ''
+    startLine: 1312
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nPrompt guidance for the image edition.\n"
+  example: []
+  syntax:
+    content: public string prompt
+    return:
+      type: System.String
+    content.vb: Public prompt As String
+- uid: AiWorldGeneration.TCP.ImageEditionQuery.reportCompletion
+  commentId: F:AiWorldGeneration.TCP.ImageEditionQuery.reportCompletion
+  id: reportCompletion
+  parent: AiWorldGeneration.TCP.ImageEditionQuery
+  langs:
+  - csharp
+  - vb
+  name: reportCompletion
+  nameWithType: ImageEditionQuery.reportCompletion
+  fullName: AiWorldGeneration.TCP.ImageEditionQuery.reportCompletion
+  type: Field
+  source:
+    id: reportCompletion
+    path: ''
+    startLine: 1317
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nReport completion at regular intervals.\n"
+  example: []
+  syntax:
+    content: public int reportCompletion
+    return:
+      type: System.Int32
+    content.vb: Public reportCompletion As Integer
+- uid: AiWorldGeneration.TCP.ImageEditionQuery.#ctor(System.String,System.String,System.Int32)
+  commentId: M:AiWorldGeneration.TCP.ImageEditionQuery.#ctor(System.String,System.String,System.Int32)
+  id: '#ctor(System.String,System.String,System.Int32)'
+  parent: AiWorldGeneration.TCP.ImageEditionQuery
+  langs:
+  - csharp
+  - vb
+  name: ImageEditionQuery(string, string, int)
+  nameWithType: ImageEditionQuery.ImageEditionQuery(string, string, int)
+  fullName: AiWorldGeneration.TCP.ImageEditionQuery.ImageEditionQuery(string, string, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1319
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: protected ImageEditionQuery(string inputImage = null, string prompt = null, int reportCompletion = 0)
+    parameters:
+    - id: inputImage
+      type: System.String
+    - id: prompt
+      type: System.String
+    - id: reportCompletion
+      type: System.Int32
+    content.vb: Protected Sub New(inputImage As String = Nothing, prompt As String = Nothing, reportCompletion As Integer = 0)
+  overload: AiWorldGeneration.TCP.ImageEditionQuery.#ctor*
+  nameWithType.vb: ImageEditionQuery.New(String, String, Integer)
+  fullName.vb: AiWorldGeneration.TCP.ImageEditionQuery.New(String, String, Integer)
+  name.vb: New(String, String, Integer)
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: AiWorldGeneration.TCP.BaseClientQuery
+  commentId: T:AiWorldGeneration.TCP.BaseClientQuery
+  parent: AiWorldGeneration.TCP
+  name: BaseClientQuery
+  nameWithType: BaseClientQuery
+  fullName: AiWorldGeneration.TCP.BaseClientQuery
+- uid: AiWorldGeneration.TCP.BaseClientQuery.type
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.type
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: type
+  nameWithType: BaseClientQuery.type
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.type
+- uid: AiWorldGeneration.TCP.BaseClientQuery.taskId
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.taskId
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: taskId
+  nameWithType: BaseClientQuery.taskId
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: AiWorldGeneration.TCP.ImageEditionQuery.#ctor*
+  commentId: Overload:AiWorldGeneration.TCP.ImageEditionQuery.#ctor
+  name: ImageEditionQuery
+  nameWithType: ImageEditionQuery.ImageEditionQuery
+  fullName: AiWorldGeneration.TCP.ImageEditionQuery.ImageEditionQuery
+  nameWithType.vb: ImageEditionQuery.New
+  fullName.vb: AiWorldGeneration.TCP.ImageEditionQuery.New
+  name.vb: New

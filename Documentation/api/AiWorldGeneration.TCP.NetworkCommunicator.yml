@@ -1,0 +1,370 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.NetworkCommunicator
+  commentId: T:AiWorldGeneration.TCP.NetworkCommunicator
+  id: NetworkCommunicator
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.NetworkCommunicator.#ctor(IPAddress,System.Int32)
+  - AiWorldGeneration.TCP.NetworkCommunicator.#ctor(System.String,System.Int32)
+  - AiWorldGeneration.TCP.NetworkCommunicator.GetCompletionStatus(System.Int32)
+  - AiWorldGeneration.TCP.NetworkCommunicator.SpawnNewTask(AiWorldGeneration.TCP.BaseClientQuery)
+  - AiWorldGeneration.TCP.NetworkCommunicator.UpdateClient
+  langs:
+  - csharp
+  - vb
+  name: NetworkCommunicator
+  nameWithType: NetworkCommunicator
+  fullName: AiWorldGeneration.TCP.NetworkCommunicator
+  type: Class
+  source:
+    id: NetworkCommunicator
+    path: ''
+    startLine: 1471
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public class NetworkCommunicator
+    content.vb: Public Class NetworkCommunicator
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.TCP.NetworkCommunicator.GetCompletionStatus(System.Int32)
+  commentId: M:AiWorldGeneration.TCP.NetworkCommunicator.GetCompletionStatus(System.Int32)
+  id: GetCompletionStatus(System.Int32)
+  parent: AiWorldGeneration.TCP.NetworkCommunicator
+  langs:
+  - csharp
+  - vb
+  name: GetCompletionStatus(int)
+  nameWithType: NetworkCommunicator.GetCompletionStatus(int)
+  fullName: AiWorldGeneration.TCP.NetworkCommunicator.GetCompletionStatus(int)
+  type: Method
+  source:
+    id: GetCompletionStatus
+    path: ''
+    startLine: 1504
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nRetrieves the completion status of a worker with the given task ID.\n"
+  example: []
+  syntax:
+    content: public float GetCompletionStatus(int taskId)
+    parameters:
+    - id: taskId
+      type: System.Int32
+      description: The ID of the task to retrieve the completion status for.
+    return:
+      type: System.Single
+      description: The completion status of the task.
+    content.vb: Public Function GetCompletionStatus(taskId As Integer) As Single
+  overload: AiWorldGeneration.TCP.NetworkCommunicator.GetCompletionStatus*
+  nameWithType.vb: NetworkCommunicator.GetCompletionStatus(Integer)
+  fullName.vb: AiWorldGeneration.TCP.NetworkCommunicator.GetCompletionStatus(Integer)
+  name.vb: GetCompletionStatus(Integer)
+- uid: AiWorldGeneration.TCP.NetworkCommunicator.SpawnNewTask(AiWorldGeneration.TCP.BaseClientQuery)
+  commentId: M:AiWorldGeneration.TCP.NetworkCommunicator.SpawnNewTask(AiWorldGeneration.TCP.BaseClientQuery)
+  id: SpawnNewTask(AiWorldGeneration.TCP.BaseClientQuery)
+  parent: AiWorldGeneration.TCP.NetworkCommunicator
+  langs:
+  - csharp
+  - vb
+  name: SpawnNewTask(BaseClientQuery)
+  nameWithType: NetworkCommunicator.SpawnNewTask(BaseClientQuery)
+  fullName: AiWorldGeneration.TCP.NetworkCommunicator.SpawnNewTask(AiWorldGeneration.TCP.BaseClientQuery)
+  type: Method
+  source:
+    id: SpawnNewTask
+    path: ''
+    startLine: 1521
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nAdds a new query to the queue and returns a LongTCS object containing a TaskCompletionSource.\n"
+  example: []
+  syntax:
+    content: public Task<SerializableResponseData> SpawnNewTask(BaseClientQuery query)
+    parameters:
+    - id: query
+      type: AiWorldGeneration.TCP.BaseClientQuery
+      description: The SerializedQuery object containing the task details.
+    return:
+      type: System.Threading.Tasks.Task{AiWorldGeneration.TCP.SerializableResponseData}
+      description: A LongTCS object containing a TaskCompletionSource for the new query.
+    content.vb: Public Function SpawnNewTask(query As BaseClientQuery) As Task(Of SerializableResponseData)
+  overload: AiWorldGeneration.TCP.NetworkCommunicator.SpawnNewTask*
+- uid: AiWorldGeneration.TCP.NetworkCommunicator.UpdateClient
+  commentId: M:AiWorldGeneration.TCP.NetworkCommunicator.UpdateClient
+  id: UpdateClient
+  parent: AiWorldGeneration.TCP.NetworkCommunicator
+  langs:
+  - csharp
+  - vb
+  name: UpdateClient()
+  nameWithType: NetworkCommunicator.UpdateClient()
+  fullName: AiWorldGeneration.TCP.NetworkCommunicator.UpdateClient()
+  type: Method
+  source:
+    id: UpdateClient
+    path: ''
+    startLine: 1696
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nUpdates the client: send and receive data.\n\nData to send and to receive are checked and action is taken accordingly.\n"
+  example: []
+  syntax:
+    content: public void UpdateClient()
+    content.vb: Public Sub UpdateClient()
+  overload: AiWorldGeneration.TCP.NetworkCommunicator.UpdateClient*
+- uid: AiWorldGeneration.TCP.NetworkCommunicator.#ctor(IPAddress,System.Int32)
+  commentId: M:AiWorldGeneration.TCP.NetworkCommunicator.#ctor(IPAddress,System.Int32)
+  id: '#ctor(IPAddress,System.Int32)'
+  parent: AiWorldGeneration.TCP.NetworkCommunicator
+  langs:
+  - csharp
+  - vb
+  name: NetworkCommunicator(IPAddress, int)
+  nameWithType: NetworkCommunicator.NetworkCommunicator(IPAddress, int)
+  fullName: AiWorldGeneration.TCP.NetworkCommunicator.NetworkCommunicator(IPAddress, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1757
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nInitializes the NetworkCommunicator with the provided IP address and port.\n"
+  example: []
+  syntax:
+    content: public NetworkCommunicator(IPAddress ipAddress, int port)
+    parameters:
+    - id: ipAddress
+      type: Global.IPAddress
+      description: The IP address of the server to connect to.
+    - id: port
+      type: System.Int32
+      description: The target server port.
+    content.vb: Public Sub New(ipAddress As IPAddress, port As Integer)
+  overload: AiWorldGeneration.TCP.NetworkCommunicator.#ctor*
+  nameWithType.vb: NetworkCommunicator.New(IPAddress, Integer)
+  fullName.vb: AiWorldGeneration.TCP.NetworkCommunicator.New(IPAddress, Integer)
+  name.vb: New(IPAddress, Integer)
+- uid: AiWorldGeneration.TCP.NetworkCommunicator.#ctor(System.String,System.Int32)
+  commentId: M:AiWorldGeneration.TCP.NetworkCommunicator.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: AiWorldGeneration.TCP.NetworkCommunicator
+  langs:
+  - csharp
+  - vb
+  name: NetworkCommunicator(string, int)
+  nameWithType: NetworkCommunicator.NetworkCommunicator(string, int)
+  fullName: AiWorldGeneration.TCP.NetworkCommunicator.NetworkCommunicator(string, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1767
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nInitializes the NetworkCommunicator with the provided IP address and port.\n"
+  example: []
+  syntax:
+    content: public NetworkCommunicator(string ipAddress, int port)
+    parameters:
+    - id: ipAddress
+      type: System.String
+      description: The IP address of the server to connect to.
+    - id: port
+      type: System.Int32
+      description: The target server port.
+    content.vb: Public Sub New(ipAddress As String, port As Integer)
+  overload: AiWorldGeneration.TCP.NetworkCommunicator.#ctor*
+  nameWithType.vb: NetworkCommunicator.New(String, Integer)
+  fullName.vb: AiWorldGeneration.TCP.NetworkCommunicator.New(String, Integer)
+  name.vb: New(String, Integer)
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AiWorldGeneration.TCP.NetworkCommunicator.GetCompletionStatus*
+  commentId: Overload:AiWorldGeneration.TCP.NetworkCommunicator.GetCompletionStatus
+  name: GetCompletionStatus
+  nameWithType: NetworkCommunicator.GetCompletionStatus
+  fullName: AiWorldGeneration.TCP.NetworkCommunicator.GetCompletionStatus
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: AiWorldGeneration.TCP.NetworkCommunicator.SpawnNewTask*
+  commentId: Overload:AiWorldGeneration.TCP.NetworkCommunicator.SpawnNewTask
+  name: SpawnNewTask
+  nameWithType: NetworkCommunicator.SpawnNewTask
+  fullName: AiWorldGeneration.TCP.NetworkCommunicator.SpawnNewTask
+- uid: AiWorldGeneration.TCP.BaseClientQuery
+  commentId: T:AiWorldGeneration.TCP.BaseClientQuery
+  parent: AiWorldGeneration.TCP
+  name: BaseClientQuery
+  nameWithType: BaseClientQuery
+  fullName: AiWorldGeneration.TCP.BaseClientQuery
+- uid: System.Threading.Tasks.Task{AiWorldGeneration.TCP.SerializableResponseData}
+  commentId: T:System.Threading.Tasks.Task{AiWorldGeneration.TCP.SerializableResponseData}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SerializableResponseData>
+  nameWithType: Task<SerializableResponseData>
+  fullName: System.Threading.Tasks.Task<AiWorldGeneration.TCP.SerializableResponseData>
+  nameWithType.vb: Task(Of SerializableResponseData)
+  fullName.vb: System.Threading.Tasks.Task(Of AiWorldGeneration.TCP.SerializableResponseData)
+  name.vb: Task(Of SerializableResponseData)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: AiWorldGeneration.TCP.SerializableResponseData
+    name: SerializableResponseData
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: AiWorldGeneration.TCP.SerializableResponseData
+    name: SerializableResponseData
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+- uid: AiWorldGeneration.TCP.NetworkCommunicator.UpdateClient*
+  commentId: Overload:AiWorldGeneration.TCP.NetworkCommunicator.UpdateClient
+  name: UpdateClient
+  nameWithType: NetworkCommunicator.UpdateClient
+  fullName: AiWorldGeneration.TCP.NetworkCommunicator.UpdateClient
+- uid: AiWorldGeneration.TCP.NetworkCommunicator.#ctor*
+  commentId: Overload:AiWorldGeneration.TCP.NetworkCommunicator.#ctor
+  name: NetworkCommunicator
+  nameWithType: NetworkCommunicator.NetworkCommunicator
+  fullName: AiWorldGeneration.TCP.NetworkCommunicator.NetworkCommunicator
+  nameWithType.vb: NetworkCommunicator.New
+  fullName.vb: AiWorldGeneration.TCP.NetworkCommunicator.New
+  name.vb: New
+- uid: Global.IPAddress
+  commentId: '!:Global.IPAddress'
+  isExternal: true
+  name: IPAddress
+  nameWithType: IPAddress
+  fullName: IPAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

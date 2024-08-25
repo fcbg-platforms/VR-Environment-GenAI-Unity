@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.ClientWorker
+  commentId: T:AiWorldGeneration.TCP.ClientWorker
+  id: ClientWorker
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.ClientWorker.#ctor
+  - AiWorldGeneration.TCP.ClientWorker.EstimateProgress
+  - AiWorldGeneration.TCP.ClientWorker.Progress
+  - AiWorldGeneration.TCP.ClientWorker.TaskCompletionSource
+  - AiWorldGeneration.TCP.ClientWorker.TcpClient
+  langs:
+  - csharp
+  - vb
+  name: ClientWorker
+  nameWithType: ClientWorker
+  fullName: AiWorldGeneration.TCP.ClientWorker
+  type: Class
+  source:
+    id: ClientWorker
+    path: ''
+    startLine: 1784
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nA client tasking waiting for a server answer.\n"
+  example: []
+  syntax:
+    content: public class ClientWorker
+    content.vb: Public Class ClientWorker
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.TCP.ClientWorker.TaskCompletionSource
+  commentId: P:AiWorldGeneration.TCP.ClientWorker.TaskCompletionSource
+  id: TaskCompletionSource
+  parent: AiWorldGeneration.TCP.ClientWorker
+  langs:
+  - csharp
+  - vb
+  name: TaskCompletionSource
+  nameWithType: ClientWorker.TaskCompletionSource
+  fullName: AiWorldGeneration.TCP.ClientWorker.TaskCompletionSource
+  type: Property
+  source:
+    id: TaskCompletionSource
+    path: ''
+    startLine: 1789
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nThe TaskCompletionSource for the task to do.\n"
+  example: []
+  syntax:
+    content: public TaskCompletionSource<SerializableResponseData> TaskCompletionSource { get; }
+    parameters: []
+    return:
+      type: Global.TaskCompletionSource{AiWorldGeneration.TCP.SerializableResponseData}
+    content.vb: Public ReadOnly Property TaskCompletionSource As TaskCompletionSource(Of SerializableResponseData)
+  overload: AiWorldGeneration.TCP.ClientWorker.TaskCompletionSource*
+- uid: AiWorldGeneration.TCP.ClientWorker.TcpClient
+  commentId: P:AiWorldGeneration.TCP.ClientWorker.TcpClient
+  id: TcpClient
+  parent: AiWorldGeneration.TCP.ClientWorker
+  langs:
+  - csharp
+  - vb
+  name: TcpClient
+  nameWithType: ClientWorker.TcpClient
+  fullName: AiWorldGeneration.TCP.ClientWorker.TcpClient
+  type: Property
+  source:
+    id: TcpClient
+    path: ''
+    startLine: 1794
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nTCP client associated with the task.\n"
+  example: []
+  syntax:
+    content: public TcpClient TcpClient { get; }
+    parameters: []
+    return:
+      type: Global.TcpClient
+    content.vb: Public ReadOnly Property TcpClient As TcpClient
+  overload: AiWorldGeneration.TCP.ClientWorker.TcpClient*
+- uid: AiWorldGeneration.TCP.ClientWorker.Progress
+  commentId: P:AiWorldGeneration.TCP.ClientWorker.Progress
+  id: Progress
+  parent: AiWorldGeneration.TCP.ClientWorker
+  langs:
+  - csharp
+  - vb
+  name: Progress
+  nameWithType: ClientWorker.Progress
+  fullName: AiWorldGeneration.TCP.ClientWorker.Progress
+  type: Property
+  source:
+    id: Progress
+    path: ''
+    startLine: 1814
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nWorker progress, between 0 and 100.\n"
+  example: []
+  syntax:
+    content: public int Progress { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Progress As Integer
+  overload: AiWorldGeneration.TCP.ClientWorker.Progress*
+- uid: AiWorldGeneration.TCP.ClientWorker.EstimateProgress
+  commentId: M:AiWorldGeneration.TCP.ClientWorker.EstimateProgress
+  id: EstimateProgress
+  parent: AiWorldGeneration.TCP.ClientWorker
+  langs:
+  - csharp
+  - vb
+  name: EstimateProgress()
+  nameWithType: ClientWorker.EstimateProgress()
+  fullName: AiWorldGeneration.TCP.ClientWorker.EstimateProgress()
+  type: Method
+  source:
+    id: EstimateProgress
+    path: ''
+    startLine: 1839
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nGet a rough estimate of the workers progress at the current time.\n\nIt inferes the expected progress, not the real one, and returns a value greater of equal the one of Progress.\n"
+  example: []
+  syntax:
+    content: public float EstimateProgress()
+    return:
+      type: System.Single
+    content.vb: Public Function EstimateProgress() As Single
+  overload: AiWorldGeneration.TCP.ClientWorker.EstimateProgress*
+- uid: AiWorldGeneration.TCP.ClientWorker.#ctor
+  commentId: M:AiWorldGeneration.TCP.ClientWorker.#ctor
+  id: '#ctor'
+  parent: AiWorldGeneration.TCP.ClientWorker
+  langs:
+  - csharp
+  - vb
+  name: ClientWorker()
+  nameWithType: ClientWorker.ClientWorker()
+  fullName: AiWorldGeneration.TCP.ClientWorker.ClientWorker()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1848
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public ClientWorker()
+    content.vb: Public Sub New()
+  overload: AiWorldGeneration.TCP.ClientWorker.#ctor*
+  nameWithType.vb: ClientWorker.New()
+  fullName.vb: AiWorldGeneration.TCP.ClientWorker.New()
+  name.vb: New()
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AiWorldGeneration.TCP.ClientWorker.TaskCompletionSource*
+  commentId: Overload:AiWorldGeneration.TCP.ClientWorker.TaskCompletionSource
+  name: TaskCompletionSource
+  nameWithType: ClientWorker.TaskCompletionSource
+  fullName: AiWorldGeneration.TCP.ClientWorker.TaskCompletionSource
+- uid: Global.TaskCompletionSource{AiWorldGeneration.TCP.SerializableResponseData}
+  commentId: '!:Global.TaskCompletionSource{AiWorldGeneration.TCP.SerializableResponseData}'
+  definition: Global.TaskCompletionSource`1
+  name: TaskCompletionSource<SerializableResponseData>
+  nameWithType: TaskCompletionSource<SerializableResponseData>
+  fullName: TaskCompletionSource<AiWorldGeneration.TCP.SerializableResponseData>
+  nameWithType.vb: TaskCompletionSource(Of SerializableResponseData)
+  fullName.vb: TaskCompletionSource(Of AiWorldGeneration.TCP.SerializableResponseData)
+  name.vb: TaskCompletionSource(Of SerializableResponseData)
+  spec.csharp:
+  - uid: Global.TaskCompletionSource`1
+    name: TaskCompletionSource
+    isExternal: true
+  - name: <
+  - uid: AiWorldGeneration.TCP.SerializableResponseData
+    name: SerializableResponseData
+  - name: '>'
+  spec.vb:
+  - uid: Global.TaskCompletionSource`1
+    name: TaskCompletionSource
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: AiWorldGeneration.TCP.SerializableResponseData
+    name: SerializableResponseData
+  - name: )
+- uid: Global.TaskCompletionSource`1
+  commentId: '!:Global.TaskCompletionSource`1'
+  isExternal: true
+  name: TaskCompletionSource<>
+  nameWithType: TaskCompletionSource<>
+  fullName: TaskCompletionSource<>
+  nameWithType.vb: TaskCompletionSource(Of )
+  fullName.vb: TaskCompletionSource(Of )
+  name.vb: TaskCompletionSource(Of )
+  spec.csharp:
+  - uid: Global.TaskCompletionSource`1
+    name: TaskCompletionSource
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.TaskCompletionSource`1
+    name: TaskCompletionSource
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: AiWorldGeneration.TCP.ClientWorker.TcpClient*
+  commentId: Overload:AiWorldGeneration.TCP.ClientWorker.TcpClient
+  name: TcpClient
+  nameWithType: ClientWorker.TcpClient
+  fullName: AiWorldGeneration.TCP.ClientWorker.TcpClient
+- uid: Global.TcpClient
+  commentId: '!:Global.TcpClient'
+  isExternal: true
+  name: TcpClient
+  nameWithType: TcpClient
+  fullName: TcpClient
+- uid: AiWorldGeneration.TCP.ClientWorker.Progress*
+  commentId: Overload:AiWorldGeneration.TCP.ClientWorker.Progress
+  name: Progress
+  nameWithType: ClientWorker.Progress
+  fullName: AiWorldGeneration.TCP.ClientWorker.Progress
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: AiWorldGeneration.TCP.ClientWorker.EstimateProgress*
+  commentId: Overload:AiWorldGeneration.TCP.ClientWorker.EstimateProgress
+  name: EstimateProgress
+  nameWithType: ClientWorker.EstimateProgress
+  fullName: AiWorldGeneration.TCP.ClientWorker.EstimateProgress
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: AiWorldGeneration.TCP.ClientWorker.#ctor*
+  commentId: Overload:AiWorldGeneration.TCP.ClientWorker.#ctor
+  name: ClientWorker
+  nameWithType: ClientWorker.ClientWorker
+  fullName: AiWorldGeneration.TCP.ClientWorker.ClientWorker
+  nameWithType.vb: ClientWorker.New
+  fullName.vb: AiWorldGeneration.TCP.ClientWorker.New
+  name.vb: New

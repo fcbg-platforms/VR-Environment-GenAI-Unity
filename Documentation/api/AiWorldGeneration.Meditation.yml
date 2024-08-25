@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.Meditation
+  commentId: N:AiWorldGeneration.Meditation
+  id: AiWorldGeneration.Meditation
+  children:
+  - AiWorldGeneration.Meditation.PSBreather
+  - AiWorldGeneration.Meditation.PSController
+  - AiWorldGeneration.Meditation.PSFFController
+  - AiWorldGeneration.Meditation.ViewTracker
+  langs:
+  - csharp
+  - vb
+  name: AiWorldGeneration.Meditation
+  nameWithType: AiWorldGeneration.Meditation
+  fullName: AiWorldGeneration.Meditation
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: AiWorldGeneration.Meditation.PSBreather
+  commentId: T:AiWorldGeneration.Meditation.PSBreather
+  name: PSBreather
+  nameWithType: PSBreather
+  fullName: AiWorldGeneration.Meditation.PSBreather
+- uid: AiWorldGeneration.Meditation.PSFFController
+  commentId: T:AiWorldGeneration.Meditation.PSFFController
+  name: PSFFController
+  nameWithType: PSFFController
+  fullName: AiWorldGeneration.Meditation.PSFFController
+- uid: AiWorldGeneration.Meditation.PSController
+  commentId: T:AiWorldGeneration.Meditation.PSController
+  name: PSController
+  nameWithType: PSController
+  fullName: AiWorldGeneration.Meditation.PSController
+- uid: AiWorldGeneration.Meditation.ViewTracker
+  commentId: T:AiWorldGeneration.Meditation.ViewTracker
+  name: ViewTracker
+  nameWithType: ViewTracker
+  fullName: AiWorldGeneration.Meditation.ViewTracker

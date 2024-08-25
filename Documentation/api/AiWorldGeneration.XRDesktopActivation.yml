@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.XRDesktopActivation
+  commentId: T:AiWorldGeneration.XRDesktopActivation
+  id: XRDesktopActivation
+  parent: AiWorldGeneration
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: XRDesktopActivation
+  nameWithType: XRDesktopActivation
+  fullName: AiWorldGeneration.XRDesktopActivation
+  type: Class
+  source:
+    id: XRDesktopActivation
+    path: ''
+    startLine: 34
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  syntax:
+    content: 'public class XRDesktopActivation : MonoBehaviour'
+    content.vb: Public Class XRDesktopActivation Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+references:
+- uid: AiWorldGeneration
+  commentId: N:AiWorldGeneration
+  name: AiWorldGeneration
+  nameWithType: AiWorldGeneration
+  fullName: AiWorldGeneration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,732 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.ClientController
+  commentId: T:AiWorldGeneration.TCP.ClientController
+  id: ClientController
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.ClientController.ByteArrayFromHexString(System.String)
+  - AiWorldGeneration.TCP.ClientController.CreateNewSkybox(System.String,System.Boolean,System.Int32,System.Boolean)
+  - AiWorldGeneration.TCP.ClientController.CreateNewSkyboxLocal(System.String,System.Boolean,System.Int32)
+  - AiWorldGeneration.TCP.ClientController.ExtendSkybox(System.Byte[],System.Int32,System.Boolean)
+  - AiWorldGeneration.TCP.ClientController.GetCompletionStatus(System.Int32)
+  - AiWorldGeneration.TCP.ClientController.Inpaint(System.Byte[],System.Byte[],System.String,System.Int32,System.Boolean)
+  - AiWorldGeneration.TCP.ClientController.InpaintLocal(System.Byte[],System.Byte[],System.String,System.Int32,System.Boolean)
+  - AiWorldGeneration.TCP.ClientController.RefineSkybox(System.Byte[],System.String,System.Int32,System.Boolean)
+  - AiWorldGeneration.TCP.ClientController.RemoveSkyboxSeam(System.Byte[],System.Int32,System.Boolean)
+  - AiWorldGeneration.TCP.ClientController.SendPing
+  - AiWorldGeneration.TCP.ClientController.TextFromAudio(System.Byte[])
+  - AiWorldGeneration.TCP.ClientController.TextFromAudio(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ClientController
+  nameWithType: ClientController
+  fullName: AiWorldGeneration.TCP.ClientController
+  type: Class
+  source:
+    id: ClientController
+    path: ''
+    startLine: 1867
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nControls a TCP client connection.\n"
+  example: []
+  syntax:
+    content: 'public class ClientController : MonoBehaviour'
+    content.vb: Public Class ClientController Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.TCP.ClientController.ByteArrayFromHexString(System.String)
+  commentId: M:AiWorldGeneration.TCP.ClientController.ByteArrayFromHexString(System.String)
+  id: ByteArrayFromHexString(System.String)
+  parent: AiWorldGeneration.TCP.ClientController
+  langs:
+  - csharp
+  - vb
+  name: ByteArrayFromHexString(string)
+  nameWithType: ClientController.ByteArrayFromHexString(string)
+  fullName: AiWorldGeneration.TCP.ClientController.ByteArrayFromHexString(string)
+  type: Method
+  source:
+    id: ByteArrayFromHexString
+    path: ''
+    startLine: 1883
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nConverts a hexadecimal string into a byte array.\n"
+  example: []
+  syntax:
+    content: public byte[] ByteArrayFromHexString(string hex)
+    parameters:
+    - id: hex
+      type: System.String
+      description: The hexadecimal string to be converted.
+    return:
+      type: System.Byte[]
+      description: A byte array representation of the hexadecimal string.
+    content.vb: Public Function ByteArrayFromHexString(hex As String) As Byte()
+  overload: AiWorldGeneration.TCP.ClientController.ByteArrayFromHexString*
+  nameWithType.vb: ClientController.ByteArrayFromHexString(String)
+  fullName.vb: AiWorldGeneration.TCP.ClientController.ByteArrayFromHexString(String)
+  name.vb: ByteArrayFromHexString(String)
+- uid: AiWorldGeneration.TCP.ClientController.GetCompletionStatus(System.Int32)
+  commentId: M:AiWorldGeneration.TCP.ClientController.GetCompletionStatus(System.Int32)
+  id: GetCompletionStatus(System.Int32)
+  parent: AiWorldGeneration.TCP.ClientController
+  langs:
+  - csharp
+  - vb
+  name: GetCompletionStatus(int)
+  nameWithType: ClientController.GetCompletionStatus(int)
+  fullName: AiWorldGeneration.TCP.ClientController.GetCompletionStatus(int)
+  type: Method
+  source:
+    id: GetCompletionStatus
+    path: ''
+    startLine: 1899
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nRetrieves the completion status of a task with the given task ID.\n"
+  example: []
+  syntax:
+    content: public float GetCompletionStatus(int taskId)
+    parameters:
+    - id: taskId
+      type: System.Int32
+      description: The ID of the task to retrieve the completion status for.
+    return:
+      type: System.Single
+      description: The completion status of the task.
+    content.vb: Public Function GetCompletionStatus(taskId As Integer) As Single
+  overload: AiWorldGeneration.TCP.ClientController.GetCompletionStatus*
+  nameWithType.vb: ClientController.GetCompletionStatus(Integer)
+  fullName.vb: AiWorldGeneration.TCP.ClientController.GetCompletionStatus(Integer)
+  name.vb: GetCompletionStatus(Integer)
+- uid: AiWorldGeneration.TCP.ClientController.SendPing
+  commentId: M:AiWorldGeneration.TCP.ClientController.SendPing
+  id: SendPing
+  parent: AiWorldGeneration.TCP.ClientController
+  langs:
+  - csharp
+  - vb
+  name: SendPing()
+  nameWithType: ClientController.SendPing()
+  fullName: AiWorldGeneration.TCP.ClientController.SendPing()
+  type: Method
+  source:
+    id: SendPing
+    path: ''
+    startLine: 1909
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nSends a ping request to the server and returns the response time in milliseconds.\n"
+  example: []
+  syntax:
+    content: public Task<int> SendPing()
+    return:
+      type: Global.Task{System.Int32}
+      description: The response time in milliseconds.
+    content.vb: Public Function SendPing() As Task(Of Integer)
+  overload: AiWorldGeneration.TCP.ClientController.SendPing*
+- uid: AiWorldGeneration.TCP.ClientController.TextFromAudio(System.String)
+  commentId: M:AiWorldGeneration.TCP.ClientController.TextFromAudio(System.String)
+  id: TextFromAudio(System.String)
+  parent: AiWorldGeneration.TCP.ClientController
+  langs:
+  - csharp
+  - vb
+  name: TextFromAudio(string)
+  nameWithType: ClientController.TextFromAudio(string)
+  fullName: AiWorldGeneration.TCP.ClientController.TextFromAudio(string)
+  type: Method
+  source:
+    id: TextFromAudio
+    path: ''
+    startLine: 1923
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nSends an audio file path to the server for text conversion and returns the transcribed text.\n"
+  example: []
+  syntax:
+    content: public Task<string> TextFromAudio(string audioPath)
+    parameters:
+    - id: audioPath
+      type: System.String
+      description: The path to the audio file path to be transcribed.
+    return:
+      type: Global.Task{System.String}
+      description: The transcribed text from the audio file.
+    content.vb: Public Function TextFromAudio(audioPath As String) As Task(Of String)
+  overload: AiWorldGeneration.TCP.ClientController.TextFromAudio*
+  nameWithType.vb: ClientController.TextFromAudio(String)
+  fullName.vb: AiWorldGeneration.TCP.ClientController.TextFromAudio(String)
+  name.vb: TextFromAudio(String)
+- uid: AiWorldGeneration.TCP.ClientController.TextFromAudio(System.Byte[])
+  commentId: M:AiWorldGeneration.TCP.ClientController.TextFromAudio(System.Byte[])
+  id: TextFromAudio(System.Byte[])
+  parent: AiWorldGeneration.TCP.ClientController
+  langs:
+  - csharp
+  - vb
+  name: TextFromAudio(byte[])
+  nameWithType: ClientController.TextFromAudio(byte[])
+  fullName: AiWorldGeneration.TCP.ClientController.TextFromAudio(byte[])
+  type: Method
+  source:
+    id: TextFromAudio
+    path: ''
+    startLine: 1937
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nSends an audio file as bytes to the server for text conversion and returns the transcribed text.\n"
+  example: []
+  syntax:
+    content: public Task<string> TextFromAudio(byte[] audioBytes)
+    parameters:
+    - id: audioBytes
+      type: System.Byte[]
+      description: The bytes of the audio file path to be transcribed.
+    return:
+      type: Global.Task{System.String}
+      description: The transcribed text from the audio file.
+    content.vb: Public Function TextFromAudio(audioBytes As Byte()) As Task(Of String)
+  overload: AiWorldGeneration.TCP.ClientController.TextFromAudio*
+  nameWithType.vb: ClientController.TextFromAudio(Byte())
+  fullName.vb: AiWorldGeneration.TCP.ClientController.TextFromAudio(Byte())
+  name.vb: TextFromAudio(Byte())
+- uid: AiWorldGeneration.TCP.ClientController.CreateNewSkyboxLocal(System.String,System.Boolean,System.Int32)
+  commentId: M:AiWorldGeneration.TCP.ClientController.CreateNewSkyboxLocal(System.String,System.Boolean,System.Int32)
+  id: CreateNewSkyboxLocal(System.String,System.Boolean,System.Int32)
+  parent: AiWorldGeneration.TCP.ClientController
+  langs:
+  - csharp
+  - vb
+  name: CreateNewSkyboxLocal(string, bool, int)
+  nameWithType: ClientController.CreateNewSkyboxLocal(string, bool, int)
+  fullName: AiWorldGeneration.TCP.ClientController.CreateNewSkyboxLocal(string, bool, int)
+  type: Method
+  source:
+    id: CreateNewSkyboxLocal
+    path: ''
+    startLine: 1955
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nTake a text prompt and asks the server to generate a new skybox.\n"
+  example: []
+  syntax:
+    content: public Task<string> CreateNewSkyboxLocal(string prompt, bool reportCompletion = false, int taskId = -1)
+    parameters:
+    - id: prompt
+      type: System.String
+      description: The prompt skybox prompt.
+    - id: reportCompletion
+      type: System.Boolean
+      description: A value indicating whether to report the completion status of the task.
+    - id: taskId
+      type: System.Int32
+      description: An optional unique identifier for the task. Default is -1.
+    return:
+      type: Global.Task{System.String}
+      description: The path to the generated skybox (image), or the error message.
+    content.vb: Public Function CreateNewSkyboxLocal(prompt As String, reportCompletion As Boolean = False, taskId As Integer = -1) As Task(Of String)
+  overload: AiWorldGeneration.TCP.ClientController.CreateNewSkyboxLocal*
+  nameWithType.vb: ClientController.CreateNewSkyboxLocal(String, Boolean, Integer)
+  fullName.vb: AiWorldGeneration.TCP.ClientController.CreateNewSkyboxLocal(String, Boolean, Integer)
+  name.vb: CreateNewSkyboxLocal(String, Boolean, Integer)
+- uid: AiWorldGeneration.TCP.ClientController.CreateNewSkybox(System.String,System.Boolean,System.Int32,System.Boolean)
+  commentId: M:AiWorldGeneration.TCP.ClientController.CreateNewSkybox(System.String,System.Boolean,System.Int32,System.Boolean)
+  id: CreateNewSkybox(System.String,System.Boolean,System.Int32,System.Boolean)
+  parent: AiWorldGeneration.TCP.ClientController
+  langs:
+  - csharp
+  - vb
+  name: CreateNewSkybox(string, bool, int, bool)
+  nameWithType: ClientController.CreateNewSkybox(string, bool, int, bool)
+  fullName: AiWorldGeneration.TCP.ClientController.CreateNewSkybox(string, bool, int, bool)
+  type: Method
+  source:
+    id: CreateNewSkybox
+    path: ''
+    startLine: 1981
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nTake a text prompt and asks the server to generate a new skybox.\n"
+  example: []
+  syntax:
+    content: public Task<string> CreateNewSkybox(string prompt, bool reportCompletion = false, int taskId = -1, bool quick = true)
+    parameters:
+    - id: prompt
+      type: System.String
+      description: The prompt skybox prompt.
+    - id: reportCompletion
+      type: System.Boolean
+      description: A value indicating whether to report the completion status of the task.
+    - id: taskId
+      type: System.Int32
+      description: An optional unique identifier for the task. Default is -1.
+    - id: quick
+      type: System.Boolean
+      description: Stop the generation at the first pipeline element.
+    return:
+      type: Global.Task{System.String}
+      description: The path to the generated skybox (image), or the error message.
+    content.vb: Public Function CreateNewSkybox(prompt As String, reportCompletion As Boolean = False, taskId As Integer = -1, quick As Boolean = True) As Task(Of String)
+  overload: AiWorldGeneration.TCP.ClientController.CreateNewSkybox*
+  nameWithType.vb: ClientController.CreateNewSkybox(String, Boolean, Integer, Boolean)
+  fullName.vb: AiWorldGeneration.TCP.ClientController.CreateNewSkybox(String, Boolean, Integer, Boolean)
+  name.vb: CreateNewSkybox(String, Boolean, Integer, Boolean)
+- uid: AiWorldGeneration.TCP.ClientController.InpaintLocal(System.Byte[],System.Byte[],System.String,System.Int32,System.Boolean)
+  commentId: M:AiWorldGeneration.TCP.ClientController.InpaintLocal(System.Byte[],System.Byte[],System.String,System.Int32,System.Boolean)
+  id: InpaintLocal(System.Byte[],System.Byte[],System.String,System.Int32,System.Boolean)
+  parent: AiWorldGeneration.TCP.ClientController
+  langs:
+  - csharp
+  - vb
+  name: InpaintLocal(byte[], byte[], string, int, bool)
+  nameWithType: ClientController.InpaintLocal(byte[], byte[], string, int, bool)
+  fullName: AiWorldGeneration.TCP.ClientController.InpaintLocal(byte[], byte[], string, int, bool)
+  type: Method
+  source:
+    id: InpaintLocal
+    path: ''
+    startLine: 2013
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nInpaints an image using its mask and a prompt.\n\nSends image and mask paths along with a prompt to the server for inpainting and returns the inpainted image path.\n"
+  example: []
+  syntax:
+    content: public Task<string> InpaintLocal(byte[] imageBytes, byte[] maskBytes, string query, int taskId = -1, bool reportCompletion = false)
+    parameters:
+    - id: imageBytes
+      type: System.Byte[]
+      description: The image to be inpainted, bytes in PNG format.
+    - id: maskBytes
+      type: System.Byte[]
+      description: The bytes composing the mask.
+    - id: query
+      type: System.String
+      description: The prompt for the inpainting process.
+    - id: taskId
+      type: System.Int32
+      description: Id to track this task, any unique number.
+    - id: reportCompletion
+      type: System.Boolean
+      description: A value indicating whether to report the completion status of the task.
+    return:
+      type: Global.Task{System.String}
+      description: The path to the inpainted image.
+    content.vb: Public Function InpaintLocal(imageBytes As Byte(), maskBytes As Byte(), query As String, taskId As Integer = -1, reportCompletion As Boolean = False) As Task(Of String)
+  overload: AiWorldGeneration.TCP.ClientController.InpaintLocal*
+  nameWithType.vb: ClientController.InpaintLocal(Byte(), Byte(), String, Integer, Boolean)
+  fullName.vb: AiWorldGeneration.TCP.ClientController.InpaintLocal(Byte(), Byte(), String, Integer, Boolean)
+  name.vb: InpaintLocal(Byte(), Byte(), String, Integer, Boolean)
+- uid: AiWorldGeneration.TCP.ClientController.Inpaint(System.Byte[],System.Byte[],System.String,System.Int32,System.Boolean)
+  commentId: M:AiWorldGeneration.TCP.ClientController.Inpaint(System.Byte[],System.Byte[],System.String,System.Int32,System.Boolean)
+  id: Inpaint(System.Byte[],System.Byte[],System.String,System.Int32,System.Boolean)
+  parent: AiWorldGeneration.TCP.ClientController
+  langs:
+  - csharp
+  - vb
+  name: Inpaint(byte[], byte[], string, int, bool)
+  nameWithType: ClientController.Inpaint(byte[], byte[], string, int, bool)
+  fullName: AiWorldGeneration.TCP.ClientController.Inpaint(byte[], byte[], string, int, bool)
+  type: Method
+  source:
+    id: Inpaint
+    path: ''
+    startLine: 2061
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nInpaints an image using its mask and a prompt, without saving files locally.\n\nSends image and mask bytes along with a prompt to the server for inpainting,\nsaves the inpainted image bytes and returns its path.\n"
+  example: []
+  syntax:
+    content: public Task<string> Inpaint(byte[] imageBytes, byte[] maskBytes, string query, int taskId = -1, bool reportCompletion = false)
+    parameters:
+    - id: imageBytes
+      type: System.Byte[]
+      description: The image to be inpainted, bytes in PNG format.
+    - id: maskBytes
+      type: System.Byte[]
+      description: The bytes composing the mask.
+    - id: query
+      type: System.String
+      description: The prompt for the inpainting process.
+    - id: taskId
+      type: System.Int32
+      description: Id to track this task, any unique number.
+    - id: reportCompletion
+      type: System.Boolean
+      description: A value indicating whether to report the completion status of the task.
+    return:
+      type: Global.Task{System.String}
+      description: The path to the inpainted image.
+    content.vb: Public Function Inpaint(imageBytes As Byte(), maskBytes As Byte(), query As String, taskId As Integer = -1, reportCompletion As Boolean = False) As Task(Of String)
+  overload: AiWorldGeneration.TCP.ClientController.Inpaint*
+  nameWithType.vb: ClientController.Inpaint(Byte(), Byte(), String, Integer, Boolean)
+  fullName.vb: AiWorldGeneration.TCP.ClientController.Inpaint(Byte(), Byte(), String, Integer, Boolean)
+  name.vb: Inpaint(Byte(), Byte(), String, Integer, Boolean)
+- uid: AiWorldGeneration.TCP.ClientController.RefineSkybox(System.Byte[],System.String,System.Int32,System.Boolean)
+  commentId: M:AiWorldGeneration.TCP.ClientController.RefineSkybox(System.Byte[],System.String,System.Int32,System.Boolean)
+  id: RefineSkybox(System.Byte[],System.String,System.Int32,System.Boolean)
+  parent: AiWorldGeneration.TCP.ClientController
+  langs:
+  - csharp
+  - vb
+  name: RefineSkybox(byte[], string, int, bool)
+  nameWithType: ClientController.RefineSkybox(byte[], string, int, bool)
+  fullName: AiWorldGeneration.TCP.ClientController.RefineSkybox(byte[], string, int, bool)
+  type: Method
+  source:
+    id: RefineSkybox
+    path: ''
+    startLine: 2097
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nRefine a skybox to increase its quality.\n"
+  example: []
+  syntax:
+    content: public Task<string> RefineSkybox(byte[] imageBytes, string query, int taskId = -1, bool reportCompletion = false)
+    parameters:
+    - id: imageBytes
+      type: System.Byte[]
+      description: The image to be inpainted, bytes in PNG format.
+    - id: query
+      type: System.String
+      description: The prompt for the inpainting process.
+    - id: taskId
+      type: System.Int32
+      description: Id to track this task, any unique number.
+    - id: reportCompletion
+      type: System.Boolean
+      description: A value indicating whether to report the completion status of the task.
+    return:
+      type: Global.Task{System.String}
+      description: The path to the inpainted image.
+    content.vb: Public Function RefineSkybox(imageBytes As Byte(), query As String, taskId As Integer = -1, reportCompletion As Boolean = False) As Task(Of String)
+  overload: AiWorldGeneration.TCP.ClientController.RefineSkybox*
+  nameWithType.vb: ClientController.RefineSkybox(Byte(), String, Integer, Boolean)
+  fullName.vb: AiWorldGeneration.TCP.ClientController.RefineSkybox(Byte(), String, Integer, Boolean)
+  name.vb: RefineSkybox(Byte(), String, Integer, Boolean)
+- uid: AiWorldGeneration.TCP.ClientController.RemoveSkyboxSeam(System.Byte[],System.Int32,System.Boolean)
+  commentId: M:AiWorldGeneration.TCP.ClientController.RemoveSkyboxSeam(System.Byte[],System.Int32,System.Boolean)
+  id: RemoveSkyboxSeam(System.Byte[],System.Int32,System.Boolean)
+  parent: AiWorldGeneration.TCP.ClientController
+  langs:
+  - csharp
+  - vb
+  name: RemoveSkyboxSeam(byte[], int, bool)
+  nameWithType: ClientController.RemoveSkyboxSeam(byte[], int, bool)
+  fullName: AiWorldGeneration.TCP.ClientController.RemoveSkyboxSeam(byte[], int, bool)
+  type: Method
+  source:
+    id: RemoveSkyboxSeam
+    path: ''
+    startLine: 2131
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nRemove the seam line at the borders of a skybox making it an asymetric tiling.\n"
+  example: []
+  syntax:
+    content: public Task<string> RemoveSkyboxSeam(byte[] imageBytes, int taskId = -1, bool reportCompletion = false)
+    parameters:
+    - id: imageBytes
+      type: System.Byte[]
+      description: The image to be inpainted, bytes in PNG format.
+    - id: taskId
+      type: System.Int32
+      description: Id to track this task, any unique number.
+    - id: reportCompletion
+      type: System.Boolean
+      description: A value indicating whether to report the completion status of the task.
+    return:
+      type: Global.Task{System.String}
+      description: The path to the inpainted image.
+    content.vb: Public Function RemoveSkyboxSeam(imageBytes As Byte(), taskId As Integer = -1, reportCompletion As Boolean = False) As Task(Of String)
+  overload: AiWorldGeneration.TCP.ClientController.RemoveSkyboxSeam*
+  nameWithType.vb: ClientController.RemoveSkyboxSeam(Byte(), Integer, Boolean)
+  fullName.vb: AiWorldGeneration.TCP.ClientController.RemoveSkyboxSeam(Byte(), Integer, Boolean)
+  name.vb: RemoveSkyboxSeam(Byte(), Integer, Boolean)
+- uid: AiWorldGeneration.TCP.ClientController.ExtendSkybox(System.Byte[],System.Int32,System.Boolean)
+  commentId: M:AiWorldGeneration.TCP.ClientController.ExtendSkybox(System.Byte[],System.Int32,System.Boolean)
+  id: ExtendSkybox(System.Byte[],System.Int32,System.Boolean)
+  parent: AiWorldGeneration.TCP.ClientController
+  langs:
+  - csharp
+  - vb
+  name: ExtendSkybox(byte[], int, bool)
+  nameWithType: ClientController.ExtendSkybox(byte[], int, bool)
+  fullName: AiWorldGeneration.TCP.ClientController.ExtendSkybox(byte[], int, bool)
+  type: Method
+  source:
+    id: ExtendSkybox
+    path: ''
+    startLine: 2163
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nExtend the input skybox to triple its heights.\n"
+  example: []
+  syntax:
+    content: public Task<string> ExtendSkybox(byte[] imageBytes, int taskId = -1, bool reportCompletion = false)
+    parameters:
+    - id: imageBytes
+      type: System.Byte[]
+      description: The image to be extend, bytes in PNG format.
+    - id: taskId
+      type: System.Int32
+      description: Id to track this task, any unique number.
+    - id: reportCompletion
+      type: System.Boolean
+      description: A value indicating whether to report the completion status of the task.
+    return:
+      type: Global.Task{System.String}
+      description: The path to the extended image.
+    content.vb: Public Function ExtendSkybox(imageBytes As Byte(), taskId As Integer = -1, reportCompletion As Boolean = False) As Task(Of String)
+  overload: AiWorldGeneration.TCP.ClientController.ExtendSkybox*
+  nameWithType.vb: ClientController.ExtendSkybox(Byte(), Integer, Boolean)
+  fullName.vb: AiWorldGeneration.TCP.ClientController.ExtendSkybox(Byte(), Integer, Boolean)
+  name.vb: ExtendSkybox(Byte(), Integer, Boolean)
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AiWorldGeneration.TCP.ClientController.ByteArrayFromHexString*
+  commentId: Overload:AiWorldGeneration.TCP.ClientController.ByteArrayFromHexString
+  name: ByteArrayFromHexString
+  nameWithType: ClientController.ByteArrayFromHexString
+  fullName: AiWorldGeneration.TCP.ClientController.ByteArrayFromHexString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: AiWorldGeneration.TCP.ClientController.GetCompletionStatus*
+  commentId: Overload:AiWorldGeneration.TCP.ClientController.GetCompletionStatus
+  name: GetCompletionStatus
+  nameWithType: ClientController.GetCompletionStatus
+  fullName: AiWorldGeneration.TCP.ClientController.GetCompletionStatus
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: AiWorldGeneration.TCP.ClientController.SendPing*
+  commentId: Overload:AiWorldGeneration.TCP.ClientController.SendPing
+  name: SendPing
+  nameWithType: ClientController.SendPing
+  fullName: AiWorldGeneration.TCP.ClientController.SendPing
+- uid: Global.Task{System.Int32}
+  commentId: '!:Global.Task{System.Int32}'
+  definition: Global.Task`1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: Global.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Global.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Global.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: AiWorldGeneration.TCP.ClientController.TextFromAudio*
+  commentId: Overload:AiWorldGeneration.TCP.ClientController.TextFromAudio
+  name: TextFromAudio
+  nameWithType: ClientController.TextFromAudio
+  fullName: AiWorldGeneration.TCP.ClientController.TextFromAudio
+- uid: Global.Task{System.String}
+  commentId: '!:Global.Task{System.String}'
+  definition: Global.Task`1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: Global.Task`1
+    name: Task
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Task`1
+    name: Task
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: AiWorldGeneration.TCP.ClientController.CreateNewSkyboxLocal*
+  commentId: Overload:AiWorldGeneration.TCP.ClientController.CreateNewSkyboxLocal
+  name: CreateNewSkyboxLocal
+  nameWithType: ClientController.CreateNewSkyboxLocal
+  fullName: AiWorldGeneration.TCP.ClientController.CreateNewSkyboxLocal
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: AiWorldGeneration.TCP.ClientController.CreateNewSkybox*
+  commentId: Overload:AiWorldGeneration.TCP.ClientController.CreateNewSkybox
+  name: CreateNewSkybox
+  nameWithType: ClientController.CreateNewSkybox
+  fullName: AiWorldGeneration.TCP.ClientController.CreateNewSkybox
+- uid: AiWorldGeneration.TCP.ClientController.InpaintLocal*
+  commentId: Overload:AiWorldGeneration.TCP.ClientController.InpaintLocal
+  name: InpaintLocal
+  nameWithType: ClientController.InpaintLocal
+  fullName: AiWorldGeneration.TCP.ClientController.InpaintLocal
+- uid: AiWorldGeneration.TCP.ClientController.Inpaint*
+  commentId: Overload:AiWorldGeneration.TCP.ClientController.Inpaint
+  name: Inpaint
+  nameWithType: ClientController.Inpaint
+  fullName: AiWorldGeneration.TCP.ClientController.Inpaint
+- uid: AiWorldGeneration.TCP.ClientController.RefineSkybox*
+  commentId: Overload:AiWorldGeneration.TCP.ClientController.RefineSkybox
+  name: RefineSkybox
+  nameWithType: ClientController.RefineSkybox
+  fullName: AiWorldGeneration.TCP.ClientController.RefineSkybox
+- uid: AiWorldGeneration.TCP.ClientController.RemoveSkyboxSeam*
+  commentId: Overload:AiWorldGeneration.TCP.ClientController.RemoveSkyboxSeam
+  name: RemoveSkyboxSeam
+  nameWithType: ClientController.RemoveSkyboxSeam
+  fullName: AiWorldGeneration.TCP.ClientController.RemoveSkyboxSeam
+- uid: AiWorldGeneration.TCP.ClientController.ExtendSkybox*
+  commentId: Overload:AiWorldGeneration.TCP.ClientController.ExtendSkybox
+  name: ExtendSkybox
+  nameWithType: ClientController.ExtendSkybox
+  fullName: AiWorldGeneration.TCP.ClientController.ExtendSkybox

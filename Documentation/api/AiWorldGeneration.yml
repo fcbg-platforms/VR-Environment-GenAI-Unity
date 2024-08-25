@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration
+  commentId: N:AiWorldGeneration
+  id: AiWorldGeneration
+  children:
+  - AiWorldGeneration.FreeCameraMovement
+  - AiWorldGeneration.InteractionManager
+  - AiWorldGeneration.XRDesktopActivation
+  langs:
+  - csharp
+  - vb
+  name: AiWorldGeneration
+  nameWithType: AiWorldGeneration
+  fullName: AiWorldGeneration
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: AiWorldGeneration.XRDesktopActivation
+  commentId: T:AiWorldGeneration.XRDesktopActivation
+  name: XRDesktopActivation
+  nameWithType: XRDesktopActivation
+  fullName: AiWorldGeneration.XRDesktopActivation
+- uid: AiWorldGeneration.InteractionManager
+  commentId: T:AiWorldGeneration.InteractionManager
+  name: InteractionManager
+  nameWithType: InteractionManager
+  fullName: AiWorldGeneration.InteractionManager
+- uid: AiWorldGeneration.FreeCameraMovement
+  commentId: T:AiWorldGeneration.FreeCameraMovement
+  name: FreeCameraMovement
+  nameWithType: FreeCameraMovement
+  fullName: AiWorldGeneration.FreeCameraMovement

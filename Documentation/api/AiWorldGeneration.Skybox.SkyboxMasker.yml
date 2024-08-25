@@ -1,0 +1,444 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.Skybox.SkyboxMasker
+  commentId: T:AiWorldGeneration.Skybox.SkyboxMasker
+  id: SkyboxMasker
+  parent: AiWorldGeneration.Skybox
+  children:
+  - AiWorldGeneration.Skybox.SkyboxMasker.FlipTextureHorizontally(Texture2D)
+  - AiWorldGeneration.Skybox.SkyboxMasker.GetMaskBytes
+  - AiWorldGeneration.Skybox.SkyboxMasker.OnPainting
+  - AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting(ActivateEventArgs)
+  - AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting(InputAction.CallbackContext)
+  - AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting(DeactivateEventArgs)
+  - AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting(InputAction.CallbackContext)
+  - AiWorldGeneration.Skybox.SkyboxMasker.PaintingEnabled
+  - AiWorldGeneration.Skybox.SkyboxMasker.ResetTexture
+  - AiWorldGeneration.Skybox.SkyboxMasker.SaveTexture
+  langs:
+  - csharp
+  - vb
+  name: SkyboxMasker
+  nameWithType: SkyboxMasker
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker
+  type: Class
+  source:
+    id: SkyboxMasker
+    path: ''
+    startLine: 2556
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nCreate a mask on the skybox.\n"
+  example: []
+  syntax:
+    content: 'public class SkyboxMasker : MonoBehaviour'
+    content.vb: Public Class SkyboxMasker Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.PaintingEnabled
+  commentId: P:AiWorldGeneration.Skybox.SkyboxMasker.PaintingEnabled
+  id: PaintingEnabled
+  parent: AiWorldGeneration.Skybox.SkyboxMasker
+  langs:
+  - csharp
+  - vb
+  name: PaintingEnabled
+  nameWithType: SkyboxMasker.PaintingEnabled
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.PaintingEnabled
+  type: Property
+  source:
+    id: PaintingEnabled
+    path: ''
+    startLine: 2613
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  syntax:
+    content: public bool PaintingEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PaintingEnabled As Boolean
+  overload: AiWorldGeneration.Skybox.SkyboxMasker.PaintingEnabled*
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.FlipTextureHorizontally(Texture2D)
+  commentId: M:AiWorldGeneration.Skybox.SkyboxMasker.FlipTextureHorizontally(Texture2D)
+  id: FlipTextureHorizontally(Texture2D)
+  parent: AiWorldGeneration.Skybox.SkyboxMasker
+  langs:
+  - csharp
+  - vb
+  name: FlipTextureHorizontally(Texture2D)
+  nameWithType: SkyboxMasker.FlipTextureHorizontally(Texture2D)
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.FlipTextureHorizontally(Texture2D)
+  type: Method
+  source:
+    id: FlipTextureHorizontally
+    path: ''
+    startLine: 2767
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nFlips the input texture horizontally.\n"
+  example: []
+  syntax:
+    content: public Texture2D FlipTextureHorizontally(Texture2D inputTexture)
+    parameters:
+    - id: inputTexture
+      type: Global.Texture2D
+      description: The texture to be flipped.
+    return:
+      type: Global.Texture2D
+      description: A new texture with the input texture flipped horizontally.
+    content.vb: Public Function FlipTextureHorizontally(inputTexture As Texture2D) As Texture2D
+  overload: AiWorldGeneration.Skybox.SkyboxMasker.FlipTextureHorizontally*
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.GetMaskBytes
+  commentId: M:AiWorldGeneration.Skybox.SkyboxMasker.GetMaskBytes
+  id: GetMaskBytes
+  parent: AiWorldGeneration.Skybox.SkyboxMasker
+  langs:
+  - csharp
+  - vb
+  name: GetMaskBytes()
+  nameWithType: SkyboxMasker.GetMaskBytes()
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.GetMaskBytes()
+  type: Method
+  source:
+    id: GetMaskBytes
+    path: ''
+    startLine: 2788
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nFlip the image and encode it in PNG.\n"
+  example: []
+  syntax:
+    content: public byte[] GetMaskBytes()
+    return:
+      type: System.Byte[]
+      description: The bytes of the resulting image.
+    content.vb: Public Function GetMaskBytes() As Byte()
+  overload: AiWorldGeneration.Skybox.SkyboxMasker.GetMaskBytes*
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.SaveTexture
+  commentId: M:AiWorldGeneration.Skybox.SkyboxMasker.SaveTexture
+  id: SaveTexture
+  parent: AiWorldGeneration.Skybox.SkyboxMasker
+  langs:
+  - csharp
+  - vb
+  name: SaveTexture()
+  nameWithType: SkyboxMasker.SaveTexture()
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.SaveTexture()
+  type: Method
+  source:
+    id: SaveTexture
+    path: ''
+    startLine: 2797
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nSave the mask to disk.\n"
+  example: []
+  syntax:
+    content: public string SaveTexture()
+    return:
+      type: System.String
+      description: Path to the mask
+    content.vb: Public Function SaveTexture() As String
+  overload: AiWorldGeneration.Skybox.SkyboxMasker.SaveTexture*
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.ResetTexture
+  commentId: M:AiWorldGeneration.Skybox.SkyboxMasker.ResetTexture
+  id: ResetTexture
+  parent: AiWorldGeneration.Skybox.SkyboxMasker
+  langs:
+  - csharp
+  - vb
+  name: ResetTexture()
+  nameWithType: SkyboxMasker.ResetTexture()
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.ResetTexture()
+  type: Method
+  source:
+    id: ResetTexture
+    path: ''
+    startLine: 2808
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nWipe the current masked texture and replace it by the original texture.\n"
+  example: []
+  syntax:
+    content: public void ResetTexture()
+    content.vb: Public Sub ResetTexture()
+  overload: AiWorldGeneration.Skybox.SkyboxMasker.ResetTexture*
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.OnPainting
+  commentId: M:AiWorldGeneration.Skybox.SkyboxMasker.OnPainting
+  id: OnPainting
+  parent: AiWorldGeneration.Skybox.SkyboxMasker
+  langs:
+  - csharp
+  - vb
+  name: OnPainting()
+  nameWithType: SkyboxMasker.OnPainting()
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.OnPainting()
+  type: Method
+  source:
+    id: OnPainting
+    path: ''
+    startLine: 2841
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nApplies the painting action once.\n"
+  example: []
+  syntax:
+    content: public void OnPainting()
+    content.vb: Public Sub OnPainting()
+  overload: AiWorldGeneration.Skybox.SkyboxMasker.OnPainting*
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting(InputAction.CallbackContext)
+  commentId: M:AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting(InputAction.CallbackContext)
+  id: OnStartPainting(InputAction.CallbackContext)
+  parent: AiWorldGeneration.Skybox.SkyboxMasker
+  langs:
+  - csharp
+  - vb
+  name: OnStartPainting(CallbackContext)
+  nameWithType: SkyboxMasker.OnStartPainting(InputAction.CallbackContext)
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnStartPainting
+    path: ''
+    startLine: 2876
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nHandles the start painting event, it is mostly used in desktop mode.\n"
+  example: []
+  syntax:
+    content: public void OnStartPainting(InputAction.CallbackContext callbackContext)
+    parameters:
+    - id: callbackContext
+      type: Global.InputAction.CallbackContext
+      description: The InputAction.CallbackContext object containing the input data.
+    content.vb: Public Sub OnStartPainting(callbackContext As InputAction.CallbackContext)
+  overload: AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting*
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting(ActivateEventArgs)
+  commentId: M:AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting(ActivateEventArgs)
+  id: OnStartPainting(ActivateEventArgs)
+  parent: AiWorldGeneration.Skybox.SkyboxMasker
+  langs:
+  - csharp
+  - vb
+  name: OnStartPainting(ActivateEventArgs)
+  nameWithType: SkyboxMasker.OnStartPainting(ActivateEventArgs)
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting(ActivateEventArgs)
+  type: Method
+  source:
+    id: OnStartPainting
+    path: ''
+    startLine: 2885
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nHandles the start painting event, it is mostly used in VR mode.\n"
+  example: []
+  syntax:
+    content: public void OnStartPainting(ActivateEventArgs eventArgs)
+    parameters:
+    - id: eventArgs
+      type: Global.ActivateEventArgs
+      description: An object containing the interactable object&apos;s transform.
+    content.vb: Public Sub OnStartPainting(eventArgs As ActivateEventArgs)
+  overload: AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting*
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting(InputAction.CallbackContext)
+  commentId: M:AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting(InputAction.CallbackContext)
+  id: OnStopPainting(InputAction.CallbackContext)
+  parent: AiWorldGeneration.Skybox.SkyboxMasker
+  langs:
+  - csharp
+  - vb
+  name: OnStopPainting(CallbackContext)
+  nameWithType: SkyboxMasker.OnStopPainting(InputAction.CallbackContext)
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnStopPainting
+    path: ''
+    startLine: 2905
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nHandles the stop painting event, it is mostly used in desktop mode.\n"
+  example: []
+  syntax:
+    content: public void OnStopPainting(InputAction.CallbackContext callbackContext)
+    parameters:
+    - id: callbackContext
+      type: Global.InputAction.CallbackContext
+      description: The InputAction.CallbackContext object containing the input data.
+    content.vb: Public Sub OnStopPainting(callbackContext As InputAction.CallbackContext)
+  overload: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting*
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting(DeactivateEventArgs)
+  commentId: M:AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting(DeactivateEventArgs)
+  id: OnStopPainting(DeactivateEventArgs)
+  parent: AiWorldGeneration.Skybox.SkyboxMasker
+  langs:
+  - csharp
+  - vb
+  name: OnStopPainting(DeactivateEventArgs)
+  nameWithType: SkyboxMasker.OnStopPainting(DeactivateEventArgs)
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting(DeactivateEventArgs)
+  type: Method
+  source:
+    id: OnStopPainting
+    path: ''
+    startLine: 2914
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nHandles the stop painting event, it is mostly used in VR mode.\n"
+  example: []
+  syntax:
+    content: public void OnStopPainting(DeactivateEventArgs eventArgs)
+    parameters:
+    - id: eventArgs
+      type: Global.DeactivateEventArgs
+      description: An object containing the interactable object&apos;s transform.
+    content.vb: Public Sub OnStopPainting(eventArgs As DeactivateEventArgs)
+  overload: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting*
+references:
+- uid: AiWorldGeneration.Skybox
+  commentId: N:AiWorldGeneration.Skybox
+  name: AiWorldGeneration.Skybox
+  nameWithType: AiWorldGeneration.Skybox
+  fullName: AiWorldGeneration.Skybox
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.Skybox
+    name: Skybox
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.Skybox
+    name: Skybox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.PaintingEnabled*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxMasker.PaintingEnabled
+  name: PaintingEnabled
+  nameWithType: SkyboxMasker.PaintingEnabled
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.PaintingEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.FlipTextureHorizontally*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxMasker.FlipTextureHorizontally
+  name: FlipTextureHorizontally
+  nameWithType: SkyboxMasker.FlipTextureHorizontally
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.FlipTextureHorizontally
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.GetMaskBytes*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxMasker.GetMaskBytes
+  name: GetMaskBytes
+  nameWithType: SkyboxMasker.GetMaskBytes
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.GetMaskBytes
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.SaveTexture*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxMasker.SaveTexture
+  name: SaveTexture
+  nameWithType: SkyboxMasker.SaveTexture
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.SaveTexture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.ResetTexture*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxMasker.ResetTexture
+  name: ResetTexture
+  nameWithType: SkyboxMasker.ResetTexture
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.ResetTexture
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.OnPainting*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxMasker.OnPainting
+  name: OnPainting
+  nameWithType: SkyboxMasker.OnPainting
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.OnPainting
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting
+  name: OnStartPainting
+  nameWithType: SkyboxMasker.OnStartPainting
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting
+- uid: Global.InputAction.CallbackContext
+  isExternal: true
+  name: CallbackContext
+  nameWithType: InputAction.CallbackContext
+  fullName: InputAction.CallbackContext
+- uid: Global.ActivateEventArgs
+  commentId: '!:Global.ActivateEventArgs'
+  isExternal: true
+  name: ActivateEventArgs
+  nameWithType: ActivateEventArgs
+  fullName: ActivateEventArgs
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting
+  name: OnStopPainting
+  nameWithType: SkyboxMasker.OnStopPainting
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting
+- uid: Global.DeactivateEventArgs
+  commentId: '!:Global.DeactivateEventArgs'
+  isExternal: true
+  name: DeactivateEventArgs
+  nameWithType: DeactivateEventArgs
+  fullName: DeactivateEventArgs

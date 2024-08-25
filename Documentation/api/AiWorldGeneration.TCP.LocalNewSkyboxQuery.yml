@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.LocalNewSkyboxQuery
+  commentId: T:AiWorldGeneration.TCP.LocalNewSkyboxQuery
+  id: LocalNewSkyboxQuery
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.LocalNewSkyboxQuery.#ctor(System.String,System.String,System.Int32)
+  - AiWorldGeneration.TCP.LocalNewSkyboxQuery.outputFilePath
+  - AiWorldGeneration.TCP.LocalNewSkyboxQuery.prompt
+  - AiWorldGeneration.TCP.LocalNewSkyboxQuery.reportCompletion
+  langs:
+  - csharp
+  - vb
+  name: LocalNewSkyboxQuery
+  nameWithType: LocalNewSkyboxQuery
+  fullName: AiWorldGeneration.TCP.LocalNewSkyboxQuery
+  type: Class
+  source:
+    id: LocalNewSkyboxQuery
+    path: ''
+    startLine: 1196
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nQuery to generate a new skybox on the same device.\n"
+  example: []
+  syntax:
+    content: 'public class LocalNewSkyboxQuery : BaseClientQuery'
+    content.vb: Public Class LocalNewSkyboxQuery Inherits BaseClientQuery
+  inheritance:
+  - System.Object
+  - AiWorldGeneration.TCP.BaseClientQuery
+  inheritedMembers:
+  - AiWorldGeneration.TCP.BaseClientQuery.type
+  - AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: AiWorldGeneration.TCP.LocalNewSkyboxQuery.prompt
+  commentId: F:AiWorldGeneration.TCP.LocalNewSkyboxQuery.prompt
+  id: prompt
+  parent: AiWorldGeneration.TCP.LocalNewSkyboxQuery
+  langs:
+  - csharp
+  - vb
+  name: prompt
+  nameWithType: LocalNewSkyboxQuery.prompt
+  fullName: AiWorldGeneration.TCP.LocalNewSkyboxQuery.prompt
+  type: Field
+  source:
+    id: prompt
+    path: ''
+    startLine: 1199
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public string prompt
+    return:
+      type: System.String
+    content.vb: Public prompt As String
+- uid: AiWorldGeneration.TCP.LocalNewSkyboxQuery.outputFilePath
+  commentId: F:AiWorldGeneration.TCP.LocalNewSkyboxQuery.outputFilePath
+  id: outputFilePath
+  parent: AiWorldGeneration.TCP.LocalNewSkyboxQuery
+  langs:
+  - csharp
+  - vb
+  name: outputFilePath
+  nameWithType: LocalNewSkyboxQuery.outputFilePath
+  fullName: AiWorldGeneration.TCP.LocalNewSkyboxQuery.outputFilePath
+  type: Field
+  source:
+    id: outputFilePath
+    path: ''
+    startLine: 1201
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public string outputFilePath
+    return:
+      type: System.String
+    content.vb: Public outputFilePath As String
+- uid: AiWorldGeneration.TCP.LocalNewSkyboxQuery.reportCompletion
+  commentId: F:AiWorldGeneration.TCP.LocalNewSkyboxQuery.reportCompletion
+  id: reportCompletion
+  parent: AiWorldGeneration.TCP.LocalNewSkyboxQuery
+  langs:
+  - csharp
+  - vb
+  name: reportCompletion
+  nameWithType: LocalNewSkyboxQuery.reportCompletion
+  fullName: AiWorldGeneration.TCP.LocalNewSkyboxQuery.reportCompletion
+  type: Field
+  source:
+    id: reportCompletion
+    path: ''
+    startLine: 1203
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public int reportCompletion
+    return:
+      type: System.Int32
+    content.vb: Public reportCompletion As Integer
+- uid: AiWorldGeneration.TCP.LocalNewSkyboxQuery.#ctor(System.String,System.String,System.Int32)
+  commentId: M:AiWorldGeneration.TCP.LocalNewSkyboxQuery.#ctor(System.String,System.String,System.Int32)
+  id: '#ctor(System.String,System.String,System.Int32)'
+  parent: AiWorldGeneration.TCP.LocalNewSkyboxQuery
+  langs:
+  - csharp
+  - vb
+  name: LocalNewSkyboxQuery(string, string, int)
+  nameWithType: LocalNewSkyboxQuery.LocalNewSkyboxQuery(string, string, int)
+  fullName: AiWorldGeneration.TCP.LocalNewSkyboxQuery.LocalNewSkyboxQuery(string, string, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1205
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public LocalNewSkyboxQuery(string prompt = null, string destinationPath = null, int reportCompletion = 0)
+    parameters:
+    - id: prompt
+      type: System.String
+    - id: destinationPath
+      type: System.String
+    - id: reportCompletion
+      type: System.Int32
+    content.vb: Public Sub New(prompt As String = Nothing, destinationPath As String = Nothing, reportCompletion As Integer = 0)
+  overload: AiWorldGeneration.TCP.LocalNewSkyboxQuery.#ctor*
+  nameWithType.vb: LocalNewSkyboxQuery.New(String, String, Integer)
+  fullName.vb: AiWorldGeneration.TCP.LocalNewSkyboxQuery.New(String, String, Integer)
+  name.vb: New(String, String, Integer)
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: AiWorldGeneration.TCP.BaseClientQuery
+  commentId: T:AiWorldGeneration.TCP.BaseClientQuery
+  parent: AiWorldGeneration.TCP
+  name: BaseClientQuery
+  nameWithType: BaseClientQuery
+  fullName: AiWorldGeneration.TCP.BaseClientQuery
+- uid: AiWorldGeneration.TCP.BaseClientQuery.type
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.type
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: type
+  nameWithType: BaseClientQuery.type
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.type
+- uid: AiWorldGeneration.TCP.BaseClientQuery.taskId
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.taskId
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: taskId
+  nameWithType: BaseClientQuery.taskId
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: AiWorldGeneration.TCP.LocalNewSkyboxQuery.#ctor*
+  commentId: Overload:AiWorldGeneration.TCP.LocalNewSkyboxQuery.#ctor
+  name: LocalNewSkyboxQuery
+  nameWithType: LocalNewSkyboxQuery.LocalNewSkyboxQuery
+  fullName: AiWorldGeneration.TCP.LocalNewSkyboxQuery.LocalNewSkyboxQuery
+  nameWithType.vb: LocalNewSkyboxQuery.New
+  fullName.vb: AiWorldGeneration.TCP.LocalNewSkyboxQuery.New
+  name.vb: New

@@ -1,0 +1,371 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator
+  commentId: T:AiWorldGeneration.Skybox.SkyboxOrchestrator
+  id: SkyboxOrchestrator
+  parent: AiWorldGeneration.Skybox
+  children:
+  - AiWorldGeneration.Skybox.SkyboxOrchestrator.ChangeSkybox(Cubemap)
+  - AiWorldGeneration.Skybox.SkyboxOrchestrator.ExtendSkybox
+  - AiWorldGeneration.Skybox.SkyboxOrchestrator.GenerateNewSkybox(System.String,System.Boolean)
+  - AiWorldGeneration.Skybox.SkyboxOrchestrator.GetProgress
+  - AiWorldGeneration.Skybox.SkyboxOrchestrator.RefineSkybox(System.String)
+  - AiWorldGeneration.Skybox.SkyboxOrchestrator.RemoveSeam
+  - AiWorldGeneration.Skybox.SkyboxOrchestrator.ReportProgress
+  - AiWorldGeneration.Skybox.SkyboxOrchestrator.StartInpainting(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SkyboxOrchestrator
+  nameWithType: SkyboxOrchestrator
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator
+  type: Class
+  source:
+    id: SkyboxOrchestrator
+    path: ''
+    startLine: 2248
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nDefines the interaction between a skybox material and the scene skybox.\n"
+  example: []
+  syntax:
+    content: 'public class SkyboxOrchestrator : MonoBehaviour'
+    content.vb: Public Class SkyboxOrchestrator Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.ReportProgress
+  commentId: P:AiWorldGeneration.Skybox.SkyboxOrchestrator.ReportProgress
+  id: ReportProgress
+  parent: AiWorldGeneration.Skybox.SkyboxOrchestrator
+  langs:
+  - csharp
+  - vb
+  name: ReportProgress
+  nameWithType: SkyboxOrchestrator.ReportProgress
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.ReportProgress
+  type: Property
+  source:
+    id: ReportProgress
+    path: ''
+    startLine: 2254
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nShow the progress on the progress bar.\n"
+  example: []
+  syntax:
+    content: public bool ReportProgress { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ReportProgress As Boolean
+  overload: AiWorldGeneration.Skybox.SkyboxOrchestrator.ReportProgress*
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.ChangeSkybox(Cubemap)
+  commentId: M:AiWorldGeneration.Skybox.SkyboxOrchestrator.ChangeSkybox(Cubemap)
+  id: ChangeSkybox(Cubemap)
+  parent: AiWorldGeneration.Skybox.SkyboxOrchestrator
+  langs:
+  - csharp
+  - vb
+  name: ChangeSkybox(Cubemap)
+  nameWithType: SkyboxOrchestrator.ChangeSkybox(Cubemap)
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.ChangeSkybox(Cubemap)
+  type: Method
+  source:
+    id: ChangeSkybox
+    path: ''
+    startLine: 2293
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nChange the current skybox\n"
+  example: []
+  syntax:
+    content: public void ChangeSkybox(Cubemap newSkybox)
+    parameters:
+    - id: newSkybox
+      type: Global.Cubemap
+      description: The cubemap texture to apply as the skybox.
+    content.vb: Public Sub ChangeSkybox(newSkybox As Cubemap)
+  overload: AiWorldGeneration.Skybox.SkyboxOrchestrator.ChangeSkybox*
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.GetProgress
+  commentId: M:AiWorldGeneration.Skybox.SkyboxOrchestrator.GetProgress
+  id: GetProgress
+  parent: AiWorldGeneration.Skybox.SkyboxOrchestrator
+  langs:
+  - csharp
+  - vb
+  name: GetProgress()
+  nameWithType: SkyboxOrchestrator.GetProgress()
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.GetProgress()
+  type: Method
+  source:
+    id: GetProgress
+    path: ''
+    startLine: 2308
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nReturn the speculative progress on the current task between 0 and 1.\n"
+  example: []
+  syntax:
+    content: public float GetProgress()
+    return:
+      type: System.Single
+    content.vb: Public Function GetProgress() As Single
+  overload: AiWorldGeneration.Skybox.SkyboxOrchestrator.GetProgress*
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.GenerateNewSkybox(System.String,System.Boolean)
+  commentId: M:AiWorldGeneration.Skybox.SkyboxOrchestrator.GenerateNewSkybox(System.String,System.Boolean)
+  id: GenerateNewSkybox(System.String,System.Boolean)
+  parent: AiWorldGeneration.Skybox.SkyboxOrchestrator
+  langs:
+  - csharp
+  - vb
+  name: GenerateNewSkybox(string, bool)
+  nameWithType: SkyboxOrchestrator.GenerateNewSkybox(string, bool)
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.GenerateNewSkybox(string, bool)
+  type: Method
+  source:
+    id: GenerateNewSkybox
+    path: ''
+    startLine: 2449
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nGenerates a new skybox based on the given prompt.\n"
+  example: []
+  syntax:
+    content: public void GenerateNewSkybox(string prompt, bool quick = true)
+    parameters:
+    - id: prompt
+      type: System.String
+      description: The textual description of the desired skybox.
+    - id: quick
+      type: System.Boolean
+      description: Stop the generation at the first pipeline element.
+    content.vb: Public Sub GenerateNewSkybox(prompt As String, quick As Boolean = True)
+  overload: AiWorldGeneration.Skybox.SkyboxOrchestrator.GenerateNewSkybox*
+  nameWithType.vb: SkyboxOrchestrator.GenerateNewSkybox(String, Boolean)
+  fullName.vb: AiWorldGeneration.Skybox.SkyboxOrchestrator.GenerateNewSkybox(String, Boolean)
+  name.vb: GenerateNewSkybox(String, Boolean)
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.StartInpainting(System.String)
+  commentId: M:AiWorldGeneration.Skybox.SkyboxOrchestrator.StartInpainting(System.String)
+  id: StartInpainting(System.String)
+  parent: AiWorldGeneration.Skybox.SkyboxOrchestrator
+  langs:
+  - csharp
+  - vb
+  name: StartInpainting(string)
+  nameWithType: SkyboxOrchestrator.StartInpainting(string)
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.StartInpainting(string)
+  type: Method
+  source:
+    id: StartInpainting
+    path: ''
+    startLine: 2480
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nStarts the inpainting process for the skybox.\n"
+  example: []
+  syntax:
+    content: public void StartInpainting(string prompt)
+    parameters:
+    - id: prompt
+      type: System.String
+      description: The user prompt for the image inpainting.
+    content.vb: Public Sub StartInpainting(prompt As String)
+  overload: AiWorldGeneration.Skybox.SkyboxOrchestrator.StartInpainting*
+  nameWithType.vb: SkyboxOrchestrator.StartInpainting(String)
+  fullName.vb: AiWorldGeneration.Skybox.SkyboxOrchestrator.StartInpainting(String)
+  name.vb: StartInpainting(String)
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.RefineSkybox(System.String)
+  commentId: M:AiWorldGeneration.Skybox.SkyboxOrchestrator.RefineSkybox(System.String)
+  id: RefineSkybox(System.String)
+  parent: AiWorldGeneration.Skybox.SkyboxOrchestrator
+  langs:
+  - csharp
+  - vb
+  name: RefineSkybox(string)
+  nameWithType: SkyboxOrchestrator.RefineSkybox(string)
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.RefineSkybox(string)
+  type: Method
+  source:
+    id: RefineSkybox
+    path: ''
+    startLine: 2492
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nRefines the current image with the given prompt.\n"
+  example: []
+  syntax:
+    content: public void RefineSkybox(string prompt)
+    parameters:
+    - id: prompt
+      type: System.String
+      description: User prompt for the image.
+    content.vb: Public Sub RefineSkybox(prompt As String)
+  overload: AiWorldGeneration.Skybox.SkyboxOrchestrator.RefineSkybox*
+  nameWithType.vb: SkyboxOrchestrator.RefineSkybox(String)
+  fullName.vb: AiWorldGeneration.Skybox.SkyboxOrchestrator.RefineSkybox(String)
+  name.vb: RefineSkybox(String)
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.RemoveSeam
+  commentId: M:AiWorldGeneration.Skybox.SkyboxOrchestrator.RemoveSeam
+  id: RemoveSeam
+  parent: AiWorldGeneration.Skybox.SkyboxOrchestrator
+  langs:
+  - csharp
+  - vb
+  name: RemoveSeam()
+  nameWithType: SkyboxOrchestrator.RemoveSeam()
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.RemoveSeam()
+  type: Method
+  source:
+    id: RemoveSeam
+    path: ''
+    startLine: 2505
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nRemoves the seam line at the image border.\n"
+  example: []
+  syntax:
+    content: public void RemoveSeam()
+    content.vb: Public Sub RemoveSeam()
+  overload: AiWorldGeneration.Skybox.SkyboxOrchestrator.RemoveSeam*
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.ExtendSkybox
+  commentId: M:AiWorldGeneration.Skybox.SkyboxOrchestrator.ExtendSkybox
+  id: ExtendSkybox
+  parent: AiWorldGeneration.Skybox.SkyboxOrchestrator
+  langs:
+  - csharp
+  - vb
+  name: ExtendSkybox()
+  nameWithType: SkyboxOrchestrator.ExtendSkybox()
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.ExtendSkybox()
+  type: Method
+  source:
+    id: ExtendSkybox
+    path: ''
+    startLine: 2519
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nExtends the skybox to be bigger.\n"
+  example: []
+  syntax:
+    content: public void ExtendSkybox()
+    content.vb: Public Sub ExtendSkybox()
+  overload: AiWorldGeneration.Skybox.SkyboxOrchestrator.ExtendSkybox*
+references:
+- uid: AiWorldGeneration.Skybox
+  commentId: N:AiWorldGeneration.Skybox
+  name: AiWorldGeneration.Skybox
+  nameWithType: AiWorldGeneration.Skybox
+  fullName: AiWorldGeneration.Skybox
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.Skybox
+    name: Skybox
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.Skybox
+    name: Skybox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.ReportProgress*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxOrchestrator.ReportProgress
+  name: ReportProgress
+  nameWithType: SkyboxOrchestrator.ReportProgress
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.ReportProgress
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.ChangeSkybox*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxOrchestrator.ChangeSkybox
+  name: ChangeSkybox
+  nameWithType: SkyboxOrchestrator.ChangeSkybox
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.ChangeSkybox
+- uid: Global.Cubemap
+  commentId: '!:Global.Cubemap'
+  isExternal: true
+  name: Cubemap
+  nameWithType: Cubemap
+  fullName: Cubemap
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.GetProgress*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxOrchestrator.GetProgress
+  name: GetProgress
+  nameWithType: SkyboxOrchestrator.GetProgress
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.GetProgress
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.GenerateNewSkybox*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxOrchestrator.GenerateNewSkybox
+  name: GenerateNewSkybox
+  nameWithType: SkyboxOrchestrator.GenerateNewSkybox
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.GenerateNewSkybox
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.StartInpainting*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxOrchestrator.StartInpainting
+  name: StartInpainting
+  nameWithType: SkyboxOrchestrator.StartInpainting
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.StartInpainting
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.RefineSkybox*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxOrchestrator.RefineSkybox
+  name: RefineSkybox
+  nameWithType: SkyboxOrchestrator.RefineSkybox
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.RefineSkybox
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.RemoveSeam*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxOrchestrator.RemoveSeam
+  name: RemoveSeam
+  nameWithType: SkyboxOrchestrator.RemoveSeam
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.RemoveSeam
+- uid: AiWorldGeneration.Skybox.SkyboxOrchestrator.ExtendSkybox*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxOrchestrator.ExtendSkybox
+  name: ExtendSkybox
+  nameWithType: SkyboxOrchestrator.ExtendSkybox
+  fullName: AiWorldGeneration.Skybox.SkyboxOrchestrator.ExtendSkybox

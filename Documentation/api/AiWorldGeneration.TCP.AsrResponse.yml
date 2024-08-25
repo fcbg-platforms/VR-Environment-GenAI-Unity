@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.AsrResponse
+  commentId: T:AiWorldGeneration.TCP.AsrResponse
+  id: AsrResponse
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.AsrResponse.transcription
+  langs:
+  - csharp
+  - vb
+  name: AsrResponse
+  nameWithType: AsrResponse
+  fullName: AiWorldGeneration.TCP.AsrResponse
+  type: Class
+  source:
+    id: AsrResponse
+    path: ''
+    startLine: 1090
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nResponse data for Automatic Speech Recognition on a single computer.\n"
+  example: []
+  syntax:
+    content: 'public class AsrResponse : SerializableResponseData'
+    content.vb: Public Class AsrResponse Inherits SerializableResponseData
+  inheritance:
+  - System.Object
+  - AiWorldGeneration.TCP.SerializableResponseData
+  inheritedMembers:
+  - AiWorldGeneration.TCP.SerializableResponseData.type
+- uid: AiWorldGeneration.TCP.AsrResponse.transcription
+  commentId: F:AiWorldGeneration.TCP.AsrResponse.transcription
+  id: transcription
+  parent: AiWorldGeneration.TCP.AsrResponse
+  langs:
+  - csharp
+  - vb
+  name: transcription
+  nameWithType: AsrResponse.transcription
+  fullName: AiWorldGeneration.TCP.AsrResponse.transcription
+  type: Field
+  source:
+    id: transcription
+    path: ''
+    startLine: 1093
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public string transcription
+    return:
+      type: System.String
+    content.vb: Public transcription As String
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: AiWorldGeneration.TCP.SerializableResponseData
+  commentId: T:AiWorldGeneration.TCP.SerializableResponseData
+  parent: AiWorldGeneration.TCP
+  name: SerializableResponseData
+  nameWithType: SerializableResponseData
+  fullName: AiWorldGeneration.TCP.SerializableResponseData
+- uid: AiWorldGeneration.TCP.SerializableResponseData.type
+  commentId: F:AiWorldGeneration.TCP.SerializableResponseData.type
+  parent: AiWorldGeneration.TCP.SerializableResponseData
+  name: type
+  nameWithType: SerializableResponseData.type
+  fullName: AiWorldGeneration.TCP.SerializableResponseData.type
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

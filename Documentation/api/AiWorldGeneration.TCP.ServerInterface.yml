@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.ServerInterface
+  commentId: T:AiWorldGeneration.TCP.ServerInterface
+  id: ServerInterface
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.ServerInterface.serverIp
+  - AiWorldGeneration.TCP.ServerInterface.serverPort
+  langs:
+  - csharp
+  - vb
+  name: ServerInterface
+  nameWithType: ServerInterface
+  fullName: AiWorldGeneration.TCP.ServerInterface
+  type: Class
+  source:
+    id: ServerInterface
+    path: ''
+    startLine: 1450
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nInterface to fetch configuration data from the server file.\n"
+  example: []
+  syntax:
+    content: public class ServerInterface
+    content.vb: Public Class ServerInterface
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.TCP.ServerInterface.serverIp
+  commentId: F:AiWorldGeneration.TCP.ServerInterface.serverIp
+  id: serverIp
+  parent: AiWorldGeneration.TCP.ServerInterface
+  langs:
+  - csharp
+  - vb
+  name: serverIp
+  nameWithType: ServerInterface.serverIp
+  fullName: AiWorldGeneration.TCP.ServerInterface.serverIp
+  type: Field
+  source:
+    id: serverIp
+    path: ''
+    startLine: 1453
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public string serverIp
+    return:
+      type: System.String
+    content.vb: Public serverIp As String
+- uid: AiWorldGeneration.TCP.ServerInterface.serverPort
+  commentId: F:AiWorldGeneration.TCP.ServerInterface.serverPort
+  id: serverPort
+  parent: AiWorldGeneration.TCP.ServerInterface
+  langs:
+  - csharp
+  - vb
+  name: serverPort
+  nameWithType: ServerInterface.serverPort
+  fullName: AiWorldGeneration.TCP.ServerInterface.serverPort
+  type: Field
+  source:
+    id: serverPort
+    path: ''
+    startLine: 1455
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public int serverPort
+    return:
+      type: System.Int32
+    content.vb: Public serverPort As Integer
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

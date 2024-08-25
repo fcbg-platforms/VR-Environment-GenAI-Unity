@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.CompletionResponse
+  commentId: T:AiWorldGeneration.TCP.CompletionResponse
+  id: CompletionResponse
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.CompletionResponse.taskCompletion
+  - AiWorldGeneration.TCP.CompletionResponse.taskId
+  langs:
+  - csharp
+  - vb
+  name: CompletionResponse
+  nameWithType: CompletionResponse
+  fullName: AiWorldGeneration.TCP.CompletionResponse
+  type: Class
+  source:
+    id: CompletionResponse
+    path: ''
+    startLine: 1037
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nCompletion rate for a task.\n"
+  example: []
+  syntax:
+    content: 'public class CompletionResponse : SerializableResponseData'
+    content.vb: Public Class CompletionResponse Inherits SerializableResponseData
+  inheritance:
+  - System.Object
+  - AiWorldGeneration.TCP.SerializableResponseData
+  inheritedMembers:
+  - AiWorldGeneration.TCP.SerializableResponseData.type
+- uid: AiWorldGeneration.TCP.CompletionResponse.taskCompletion
+  commentId: F:AiWorldGeneration.TCP.CompletionResponse.taskCompletion
+  id: taskCompletion
+  parent: AiWorldGeneration.TCP.CompletionResponse
+  langs:
+  - csharp
+  - vb
+  name: taskCompletion
+  nameWithType: CompletionResponse.taskCompletion
+  fullName: AiWorldGeneration.TCP.CompletionResponse.taskCompletion
+  type: Field
+  source:
+    id: taskCompletion
+    path: ''
+    startLine: 1043
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nTask completion between 0 and 100.\n"
+  example: []
+  syntax:
+    content: public int taskCompletion
+    return:
+      type: System.Int32
+    content.vb: Public taskCompletion As Integer
+- uid: AiWorldGeneration.TCP.CompletionResponse.taskId
+  commentId: F:AiWorldGeneration.TCP.CompletionResponse.taskId
+  id: taskId
+  parent: AiWorldGeneration.TCP.CompletionResponse
+  langs:
+  - csharp
+  - vb
+  name: taskId
+  nameWithType: CompletionResponse.taskId
+  fullName: AiWorldGeneration.TCP.CompletionResponse.taskId
+  type: Field
+  source:
+    id: taskId
+    path: ''
+    startLine: 1048
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nTracked task.\n"
+  example: []
+  syntax:
+    content: public int taskId
+    return:
+      type: System.Int32
+    content.vb: Public taskId As Integer
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: AiWorldGeneration.TCP.SerializableResponseData
+  commentId: T:AiWorldGeneration.TCP.SerializableResponseData
+  parent: AiWorldGeneration.TCP
+  name: SerializableResponseData
+  nameWithType: SerializableResponseData
+  fullName: AiWorldGeneration.TCP.SerializableResponseData
+- uid: AiWorldGeneration.TCP.SerializableResponseData.type
+  commentId: F:AiWorldGeneration.TCP.SerializableResponseData.type
+  parent: AiWorldGeneration.TCP.SerializableResponseData
+  name: type
+  nameWithType: SerializableResponseData.type
+  fullName: AiWorldGeneration.TCP.SerializableResponseData.type
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

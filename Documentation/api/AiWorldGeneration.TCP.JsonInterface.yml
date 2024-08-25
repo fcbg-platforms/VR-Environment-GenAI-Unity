@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.JsonInterface
+  commentId: T:AiWorldGeneration.TCP.JsonInterface
+  id: JsonInterface
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.JsonInterface.audioPath
+  - AiWorldGeneration.TCP.JsonInterface.maskPath
+  - AiWorldGeneration.TCP.JsonInterface.pythonFallbackApiFile
+  - AiWorldGeneration.TCP.JsonInterface.serverDefaultIp
+  - AiWorldGeneration.TCP.JsonInterface.serverDefaultPort
+  langs:
+  - csharp
+  - vb
+  name: JsonInterface
+  nameWithType: JsonInterface
+  fullName: AiWorldGeneration.TCP.JsonInterface
+  type: Class
+  source:
+    id: JsonInterface
+    path: ''
+    startLine: 1424
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nC# interface with the JSON configuration file.\n\nThis file is usually stored at Assets/Configurations/api.json\n"
+  example: []
+  syntax:
+    content: public class JsonInterface
+    content.vb: Public Class JsonInterface
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.TCP.JsonInterface.maskPath
+  commentId: F:AiWorldGeneration.TCP.JsonInterface.maskPath
+  id: maskPath
+  parent: AiWorldGeneration.TCP.JsonInterface
+  langs:
+  - csharp
+  - vb
+  name: maskPath
+  nameWithType: JsonInterface.maskPath
+  fullName: AiWorldGeneration.TCP.JsonInterface.maskPath
+  type: Field
+  source:
+    id: maskPath
+    path: ''
+    startLine: 1430
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nFile path to store the mask file.\n"
+  example: []
+  syntax:
+    content: public string maskPath
+    return:
+      type: System.String
+    content.vb: Public maskPath As String
+- uid: AiWorldGeneration.TCP.JsonInterface.audioPath
+  commentId: F:AiWorldGeneration.TCP.JsonInterface.audioPath
+  id: audioPath
+  parent: AiWorldGeneration.TCP.JsonInterface
+  langs:
+  - csharp
+  - vb
+  name: audioPath
+  nameWithType: JsonInterface.audioPath
+  fullName: AiWorldGeneration.TCP.JsonInterface.audioPath
+  type: Field
+  source:
+    id: audioPath
+    path: ''
+    startLine: 1435
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nPath where audio files are stored.\n"
+  example: []
+  syntax:
+    content: public string audioPath
+    return:
+      type: System.String
+    content.vb: Public audioPath As String
+- uid: AiWorldGeneration.TCP.JsonInterface.serverDefaultIp
+  commentId: F:AiWorldGeneration.TCP.JsonInterface.serverDefaultIp
+  id: serverDefaultIp
+  parent: AiWorldGeneration.TCP.JsonInterface
+  langs:
+  - csharp
+  - vb
+  name: serverDefaultIp
+  nameWithType: JsonInterface.serverDefaultIp
+  fullName: AiWorldGeneration.TCP.JsonInterface.serverDefaultIp
+  type: Field
+  source:
+    id: serverDefaultIp
+    path: ''
+    startLine: 1437
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public string serverDefaultIp
+    return:
+      type: System.String
+    content.vb: Public serverDefaultIp As String
+- uid: AiWorldGeneration.TCP.JsonInterface.serverDefaultPort
+  commentId: F:AiWorldGeneration.TCP.JsonInterface.serverDefaultPort
+  id: serverDefaultPort
+  parent: AiWorldGeneration.TCP.JsonInterface
+  langs:
+  - csharp
+  - vb
+  name: serverDefaultPort
+  nameWithType: JsonInterface.serverDefaultPort
+  fullName: AiWorldGeneration.TCP.JsonInterface.serverDefaultPort
+  type: Field
+  source:
+    id: serverDefaultPort
+    path: ''
+    startLine: 1439
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public int serverDefaultPort
+    return:
+      type: System.Int32
+    content.vb: Public serverDefaultPort As Integer
+- uid: AiWorldGeneration.TCP.JsonInterface.pythonFallbackApiFile
+  commentId: F:AiWorldGeneration.TCP.JsonInterface.pythonFallbackApiFile
+  id: pythonFallbackApiFile
+  parent: AiWorldGeneration.TCP.JsonInterface
+  langs:
+  - csharp
+  - vb
+  name: pythonFallbackApiFile
+  nameWithType: JsonInterface.pythonFallbackApiFile
+  fullName: AiWorldGeneration.TCP.JsonInterface.pythonFallbackApiFile
+  type: Field
+  source:
+    id: pythonFallbackApiFile
+    path: ''
+    startLine: 1444
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nPlace where the Python project is stored. Should contain a venv.\n"
+  example: []
+  syntax:
+    content: public string pythonFallbackApiFile
+    return:
+      type: System.String
+    content.vb: Public pythonFallbackApiFile As String
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

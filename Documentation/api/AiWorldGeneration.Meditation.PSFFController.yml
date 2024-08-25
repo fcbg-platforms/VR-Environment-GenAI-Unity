@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.Meditation.PSFFController
+  commentId: T:AiWorldGeneration.Meditation.PSFFController
+  id: PSFFController
+  parent: AiWorldGeneration.Meditation
+  children:
+  - AiWorldGeneration.Meditation.PSFFController.breathValue
+  langs:
+  - csharp
+  - vb
+  name: PSFFController
+  nameWithType: PSFFController
+  fullName: AiWorldGeneration.Meditation.PSFFController
+  type: Class
+  source:
+    id: PSFFController
+    path: ''
+    startLine: 579
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Meditation
+  syntax:
+    content: 'public class PSFFController : MonoBehaviour'
+    content.vb: Public Class PSFFController Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.Meditation.PSFFController.breathValue
+  commentId: F:AiWorldGeneration.Meditation.PSFFController.breathValue
+  id: breathValue
+  parent: AiWorldGeneration.Meditation.PSFFController
+  langs:
+  - csharp
+  - vb
+  name: breathValue
+  nameWithType: PSFFController.breathValue
+  fullName: AiWorldGeneration.Meditation.PSFFController.breathValue
+  type: Field
+  source:
+    id: breathValue
+    path: ''
+    startLine: 587
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Meditation
+  syntax:
+    content: public float breathValue
+    return:
+      type: System.Single
+    content.vb: Public breathValue As Single
+references:
+- uid: AiWorldGeneration.Meditation
+  commentId: N:AiWorldGeneration.Meditation
+  name: AiWorldGeneration.Meditation
+  nameWithType: AiWorldGeneration.Meditation
+  fullName: AiWorldGeneration.Meditation
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.Meditation
+    name: Meditation
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.Meditation
+    name: Meditation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

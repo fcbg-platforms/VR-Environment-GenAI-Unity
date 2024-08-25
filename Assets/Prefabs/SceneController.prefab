@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2441935285668231874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5258879925806189060}
+  - component: {fileID: 4340501562569706307}
+  - component: {fileID: 381753638556824622}
+  - component: {fileID: 4141573131070124654}
+  - component: {fileID: 6657041507195769694}
+  m_Layer: 0
+  m_Name: SceneController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5258879925806189060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2441935285668231874}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4340501562569706307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2441935285668231874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19a78849106ed4509b4f6bd3b911ac2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skyboxMasker: {fileID: 0}
+  paintActionReference: {fileID: -3512833322978475561, guid: 886aded7e7c2d7ed197177c089150b6a, type: 3}
+  rewritableTexture: {fileID: 2800000, guid: 8accbc6a2aec1da70a936d2959c8b78e, type: 3}
+  rewritableMaterial: {fileID: 2100000, guid: 09e0baf471b82e63a8c986eb7459eaba, type: 2}
+  onCompleteTask:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &381753638556824622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2441935285668231874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f97bb7bc65f21b06be64819bc1aab16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configurationFile: {fileID: 4900000, guid: 4c06d857faec91b01ad7b00af66926bd, type: 3}
+--- !u!114 &4141573131070124654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2441935285668231874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8070283253c15e5fb8123e0c45ad619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showProgress: 0
+  audioRecorder: {fileID: 0}
+  uiManager: {fileID: 0}
+  clientController: {fileID: 381753638556824622}
+  skyboxOrchestrator: {fileID: 4340501562569706307}
+  skyboxMasker: {fileID: 0}
+  skytexturePath: Assets/Textures/Rewritable Texture.PNG
+  escapeActionReference: {fileID: 3653202509631510821, guid: 886aded7e7c2d7ed197177c089150b6a, type: 3}
+  skyboxPhase: 0
+--- !u!114 &6657041507195769694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2441935285668231874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bff33b211da43a4768d2895b35903ac5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editionPanel: {fileID: 0}
+  inputField: {fileID: 0}
+  slider: {fileID: 0}
+  submitButton: {fileID: 0}
+  skyboxButtons: []
+  editionModeDropdown: {fileID: 0}
+  recordingButton: {fileID: 0}
+  inpaintingInputField: {fileID: 0}

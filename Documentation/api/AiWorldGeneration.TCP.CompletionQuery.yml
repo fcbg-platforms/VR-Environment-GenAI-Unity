@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.CompletionQuery
+  commentId: T:AiWorldGeneration.TCP.CompletionQuery
+  id: CompletionQuery
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.CompletionQuery.#ctor
+  - AiWorldGeneration.TCP.CompletionQuery.taskID
+  langs:
+  - csharp
+  - vb
+  name: CompletionQuery
+  nameWithType: CompletionQuery
+  fullName: AiWorldGeneration.TCP.CompletionQuery
+  type: Class
+  source:
+    id: CompletionQuery
+    path: ''
+    startLine: 1149
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nAsk the server to report the progress of a task.\n"
+  example: []
+  syntax:
+    content: 'public class CompletionQuery : BaseClientQuery'
+    content.vb: Public Class CompletionQuery Inherits BaseClientQuery
+  inheritance:
+  - System.Object
+  - AiWorldGeneration.TCP.BaseClientQuery
+  inheritedMembers:
+  - AiWorldGeneration.TCP.BaseClientQuery.type
+  - AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: AiWorldGeneration.TCP.CompletionQuery.taskID
+  commentId: F:AiWorldGeneration.TCP.CompletionQuery.taskID
+  id: taskID
+  parent: AiWorldGeneration.TCP.CompletionQuery
+  langs:
+  - csharp
+  - vb
+  name: taskID
+  nameWithType: CompletionQuery.taskID
+  fullName: AiWorldGeneration.TCP.CompletionQuery.taskID
+  type: Field
+  source:
+    id: taskID
+    path: ''
+    startLine: 1152
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public string taskID
+    return:
+      type: System.String
+    content.vb: Public taskID As String
+- uid: AiWorldGeneration.TCP.CompletionQuery.#ctor
+  commentId: M:AiWorldGeneration.TCP.CompletionQuery.#ctor
+  id: '#ctor'
+  parent: AiWorldGeneration.TCP.CompletionQuery
+  langs:
+  - csharp
+  - vb
+  name: CompletionQuery()
+  nameWithType: CompletionQuery.CompletionQuery()
+  fullName: AiWorldGeneration.TCP.CompletionQuery.CompletionQuery()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1154
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public CompletionQuery()
+    content.vb: Public Sub New()
+  overload: AiWorldGeneration.TCP.CompletionQuery.#ctor*
+  nameWithType.vb: CompletionQuery.New()
+  fullName.vb: AiWorldGeneration.TCP.CompletionQuery.New()
+  name.vb: New()
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: AiWorldGeneration.TCP.BaseClientQuery
+  commentId: T:AiWorldGeneration.TCP.BaseClientQuery
+  parent: AiWorldGeneration.TCP
+  name: BaseClientQuery
+  nameWithType: BaseClientQuery
+  fullName: AiWorldGeneration.TCP.BaseClientQuery
+- uid: AiWorldGeneration.TCP.BaseClientQuery.type
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.type
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: type
+  nameWithType: BaseClientQuery.type
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.type
+- uid: AiWorldGeneration.TCP.BaseClientQuery.taskId
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.taskId
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: taskId
+  nameWithType: BaseClientQuery.taskId
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: AiWorldGeneration.TCP.CompletionQuery.#ctor*
+  commentId: Overload:AiWorldGeneration.TCP.CompletionQuery.#ctor
+  name: CompletionQuery
+  nameWithType: CompletionQuery.CompletionQuery
+  fullName: AiWorldGeneration.TCP.CompletionQuery.CompletionQuery
+  nameWithType.vb: CompletionQuery.New
+  fullName.vb: AiWorldGeneration.TCP.CompletionQuery.New
+  name.vb: New

@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.RefineSkyboxQuery
+  commentId: T:AiWorldGeneration.TCP.RefineSkyboxQuery
+  id: RefineSkyboxQuery
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.RefineSkyboxQuery.#ctor(System.String,System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: RefineSkyboxQuery
+  nameWithType: RefineSkyboxQuery
+  fullName: AiWorldGeneration.TCP.RefineSkyboxQuery
+  type: Class
+  source:
+    id: RefineSkyboxQuery
+    path: ''
+    startLine: 1363
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nQuery to do an skybox refining task.\n"
+  example: []
+  syntax:
+    content: 'public class RefineSkyboxQuery : ImageEditionQuery'
+    content.vb: Public Class RefineSkyboxQuery Inherits ImageEditionQuery
+  inheritance:
+  - System.Object
+  - AiWorldGeneration.TCP.BaseClientQuery
+  - AiWorldGeneration.TCP.ImageEditionQuery
+  inheritedMembers:
+  - AiWorldGeneration.TCP.ImageEditionQuery.imageBytes
+  - AiWorldGeneration.TCP.ImageEditionQuery.prompt
+  - AiWorldGeneration.TCP.ImageEditionQuery.reportCompletion
+  - AiWorldGeneration.TCP.BaseClientQuery.type
+  - AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: AiWorldGeneration.TCP.RefineSkyboxQuery.#ctor(System.String,System.String,System.Int32)
+  commentId: M:AiWorldGeneration.TCP.RefineSkyboxQuery.#ctor(System.String,System.String,System.Int32)
+  id: '#ctor(System.String,System.String,System.Int32)'
+  parent: AiWorldGeneration.TCP.RefineSkyboxQuery
+  langs:
+  - csharp
+  - vb
+  name: RefineSkyboxQuery(string, string, int)
+  nameWithType: RefineSkyboxQuery.RefineSkyboxQuery(string, string, int)
+  fullName: AiWorldGeneration.TCP.RefineSkyboxQuery.RefineSkyboxQuery(string, string, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1366
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public RefineSkyboxQuery(string inputImage = null, string prompt = null, int reportCompletion = 0)
+    parameters:
+    - id: inputImage
+      type: System.String
+    - id: prompt
+      type: System.String
+    - id: reportCompletion
+      type: System.Int32
+    content.vb: Public Sub New(inputImage As String = Nothing, prompt As String = Nothing, reportCompletion As Integer = 0)
+  overload: AiWorldGeneration.TCP.RefineSkyboxQuery.#ctor*
+  nameWithType.vb: RefineSkyboxQuery.New(String, String, Integer)
+  fullName.vb: AiWorldGeneration.TCP.RefineSkyboxQuery.New(String, String, Integer)
+  name.vb: New(String, String, Integer)
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: AiWorldGeneration.TCP.BaseClientQuery
+  commentId: T:AiWorldGeneration.TCP.BaseClientQuery
+  parent: AiWorldGeneration.TCP
+  name: BaseClientQuery
+  nameWithType: BaseClientQuery
+  fullName: AiWorldGeneration.TCP.BaseClientQuery
+- uid: AiWorldGeneration.TCP.ImageEditionQuery
+  commentId: T:AiWorldGeneration.TCP.ImageEditionQuery
+  parent: AiWorldGeneration.TCP
+  name: ImageEditionQuery
+  nameWithType: ImageEditionQuery
+  fullName: AiWorldGeneration.TCP.ImageEditionQuery
+- uid: AiWorldGeneration.TCP.ImageEditionQuery.imageBytes
+  commentId: F:AiWorldGeneration.TCP.ImageEditionQuery.imageBytes
+  parent: AiWorldGeneration.TCP.ImageEditionQuery
+  name: imageBytes
+  nameWithType: ImageEditionQuery.imageBytes
+  fullName: AiWorldGeneration.TCP.ImageEditionQuery.imageBytes
+- uid: AiWorldGeneration.TCP.ImageEditionQuery.prompt
+  commentId: F:AiWorldGeneration.TCP.ImageEditionQuery.prompt
+  parent: AiWorldGeneration.TCP.ImageEditionQuery
+  name: prompt
+  nameWithType: ImageEditionQuery.prompt
+  fullName: AiWorldGeneration.TCP.ImageEditionQuery.prompt
+- uid: AiWorldGeneration.TCP.ImageEditionQuery.reportCompletion
+  commentId: F:AiWorldGeneration.TCP.ImageEditionQuery.reportCompletion
+  parent: AiWorldGeneration.TCP.ImageEditionQuery
+  name: reportCompletion
+  nameWithType: ImageEditionQuery.reportCompletion
+  fullName: AiWorldGeneration.TCP.ImageEditionQuery.reportCompletion
+- uid: AiWorldGeneration.TCP.BaseClientQuery.type
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.type
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: type
+  nameWithType: BaseClientQuery.type
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.type
+- uid: AiWorldGeneration.TCP.BaseClientQuery.taskId
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.taskId
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: taskId
+  nameWithType: BaseClientQuery.taskId
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AiWorldGeneration.TCP.RefineSkyboxQuery.#ctor*
+  commentId: Overload:AiWorldGeneration.TCP.RefineSkyboxQuery.#ctor
+  name: RefineSkyboxQuery
+  nameWithType: RefineSkyboxQuery.RefineSkyboxQuery
+  fullName: AiWorldGeneration.TCP.RefineSkyboxQuery.RefineSkyboxQuery
+  nameWithType.vb: RefineSkyboxQuery.New
+  fullName.vb: AiWorldGeneration.TCP.RefineSkyboxQuery.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

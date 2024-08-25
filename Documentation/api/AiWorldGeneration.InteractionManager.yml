@@ -1,0 +1,399 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.InteractionManager
+  commentId: T:AiWorldGeneration.InteractionManager
+  id: InteractionManager
+  parent: AiWorldGeneration
+  children:
+  - AiWorldGeneration.InteractionManager.AnalyseSpeech
+  - AiWorldGeneration.InteractionManager.ChangeEditionMode(System.Int32)
+  - AiWorldGeneration.InteractionManager.OnCompletePrompt
+  - AiWorldGeneration.InteractionManager.OnEditionModeChange
+  - AiWorldGeneration.InteractionManager.OnEditionModeChange(System.Int32)
+  - AiWorldGeneration.InteractionManager.OnExtendSkybox
+  - AiWorldGeneration.InteractionManager.OnRefine
+  - AiWorldGeneration.InteractionManager.OnRemoveSeam
+  - AiWorldGeneration.InteractionManager.OnSubmitPrompt
+  - AiWorldGeneration.InteractionManager.StartSpeechRecording
+  - AiWorldGeneration.InteractionManager.ToggleSpeechRecording
+  langs:
+  - csharp
+  - vb
+  name: InteractionManager
+  nameWithType: InteractionManager
+  fullName: AiWorldGeneration.InteractionManager
+  type: Class
+  source:
+    id: InteractionManager
+    path: ''
+    startLine: 113
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nHandles the interactions betwwen the user and the scene components.\n"
+  example: []
+  syntax:
+    content: 'public class InteractionManager : MonoBehaviour'
+    content.vb: Public Class InteractionManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.InteractionManager.OnEditionModeChange(System.Int32)
+  commentId: M:AiWorldGeneration.InteractionManager.OnEditionModeChange(System.Int32)
+  id: OnEditionModeChange(System.Int32)
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: OnEditionModeChange(int)
+  nameWithType: InteractionManager.OnEditionModeChange(int)
+  fullName: AiWorldGeneration.InteractionManager.OnEditionModeChange(int)
+  type: Method
+  source:
+    id: OnEditionModeChange
+    path: ''
+    startLine: 200
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nChanges the UI state based on the selected edition mode.\n"
+  example: []
+  syntax:
+    content: public void OnEditionModeChange(int editionValue)
+    parameters:
+    - id: editionValue
+      type: System.Int32
+      description: Current dropdown value.
+    content.vb: Public Sub OnEditionModeChange(editionValue As Integer)
+  overload: AiWorldGeneration.InteractionManager.OnEditionModeChange*
+  nameWithType.vb: InteractionManager.OnEditionModeChange(Integer)
+  fullName.vb: AiWorldGeneration.InteractionManager.OnEditionModeChange(Integer)
+  name.vb: OnEditionModeChange(Integer)
+- uid: AiWorldGeneration.InteractionManager.OnEditionModeChange
+  commentId: M:AiWorldGeneration.InteractionManager.OnEditionModeChange
+  id: OnEditionModeChange
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: OnEditionModeChange()
+  nameWithType: InteractionManager.OnEditionModeChange()
+  fullName: AiWorldGeneration.InteractionManager.OnEditionModeChange()
+  type: Method
+  source:
+    id: OnEditionModeChange
+    path: ''
+    startLine: 218
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nChanges the UI state based on the selected edition mode.\nThe dropdown value is automatically selected.\n"
+  example: []
+  syntax:
+    content: public void OnEditionModeChange()
+    content.vb: Public Sub OnEditionModeChange()
+  overload: AiWorldGeneration.InteractionManager.OnEditionModeChange*
+- uid: AiWorldGeneration.InteractionManager.ChangeEditionMode(System.Int32)
+  commentId: M:AiWorldGeneration.InteractionManager.ChangeEditionMode(System.Int32)
+  id: ChangeEditionMode(System.Int32)
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: ChangeEditionMode(int)
+  nameWithType: InteractionManager.ChangeEditionMode(int)
+  fullName: AiWorldGeneration.InteractionManager.ChangeEditionMode(int)
+  type: Method
+  source:
+    id: ChangeEditionMode
+    path: ''
+    startLine: 227
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nChanges the edition mode and triggers the associated events.\n"
+  example: []
+  syntax:
+    content: public void ChangeEditionMode(int newValue)
+    parameters:
+    - id: newValue
+      type: System.Int32
+      description: Value to set to the dropdown.
+    content.vb: Public Sub ChangeEditionMode(newValue As Integer)
+  overload: AiWorldGeneration.InteractionManager.ChangeEditionMode*
+  nameWithType.vb: InteractionManager.ChangeEditionMode(Integer)
+  fullName.vb: AiWorldGeneration.InteractionManager.ChangeEditionMode(Integer)
+  name.vb: ChangeEditionMode(Integer)
+- uid: AiWorldGeneration.InteractionManager.StartSpeechRecording
+  commentId: M:AiWorldGeneration.InteractionManager.StartSpeechRecording
+  id: StartSpeechRecording
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: StartSpeechRecording()
+  nameWithType: InteractionManager.StartSpeechRecording()
+  fullName: AiWorldGeneration.InteractionManager.StartSpeechRecording()
+  type: Method
+  source:
+    id: StartSpeechRecording
+    path: ''
+    startLine: 238
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nInitiates speech recording.\n"
+  example: []
+  syntax:
+    content: public void StartSpeechRecording()
+    content.vb: Public Sub StartSpeechRecording()
+  overload: AiWorldGeneration.InteractionManager.StartSpeechRecording*
+- uid: AiWorldGeneration.InteractionManager.AnalyseSpeech
+  commentId: M:AiWorldGeneration.InteractionManager.AnalyseSpeech
+  id: AnalyseSpeech
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: AnalyseSpeech()
+  nameWithType: InteractionManager.AnalyseSpeech()
+  fullName: AiWorldGeneration.InteractionManager.AnalyseSpeech()
+  type: Method
+  source:
+    id: AnalyseSpeech
+    path: ''
+    startLine: 263
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nStops speech recording and do the transcription.\n"
+  example: []
+  syntax:
+    content: public void AnalyseSpeech()
+    content.vb: Public Sub AnalyseSpeech()
+  overload: AiWorldGeneration.InteractionManager.AnalyseSpeech*
+- uid: AiWorldGeneration.InteractionManager.ToggleSpeechRecording
+  commentId: M:AiWorldGeneration.InteractionManager.ToggleSpeechRecording
+  id: ToggleSpeechRecording
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: ToggleSpeechRecording()
+  nameWithType: InteractionManager.ToggleSpeechRecording()
+  fullName: AiWorldGeneration.InteractionManager.ToggleSpeechRecording()
+  type: Method
+  source:
+    id: ToggleSpeechRecording
+    path: ''
+    startLine: 287
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nToggles the speech recording feature.\n"
+  example: []
+  syntax:
+    content: public void ToggleSpeechRecording()
+    content.vb: Public Sub ToggleSpeechRecording()
+  overload: AiWorldGeneration.InteractionManager.ToggleSpeechRecording*
+- uid: AiWorldGeneration.InteractionManager.OnSubmitPrompt
+  commentId: M:AiWorldGeneration.InteractionManager.OnSubmitPrompt
+  id: OnSubmitPrompt
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: OnSubmitPrompt()
+  nameWithType: InteractionManager.OnSubmitPrompt()
+  fullName: AiWorldGeneration.InteractionManager.OnSubmitPrompt()
+  type: Method
+  source:
+    id: OnSubmitPrompt
+    path: ''
+    startLine: 309
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nSubmits the user&apos;s input to the appropriate skybox creation or inpainting process.\n"
+  example: []
+  syntax:
+    content: public void OnSubmitPrompt()
+    content.vb: Public Sub OnSubmitPrompt()
+  overload: AiWorldGeneration.InteractionManager.OnSubmitPrompt*
+- uid: AiWorldGeneration.InteractionManager.OnCompletePrompt
+  commentId: M:AiWorldGeneration.InteractionManager.OnCompletePrompt
+  id: OnCompletePrompt
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: OnCompletePrompt()
+  nameWithType: InteractionManager.OnCompletePrompt()
+  fullName: AiWorldGeneration.InteractionManager.OnCompletePrompt()
+  type: Method
+  source:
+    id: OnCompletePrompt
+    path: ''
+    startLine: 336
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nCall it whenever a skybox task gets completed.\n"
+  example: []
+  syntax:
+    content: public void OnCompletePrompt()
+    content.vb: Public Sub OnCompletePrompt()
+  overload: AiWorldGeneration.InteractionManager.OnCompletePrompt*
+- uid: AiWorldGeneration.InteractionManager.OnRefine
+  commentId: M:AiWorldGeneration.InteractionManager.OnRefine
+  id: OnRefine
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: OnRefine()
+  nameWithType: InteractionManager.OnRefine()
+  fullName: AiWorldGeneration.InteractionManager.OnRefine()
+  type: Method
+  source:
+    id: OnRefine
+    path: ''
+    startLine: 348
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nStarts a skybox refining process.\n"
+  example: []
+  syntax:
+    content: public void OnRefine()
+    content.vb: Public Sub OnRefine()
+  overload: AiWorldGeneration.InteractionManager.OnRefine*
+- uid: AiWorldGeneration.InteractionManager.OnRemoveSeam
+  commentId: M:AiWorldGeneration.InteractionManager.OnRemoveSeam
+  id: OnRemoveSeam
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: OnRemoveSeam()
+  nameWithType: InteractionManager.OnRemoveSeam()
+  fullName: AiWorldGeneration.InteractionManager.OnRemoveSeam()
+  type: Method
+  source:
+    id: OnRemoveSeam
+    path: ''
+    startLine: 359
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nStarts a skybox refining process.\n"
+  example: []
+  syntax:
+    content: public void OnRemoveSeam()
+    content.vb: Public Sub OnRemoveSeam()
+  overload: AiWorldGeneration.InteractionManager.OnRemoveSeam*
+- uid: AiWorldGeneration.InteractionManager.OnExtendSkybox
+  commentId: M:AiWorldGeneration.InteractionManager.OnExtendSkybox
+  id: OnExtendSkybox
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: OnExtendSkybox()
+  nameWithType: InteractionManager.OnExtendSkybox()
+  fullName: AiWorldGeneration.InteractionManager.OnExtendSkybox()
+  type: Method
+  source:
+    id: OnExtendSkybox
+    path: ''
+    startLine: 370
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nStarts a skybox extension process.\n"
+  example: []
+  syntax:
+    content: public void OnExtendSkybox()
+    content.vb: Public Sub OnExtendSkybox()
+  overload: AiWorldGeneration.InteractionManager.OnExtendSkybox*
+references:
+- uid: AiWorldGeneration
+  commentId: N:AiWorldGeneration
+  name: AiWorldGeneration
+  nameWithType: AiWorldGeneration
+  fullName: AiWorldGeneration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AiWorldGeneration.InteractionManager.OnEditionModeChange*
+  commentId: Overload:AiWorldGeneration.InteractionManager.OnEditionModeChange
+  name: OnEditionModeChange
+  nameWithType: InteractionManager.OnEditionModeChange
+  fullName: AiWorldGeneration.InteractionManager.OnEditionModeChange
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: AiWorldGeneration.InteractionManager.ChangeEditionMode*
+  commentId: Overload:AiWorldGeneration.InteractionManager.ChangeEditionMode
+  name: ChangeEditionMode
+  nameWithType: InteractionManager.ChangeEditionMode
+  fullName: AiWorldGeneration.InteractionManager.ChangeEditionMode
+- uid: AiWorldGeneration.InteractionManager.StartSpeechRecording*
+  commentId: Overload:AiWorldGeneration.InteractionManager.StartSpeechRecording
+  name: StartSpeechRecording
+  nameWithType: InteractionManager.StartSpeechRecording
+  fullName: AiWorldGeneration.InteractionManager.StartSpeechRecording
+- uid: AiWorldGeneration.InteractionManager.AnalyseSpeech*
+  commentId: Overload:AiWorldGeneration.InteractionManager.AnalyseSpeech
+  name: AnalyseSpeech
+  nameWithType: InteractionManager.AnalyseSpeech
+  fullName: AiWorldGeneration.InteractionManager.AnalyseSpeech
+- uid: AiWorldGeneration.InteractionManager.ToggleSpeechRecording*
+  commentId: Overload:AiWorldGeneration.InteractionManager.ToggleSpeechRecording
+  name: ToggleSpeechRecording
+  nameWithType: InteractionManager.ToggleSpeechRecording
+  fullName: AiWorldGeneration.InteractionManager.ToggleSpeechRecording
+- uid: AiWorldGeneration.InteractionManager.OnSubmitPrompt*
+  commentId: Overload:AiWorldGeneration.InteractionManager.OnSubmitPrompt
+  name: OnSubmitPrompt
+  nameWithType: InteractionManager.OnSubmitPrompt
+  fullName: AiWorldGeneration.InteractionManager.OnSubmitPrompt
+- uid: AiWorldGeneration.InteractionManager.OnCompletePrompt*
+  commentId: Overload:AiWorldGeneration.InteractionManager.OnCompletePrompt
+  name: OnCompletePrompt
+  nameWithType: InteractionManager.OnCompletePrompt
+  fullName: AiWorldGeneration.InteractionManager.OnCompletePrompt
+- uid: AiWorldGeneration.InteractionManager.OnRefine*
+  commentId: Overload:AiWorldGeneration.InteractionManager.OnRefine
+  name: OnRefine
+  nameWithType: InteractionManager.OnRefine
+  fullName: AiWorldGeneration.InteractionManager.OnRefine
+- uid: AiWorldGeneration.InteractionManager.OnRemoveSeam*
+  commentId: Overload:AiWorldGeneration.InteractionManager.OnRemoveSeam
+  name: OnRemoveSeam
+  nameWithType: InteractionManager.OnRemoveSeam
+  fullName: AiWorldGeneration.InteractionManager.OnRemoveSeam
+- uid: AiWorldGeneration.InteractionManager.OnExtendSkybox*
+  commentId: Overload:AiWorldGeneration.InteractionManager.OnExtendSkybox
+  name: OnExtendSkybox
+  nameWithType: InteractionManager.OnExtendSkybox
+  fullName: AiWorldGeneration.InteractionManager.OnExtendSkybox

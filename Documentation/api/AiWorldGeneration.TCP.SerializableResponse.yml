@@ -1,0 +1,212 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.SerializableResponse
+  commentId: T:AiWorldGeneration.TCP.SerializableResponse
+  id: SerializableResponse
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.SerializableResponse.data
+  - AiWorldGeneration.TCP.SerializableResponse.message
+  - AiWorldGeneration.TCP.SerializableResponse.status
+  - AiWorldGeneration.TCP.SerializableResponse.taskId
+  - AiWorldGeneration.TCP.SerializableResponse.type
+  langs:
+  - csharp
+  - vb
+  name: SerializableResponse
+  nameWithType: SerializableResponse
+  fullName: AiWorldGeneration.TCP.SerializableResponse
+  type: Class
+  source:
+    id: SerializableResponse
+    path: ''
+    startLine: 983
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nBasic format that the server should follow.\n"
+  example: []
+  syntax:
+    content: public class SerializableResponse
+    content.vb: Public Class SerializableResponse
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.TCP.SerializableResponse.message
+  commentId: F:AiWorldGeneration.TCP.SerializableResponse.message
+  id: message
+  parent: AiWorldGeneration.TCP.SerializableResponse
+  langs:
+  - csharp
+  - vb
+  name: message
+  nameWithType: SerializableResponse.message
+  fullName: AiWorldGeneration.TCP.SerializableResponse.message
+  type: Field
+  source:
+    id: message
+    path: ''
+    startLine: 989
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nThe message field contains a string that represents the message to be sent to the client.\n"
+  example: []
+  syntax:
+    content: public string message
+    return:
+      type: System.String
+    content.vb: Public message As String
+- uid: AiWorldGeneration.TCP.SerializableResponse.status
+  commentId: F:AiWorldGeneration.TCP.SerializableResponse.status
+  id: status
+  parent: AiWorldGeneration.TCP.SerializableResponse
+  langs:
+  - csharp
+  - vb
+  name: status
+  nameWithType: SerializableResponse.status
+  fullName: AiWorldGeneration.TCP.SerializableResponse.status
+  type: Field
+  source:
+    id: status
+    path: ''
+    startLine: 996
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nThe status field contains an integer that represents the status of the response.\n\nIt is a subset of the HTTP status codes.\n"
+  example: []
+  syntax:
+    content: public int status
+    return:
+      type: System.Int32
+    content.vb: Public status As Integer
+- uid: AiWorldGeneration.TCP.SerializableResponse.data
+  commentId: F:AiWorldGeneration.TCP.SerializableResponse.data
+  id: data
+  parent: AiWorldGeneration.TCP.SerializableResponse
+  langs:
+  - csharp
+  - vb
+  name: data
+  nameWithType: SerializableResponse.data
+  fullName: AiWorldGeneration.TCP.SerializableResponse.data
+  type: Field
+  source:
+    id: data
+    path: ''
+    startLine: 1003
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nThe data field contains a string that represents the data to be sent to the client.\n\nThis string should be parsable as JSON.\n"
+  example: []
+  syntax:
+    content: public string data
+    return:
+      type: System.String
+    content.vb: Public data As String
+- uid: AiWorldGeneration.TCP.SerializableResponse.taskId
+  commentId: F:AiWorldGeneration.TCP.SerializableResponse.taskId
+  id: taskId
+  parent: AiWorldGeneration.TCP.SerializableResponse
+  langs:
+  - csharp
+  - vb
+  name: taskId
+  nameWithType: SerializableResponse.taskId
+  fullName: AiWorldGeneration.TCP.SerializableResponse.taskId
+  type: Field
+  source:
+    id: taskId
+    path: ''
+    startLine: 1008
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nThe taskId field contains an integer that represents the task ID associated with the response.\n"
+  example: []
+  syntax:
+    content: public int taskId
+    return:
+      type: System.Int32
+    content.vb: Public taskId As Integer
+- uid: AiWorldGeneration.TCP.SerializableResponse.type
+  commentId: F:AiWorldGeneration.TCP.SerializableResponse.type
+  id: type
+  parent: AiWorldGeneration.TCP.SerializableResponse
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: SerializableResponse.type
+  fullName: AiWorldGeneration.TCP.SerializableResponse.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 1013
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nThe type field contains a string that represents the type of the response.\n"
+  example: []
+  syntax:
+    content: public string type
+    return:
+      type: System.String
+    content.vb: Public type As String
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

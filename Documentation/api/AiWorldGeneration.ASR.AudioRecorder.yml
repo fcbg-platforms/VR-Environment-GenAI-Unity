@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.ASR.AudioRecorder
+  commentId: T:AiWorldGeneration.ASR.AudioRecorder
+  id: AudioRecorder
+  parent: AiWorldGeneration.ASR
+  children:
+  - AiWorldGeneration.ASR.AudioRecorder.OnComplete
+  - AiWorldGeneration.ASR.AudioRecorder.SaveRecording
+  - AiWorldGeneration.ASR.AudioRecorder.StartRecording
+  - AiWorldGeneration.ASR.AudioRecorder.StopRecording
+  langs:
+  - csharp
+  - vb
+  name: AudioRecorder
+  nameWithType: AudioRecorder
+  fullName: AiWorldGeneration.ASR.AudioRecorder
+  type: Class
+  source:
+    id: AudioRecorder
+    path: ''
+    startLine: 859
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.ASR
+  summary: "\nRecord an audio sample from the microphone.\n"
+  example: []
+  syntax:
+    content: 'public class AudioRecorder : MonoBehaviour'
+    content.vb: Public Class AudioRecorder Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.ASR.AudioRecorder.StartRecording
+  commentId: M:AiWorldGeneration.ASR.AudioRecorder.StartRecording
+  id: StartRecording
+  parent: AiWorldGeneration.ASR.AudioRecorder
+  langs:
+  - csharp
+  - vb
+  name: StartRecording()
+  nameWithType: AudioRecorder.StartRecording()
+  fullName: AiWorldGeneration.ASR.AudioRecorder.StartRecording()
+  type: Method
+  source:
+    id: StartRecording
+    path: ''
+    startLine: 888
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.ASR
+  summary: "\nStarts the recording of the audio.\n"
+  example: []
+  syntax:
+    content: public void StartRecording()
+    content.vb: Public Sub StartRecording()
+  overload: AiWorldGeneration.ASR.AudioRecorder.StartRecording*
+- uid: AiWorldGeneration.ASR.AudioRecorder.StopRecording
+  commentId: M:AiWorldGeneration.ASR.AudioRecorder.StopRecording
+  id: StopRecording
+  parent: AiWorldGeneration.ASR.AudioRecorder
+  langs:
+  - csharp
+  - vb
+  name: StopRecording()
+  nameWithType: AudioRecorder.StopRecording()
+  fullName: AiWorldGeneration.ASR.AudioRecorder.StopRecording()
+  type: Method
+  source:
+    id: StopRecording
+    path: ''
+    startLine: 931
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.ASR
+  summary: "\nStops the recording of the audio, and sends the audio for transcription.\n"
+  example: []
+  syntax:
+    content: public byte[] StopRecording()
+    return:
+      type: System.Byte[]
+    content.vb: Public Function StopRecording() As Byte()
+  overload: AiWorldGeneration.ASR.AudioRecorder.StopRecording*
+- uid: AiWorldGeneration.ASR.AudioRecorder.SaveRecording
+  commentId: M:AiWorldGeneration.ASR.AudioRecorder.SaveRecording
+  id: SaveRecording
+  parent: AiWorldGeneration.ASR.AudioRecorder
+  langs:
+  - csharp
+  - vb
+  name: SaveRecording()
+  nameWithType: AudioRecorder.SaveRecording()
+  fullName: AiWorldGeneration.ASR.AudioRecorder.SaveRecording()
+  type: Method
+  source:
+    id: SaveRecording
+    path: ''
+    startLine: 958
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.ASR
+  summary: "\nSaves the audio as a WAV file.\n"
+  example: []
+  syntax:
+    content: public string SaveRecording()
+    return:
+      type: System.String
+      description: Save file path
+    content.vb: Public Function SaveRecording() As String
+  overload: AiWorldGeneration.ASR.AudioRecorder.SaveRecording*
+- uid: AiWorldGeneration.ASR.AudioRecorder.OnComplete
+  commentId: M:AiWorldGeneration.ASR.AudioRecorder.OnComplete
+  id: OnComplete
+  parent: AiWorldGeneration.ASR.AudioRecorder
+  langs:
+  - csharp
+  - vb
+  name: OnComplete()
+  nameWithType: AudioRecorder.OnComplete()
+  fullName: AiWorldGeneration.ASR.AudioRecorder.OnComplete()
+  type: Method
+  source:
+    id: OnComplete
+    path: ''
+    startLine: 967
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.ASR
+  summary: "\nNotify that the recoding is completed.\n"
+  example: []
+  syntax:
+    content: public void OnComplete()
+    content.vb: Public Sub OnComplete()
+  overload: AiWorldGeneration.ASR.AudioRecorder.OnComplete*
+references:
+- uid: AiWorldGeneration.ASR
+  commentId: N:AiWorldGeneration.ASR
+  name: AiWorldGeneration.ASR
+  nameWithType: AiWorldGeneration.ASR
+  fullName: AiWorldGeneration.ASR
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.ASR
+    name: ASR
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.ASR
+    name: ASR
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AiWorldGeneration.ASR.AudioRecorder.StartRecording*
+  commentId: Overload:AiWorldGeneration.ASR.AudioRecorder.StartRecording
+  name: StartRecording
+  nameWithType: AudioRecorder.StartRecording
+  fullName: AiWorldGeneration.ASR.AudioRecorder.StartRecording
+- uid: AiWorldGeneration.ASR.AudioRecorder.StopRecording*
+  commentId: Overload:AiWorldGeneration.ASR.AudioRecorder.StopRecording
+  name: StopRecording
+  nameWithType: AudioRecorder.StopRecording
+  fullName: AiWorldGeneration.ASR.AudioRecorder.StopRecording
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: AiWorldGeneration.ASR.AudioRecorder.SaveRecording*
+  commentId: Overload:AiWorldGeneration.ASR.AudioRecorder.SaveRecording
+  name: SaveRecording
+  nameWithType: AudioRecorder.SaveRecording
+  fullName: AiWorldGeneration.ASR.AudioRecorder.SaveRecording
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: AiWorldGeneration.ASR.AudioRecorder.OnComplete*
+  commentId: Overload:AiWorldGeneration.ASR.AudioRecorder.OnComplete
+  name: OnComplete
+  nameWithType: AudioRecorder.OnComplete
+  fullName: AiWorldGeneration.ASR.AudioRecorder.OnComplete

@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.PingResponse
+  commentId: T:AiWorldGeneration.TCP.PingResponse
+  id: PingResponse
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.PingResponse.queryTimestamp
+  - AiWorldGeneration.TCP.PingResponse.responseMilliseconds
+  - AiWorldGeneration.TCP.PingResponse.responseTimestamp
+  langs:
+  - csharp
+  - vb
+  name: PingResponse
+  nameWithType: PingResponse
+  fullName: AiWorldGeneration.TCP.PingResponse
+  type: Class
+  source:
+    id: PingResponse
+    path: ''
+    startLine: 1054
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nResponse to a ping.\n"
+  example: []
+  syntax:
+    content: 'public class PingResponse : SerializableResponseData'
+    content.vb: Public Class PingResponse Inherits SerializableResponseData
+  inheritance:
+  - System.Object
+  - AiWorldGeneration.TCP.SerializableResponseData
+  inheritedMembers:
+  - AiWorldGeneration.TCP.SerializableResponseData.type
+- uid: AiWorldGeneration.TCP.PingResponse.responseTimestamp
+  commentId: F:AiWorldGeneration.TCP.PingResponse.responseTimestamp
+  id: responseTimestamp
+  parent: AiWorldGeneration.TCP.PingResponse
+  langs:
+  - csharp
+  - vb
+  name: responseTimestamp
+  nameWithType: PingResponse.responseTimestamp
+  fullName: AiWorldGeneration.TCP.PingResponse.responseTimestamp
+  type: Field
+  source:
+    id: responseTimestamp
+    path: ''
+    startLine: 1057
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public int responseTimestamp
+    return:
+      type: System.Int32
+    content.vb: Public responseTimestamp As Integer
+- uid: AiWorldGeneration.TCP.PingResponse.responseMilliseconds
+  commentId: F:AiWorldGeneration.TCP.PingResponse.responseMilliseconds
+  id: responseMilliseconds
+  parent: AiWorldGeneration.TCP.PingResponse
+  langs:
+  - csharp
+  - vb
+  name: responseMilliseconds
+  nameWithType: PingResponse.responseMilliseconds
+  fullName: AiWorldGeneration.TCP.PingResponse.responseMilliseconds
+  type: Field
+  source:
+    id: responseMilliseconds
+    path: ''
+    startLine: 1059
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public int responseMilliseconds
+    return:
+      type: System.Int32
+    content.vb: Public responseMilliseconds As Integer
+- uid: AiWorldGeneration.TCP.PingResponse.queryTimestamp
+  commentId: F:AiWorldGeneration.TCP.PingResponse.queryTimestamp
+  id: queryTimestamp
+  parent: AiWorldGeneration.TCP.PingResponse
+  langs:
+  - csharp
+  - vb
+  name: queryTimestamp
+  nameWithType: PingResponse.queryTimestamp
+  fullName: AiWorldGeneration.TCP.PingResponse.queryTimestamp
+  type: Field
+  source:
+    id: queryTimestamp
+    path: ''
+    startLine: 1061
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public int queryTimestamp
+    return:
+      type: System.Int32
+    content.vb: Public queryTimestamp As Integer
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: AiWorldGeneration.TCP.SerializableResponseData
+  commentId: T:AiWorldGeneration.TCP.SerializableResponseData
+  parent: AiWorldGeneration.TCP
+  name: SerializableResponseData
+  nameWithType: SerializableResponseData
+  fullName: AiWorldGeneration.TCP.SerializableResponseData
+- uid: AiWorldGeneration.TCP.SerializableResponseData.type
+  commentId: F:AiWorldGeneration.TCP.SerializableResponseData.type
+  parent: AiWorldGeneration.TCP.SerializableResponseData
+  name: type
+  nameWithType: SerializableResponseData.type
+  fullName: AiWorldGeneration.TCP.SerializableResponseData.type
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.PingQuery
+  commentId: T:AiWorldGeneration.TCP.PingQuery
+  id: PingQuery
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.PingQuery.#ctor
+  - AiWorldGeneration.TCP.PingQuery.queryTimestamp
+  langs:
+  - csharp
+  - vb
+  name: PingQuery
+  nameWithType: PingQuery
+  fullName: AiWorldGeneration.TCP.PingQuery
+  type: Class
+  source:
+    id: PingQuery
+    path: ''
+    startLine: 1131
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nA ping query to measure the status of the server and the response time.\n"
+  example: []
+  syntax:
+    content: 'public class PingQuery : BaseClientQuery'
+    content.vb: Public Class PingQuery Inherits BaseClientQuery
+  inheritance:
+  - System.Object
+  - AiWorldGeneration.TCP.BaseClientQuery
+  inheritedMembers:
+  - AiWorldGeneration.TCP.BaseClientQuery.type
+  - AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: AiWorldGeneration.TCP.PingQuery.queryTimestamp
+  commentId: F:AiWorldGeneration.TCP.PingQuery.queryTimestamp
+  id: queryTimestamp
+  parent: AiWorldGeneration.TCP.PingQuery
+  langs:
+  - csharp
+  - vb
+  name: queryTimestamp
+  nameWithType: PingQuery.queryTimestamp
+  fullName: AiWorldGeneration.TCP.PingQuery.queryTimestamp
+  type: Field
+  source:
+    id: queryTimestamp
+    path: ''
+    startLine: 1137
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nThe timestamp at which the query was generated, in milliseconds.\n"
+  example: []
+  syntax:
+    content: public int queryTimestamp
+    return:
+      type: System.Int32
+    content.vb: Public queryTimestamp As Integer
+- uid: AiWorldGeneration.TCP.PingQuery.#ctor
+  commentId: M:AiWorldGeneration.TCP.PingQuery.#ctor
+  id: '#ctor'
+  parent: AiWorldGeneration.TCP.PingQuery
+  langs:
+  - csharp
+  - vb
+  name: PingQuery()
+  nameWithType: PingQuery.PingQuery()
+  fullName: AiWorldGeneration.TCP.PingQuery.PingQuery()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1139
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public PingQuery()
+    content.vb: Public Sub New()
+  overload: AiWorldGeneration.TCP.PingQuery.#ctor*
+  nameWithType.vb: PingQuery.New()
+  fullName.vb: AiWorldGeneration.TCP.PingQuery.New()
+  name.vb: New()
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: AiWorldGeneration.TCP.BaseClientQuery
+  commentId: T:AiWorldGeneration.TCP.BaseClientQuery
+  parent: AiWorldGeneration.TCP
+  name: BaseClientQuery
+  nameWithType: BaseClientQuery
+  fullName: AiWorldGeneration.TCP.BaseClientQuery
+- uid: AiWorldGeneration.TCP.BaseClientQuery.type
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.type
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: type
+  nameWithType: BaseClientQuery.type
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.type
+- uid: AiWorldGeneration.TCP.BaseClientQuery.taskId
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.taskId
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: taskId
+  nameWithType: BaseClientQuery.taskId
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: AiWorldGeneration.TCP.PingQuery.#ctor*
+  commentId: Overload:AiWorldGeneration.TCP.PingQuery.#ctor
+  name: PingQuery
+  nameWithType: PingQuery.PingQuery
+  fullName: AiWorldGeneration.TCP.PingQuery.PingQuery
+  nameWithType.vb: PingQuery.New
+  fullName.vb: AiWorldGeneration.TCP.PingQuery.New
+  name.vb: New

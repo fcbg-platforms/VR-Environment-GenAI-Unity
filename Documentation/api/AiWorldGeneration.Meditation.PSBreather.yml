@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.Meditation.PSBreather
+  commentId: T:AiWorldGeneration.Meditation.PSBreather
+  id: PSBreather
+  parent: AiWorldGeneration.Meditation
+  children:
+  - AiWorldGeneration.Meditation.PSBreather.breathValue
+  - AiWorldGeneration.Meditation.PSBreather.inflowController
+  - AiWorldGeneration.Meditation.PSBreather.outflowController
+  langs:
+  - csharp
+  - vb
+  name: PSBreather
+  nameWithType: PSBreather
+  fullName: AiWorldGeneration.Meditation.PSBreather
+  type: Class
+  source:
+    id: PSBreather
+    path: ''
+    startLine: 530
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Meditation
+  syntax:
+    content: 'public class PSBreather : MonoBehaviour'
+    content.vb: Public Class PSBreather Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.Meditation.PSBreather.breathValue
+  commentId: F:AiWorldGeneration.Meditation.PSBreather.breathValue
+  id: breathValue
+  parent: AiWorldGeneration.Meditation.PSBreather
+  langs:
+  - csharp
+  - vb
+  name: breathValue
+  nameWithType: PSBreather.breathValue
+  fullName: AiWorldGeneration.Meditation.PSBreather.breathValue
+  type: Field
+  source:
+    id: breathValue
+    path: ''
+    startLine: 534
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Meditation
+  syntax:
+    content: public float breathValue
+    return:
+      type: System.Single
+    content.vb: Public breathValue As Single
+- uid: AiWorldGeneration.Meditation.PSBreather.inflowController
+  commentId: F:AiWorldGeneration.Meditation.PSBreather.inflowController
+  id: inflowController
+  parent: AiWorldGeneration.Meditation.PSBreather
+  langs:
+  - csharp
+  - vb
+  name: inflowController
+  nameWithType: PSBreather.inflowController
+  fullName: AiWorldGeneration.Meditation.PSBreather.inflowController
+  type: Field
+  source:
+    id: inflowController
+    path: ''
+    startLine: 541
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Meditation
+  syntax:
+    content: public ParticleSystemForceField inflowController
+    return:
+      type: Global.ParticleSystemForceField
+    content.vb: Public inflowController As ParticleSystemForceField
+- uid: AiWorldGeneration.Meditation.PSBreather.outflowController
+  commentId: F:AiWorldGeneration.Meditation.PSBreather.outflowController
+  id: outflowController
+  parent: AiWorldGeneration.Meditation.PSBreather
+  langs:
+  - csharp
+  - vb
+  name: outflowController
+  nameWithType: PSBreather.outflowController
+  fullName: AiWorldGeneration.Meditation.PSBreather.outflowController
+  type: Field
+  source:
+    id: outflowController
+    path: ''
+    startLine: 543
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Meditation
+  syntax:
+    content: public ParticleSystemForceField outflowController
+    return:
+      type: Global.ParticleSystemForceField
+    content.vb: Public outflowController As ParticleSystemForceField
+references:
+- uid: AiWorldGeneration.Meditation
+  commentId: N:AiWorldGeneration.Meditation
+  name: AiWorldGeneration.Meditation
+  nameWithType: AiWorldGeneration.Meditation
+  fullName: AiWorldGeneration.Meditation
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.Meditation
+    name: Meditation
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.Meditation
+    name: Meditation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Global.ParticleSystemForceField
+  isExternal: true
+  name: ParticleSystemForceField
+  nameWithType: ParticleSystemForceField
+  fullName: ParticleSystemForceField

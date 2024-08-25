@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.Meditation.PSController
+  commentId: T:AiWorldGeneration.Meditation.PSController
+  id: PSController
+  parent: AiWorldGeneration.Meditation
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PSController
+  nameWithType: PSController
+  fullName: AiWorldGeneration.Meditation.PSController
+  type: Class
+  source:
+    id: PSController
+    path: ''
+    startLine: 628
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Meditation
+  syntax:
+    content: 'public class PSController : MonoBehaviour'
+    content.vb: Public Class PSController Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+references:
+- uid: AiWorldGeneration.Meditation
+  commentId: N:AiWorldGeneration.Meditation
+  name: AiWorldGeneration.Meditation
+  nameWithType: AiWorldGeneration.Meditation
+  fullName: AiWorldGeneration.Meditation
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.Meditation
+    name: Meditation
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.Meditation
+    name: Meditation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

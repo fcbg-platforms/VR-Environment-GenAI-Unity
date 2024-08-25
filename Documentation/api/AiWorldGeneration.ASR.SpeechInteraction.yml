@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.ASR.SpeechInteraction
+  commentId: T:AiWorldGeneration.ASR.SpeechInteraction
+  id: SpeechInteraction
+  parent: AiWorldGeneration.ASR
+  children:
+  - AiWorldGeneration.ASR.SpeechInteraction.StartRecording
+  - AiWorldGeneration.ASR.SpeechInteraction.StopRecording
+  langs:
+  - csharp
+  - vb
+  name: SpeechInteraction
+  nameWithType: SpeechInteraction
+  fullName: AiWorldGeneration.ASR.SpeechInteraction
+  type: Class
+  source:
+    id: SpeechInteraction
+    path: ''
+    startLine: 760
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.ASR
+  summary: "\nA demo class for automatic speech recognition with interactions in the scene.\n"
+  example: []
+  syntax:
+    content: 'public class SpeechInteraction : MonoBehaviour'
+    content.vb: Public Class SpeechInteraction Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.ASR.SpeechInteraction.StartRecording
+  commentId: M:AiWorldGeneration.ASR.SpeechInteraction.StartRecording
+  id: StartRecording
+  parent: AiWorldGeneration.ASR.SpeechInteraction
+  langs:
+  - csharp
+  - vb
+  name: StartRecording()
+  nameWithType: SpeechInteraction.StartRecording()
+  fullName: AiWorldGeneration.ASR.SpeechInteraction.StartRecording()
+  type: Method
+  source:
+    id: StartRecording
+    path: ''
+    startLine: 793
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.ASR
+  summary: "\nStarts the recording of the audio.\n"
+  example: []
+  syntax:
+    content: public void StartRecording()
+    content.vb: Public Sub StartRecording()
+  overload: AiWorldGeneration.ASR.SpeechInteraction.StartRecording*
+- uid: AiWorldGeneration.ASR.SpeechInteraction.StopRecording
+  commentId: M:AiWorldGeneration.ASR.SpeechInteraction.StopRecording
+  id: StopRecording
+  parent: AiWorldGeneration.ASR.SpeechInteraction
+  langs:
+  - csharp
+  - vb
+  name: StopRecording()
+  nameWithType: SpeechInteraction.StopRecording()
+  fullName: AiWorldGeneration.ASR.SpeechInteraction.StopRecording()
+  type: Method
+  source:
+    id: StopRecording
+    path: ''
+    startLine: 806
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.ASR
+  summary: "\nStops the recording of the audio, and sends the audio for transcription.\n"
+  example: []
+  syntax:
+    content: public void StopRecording()
+    content.vb: Public Sub StopRecording()
+  overload: AiWorldGeneration.ASR.SpeechInteraction.StopRecording*
+references:
+- uid: AiWorldGeneration.ASR
+  commentId: N:AiWorldGeneration.ASR
+  name: AiWorldGeneration.ASR
+  nameWithType: AiWorldGeneration.ASR
+  fullName: AiWorldGeneration.ASR
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.ASR
+    name: ASR
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.ASR
+    name: ASR
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AiWorldGeneration.ASR.SpeechInteraction.StartRecording*
+  commentId: Overload:AiWorldGeneration.ASR.SpeechInteraction.StartRecording
+  name: StartRecording
+  nameWithType: SpeechInteraction.StartRecording
+  fullName: AiWorldGeneration.ASR.SpeechInteraction.StartRecording
+- uid: AiWorldGeneration.ASR.SpeechInteraction.StopRecording*
+  commentId: Overload:AiWorldGeneration.ASR.SpeechInteraction.StopRecording
+  name: StopRecording
+  nameWithType: SpeechInteraction.StopRecording
+  fullName: AiWorldGeneration.ASR.SpeechInteraction.StopRecording

@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.InpaintingQuery
+  commentId: T:AiWorldGeneration.TCP.InpaintingQuery
+  id: InpaintingQuery
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.InpaintingQuery.#ctor(System.String,System.String,System.String,System.Int32)
+  - AiWorldGeneration.TCP.InpaintingQuery.maskBytes
+  langs:
+  - csharp
+  - vb
+  name: InpaintingQuery
+  nameWithType: InpaintingQuery
+  fullName: AiWorldGeneration.TCP.InpaintingQuery
+  type: Class
+  source:
+    id: InpaintingQuery
+    path: ''
+    startLine: 1335
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nQuery to do an inpainting task.\n"
+  example: []
+  syntax:
+    content: 'public class InpaintingQuery : ImageEditionQuery'
+    content.vb: Public Class InpaintingQuery Inherits ImageEditionQuery
+  inheritance:
+  - System.Object
+  - AiWorldGeneration.TCP.BaseClientQuery
+  - AiWorldGeneration.TCP.ImageEditionQuery
+  inheritedMembers:
+  - AiWorldGeneration.TCP.ImageEditionQuery.imageBytes
+  - AiWorldGeneration.TCP.ImageEditionQuery.prompt
+  - AiWorldGeneration.TCP.ImageEditionQuery.reportCompletion
+  - AiWorldGeneration.TCP.BaseClientQuery.type
+  - AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: AiWorldGeneration.TCP.InpaintingQuery.maskBytes
+  commentId: F:AiWorldGeneration.TCP.InpaintingQuery.maskBytes
+  id: maskBytes
+  parent: AiWorldGeneration.TCP.InpaintingQuery
+  langs:
+  - csharp
+  - vb
+  name: maskBytes
+  nameWithType: InpaintingQuery.maskBytes
+  fullName: AiWorldGeneration.TCP.InpaintingQuery.maskBytes
+  type: Field
+  source:
+    id: maskBytes
+    path: ''
+    startLine: 1342
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nPath to the mask. White areas will be inpainted.\n"
+  example: []
+  syntax:
+    content: public string maskBytes
+    return:
+      type: System.String
+    content.vb: Public maskBytes As String
+- uid: AiWorldGeneration.TCP.InpaintingQuery.#ctor(System.String,System.String,System.String,System.Int32)
+  commentId: M:AiWorldGeneration.TCP.InpaintingQuery.#ctor(System.String,System.String,System.String,System.Int32)
+  id: '#ctor(System.String,System.String,System.String,System.Int32)'
+  parent: AiWorldGeneration.TCP.InpaintingQuery
+  langs:
+  - csharp
+  - vb
+  name: InpaintingQuery(string, string, string, int)
+  nameWithType: InpaintingQuery.InpaintingQuery(string, string, string, int)
+  fullName: AiWorldGeneration.TCP.InpaintingQuery.InpaintingQuery(string, string, string, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1344
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public InpaintingQuery(string inputImage = null, string maskBytes = null, string prompt = null, int reportCompletion = 0)
+    parameters:
+    - id: inputImage
+      type: System.String
+    - id: maskBytes
+      type: System.String
+    - id: prompt
+      type: System.String
+    - id: reportCompletion
+      type: System.Int32
+    content.vb: Public Sub New(inputImage As String = Nothing, maskBytes As String = Nothing, prompt As String = Nothing, reportCompletion As Integer = 0)
+  overload: AiWorldGeneration.TCP.InpaintingQuery.#ctor*
+  nameWithType.vb: InpaintingQuery.New(String, String, String, Integer)
+  fullName.vb: AiWorldGeneration.TCP.InpaintingQuery.New(String, String, String, Integer)
+  name.vb: New(String, String, String, Integer)
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: AiWorldGeneration.TCP.BaseClientQuery
+  commentId: T:AiWorldGeneration.TCP.BaseClientQuery
+  parent: AiWorldGeneration.TCP
+  name: BaseClientQuery
+  nameWithType: BaseClientQuery
+  fullName: AiWorldGeneration.TCP.BaseClientQuery
+- uid: AiWorldGeneration.TCP.ImageEditionQuery
+  commentId: T:AiWorldGeneration.TCP.ImageEditionQuery
+  parent: AiWorldGeneration.TCP
+  name: ImageEditionQuery
+  nameWithType: ImageEditionQuery
+  fullName: AiWorldGeneration.TCP.ImageEditionQuery
+- uid: AiWorldGeneration.TCP.ImageEditionQuery.imageBytes
+  commentId: F:AiWorldGeneration.TCP.ImageEditionQuery.imageBytes
+  parent: AiWorldGeneration.TCP.ImageEditionQuery
+  name: imageBytes
+  nameWithType: ImageEditionQuery.imageBytes
+  fullName: AiWorldGeneration.TCP.ImageEditionQuery.imageBytes
+- uid: AiWorldGeneration.TCP.ImageEditionQuery.prompt
+  commentId: F:AiWorldGeneration.TCP.ImageEditionQuery.prompt
+  parent: AiWorldGeneration.TCP.ImageEditionQuery
+  name: prompt
+  nameWithType: ImageEditionQuery.prompt
+  fullName: AiWorldGeneration.TCP.ImageEditionQuery.prompt
+- uid: AiWorldGeneration.TCP.ImageEditionQuery.reportCompletion
+  commentId: F:AiWorldGeneration.TCP.ImageEditionQuery.reportCompletion
+  parent: AiWorldGeneration.TCP.ImageEditionQuery
+  name: reportCompletion
+  nameWithType: ImageEditionQuery.reportCompletion
+  fullName: AiWorldGeneration.TCP.ImageEditionQuery.reportCompletion
+- uid: AiWorldGeneration.TCP.BaseClientQuery.type
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.type
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: type
+  nameWithType: BaseClientQuery.type
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.type
+- uid: AiWorldGeneration.TCP.BaseClientQuery.taskId
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.taskId
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: taskId
+  nameWithType: BaseClientQuery.taskId
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: AiWorldGeneration.TCP.InpaintingQuery.#ctor*
+  commentId: Overload:AiWorldGeneration.TCP.InpaintingQuery.#ctor
+  name: InpaintingQuery
+  nameWithType: InpaintingQuery.InpaintingQuery
+  fullName: AiWorldGeneration.TCP.InpaintingQuery.InpaintingQuery
+  nameWithType.vb: InpaintingQuery.New
+  fullName.vb: AiWorldGeneration.TCP.InpaintingQuery.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

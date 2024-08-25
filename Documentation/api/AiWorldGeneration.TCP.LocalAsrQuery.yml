@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.TCP.LocalAsrQuery
+  commentId: T:AiWorldGeneration.TCP.LocalAsrQuery
+  id: LocalAsrQuery
+  parent: AiWorldGeneration.TCP
+  children:
+  - AiWorldGeneration.TCP.LocalAsrQuery.#ctor(System.String)
+  - AiWorldGeneration.TCP.LocalAsrQuery.audioPath
+  langs:
+  - csharp
+  - vb
+  name: LocalAsrQuery
+  nameWithType: LocalAsrQuery
+  fullName: AiWorldGeneration.TCP.LocalAsrQuery
+  type: Class
+  source:
+    id: LocalAsrQuery
+    path: ''
+    startLine: 1163
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  summary: "\nA query for Automatic Speech Recognition using a local file.\n"
+  example: []
+  syntax:
+    content: 'public class LocalAsrQuery : BaseClientQuery'
+    content.vb: Public Class LocalAsrQuery Inherits BaseClientQuery
+  inheritance:
+  - System.Object
+  - AiWorldGeneration.TCP.BaseClientQuery
+  inheritedMembers:
+  - AiWorldGeneration.TCP.BaseClientQuery.type
+  - AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: AiWorldGeneration.TCP.LocalAsrQuery.audioPath
+  commentId: F:AiWorldGeneration.TCP.LocalAsrQuery.audioPath
+  id: audioPath
+  parent: AiWorldGeneration.TCP.LocalAsrQuery
+  langs:
+  - csharp
+  - vb
+  name: audioPath
+  nameWithType: LocalAsrQuery.audioPath
+  fullName: AiWorldGeneration.TCP.LocalAsrQuery.audioPath
+  type: Field
+  source:
+    id: audioPath
+    path: ''
+    startLine: 1166
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public string audioPath
+    return:
+      type: System.String
+    content.vb: Public audioPath As String
+- uid: AiWorldGeneration.TCP.LocalAsrQuery.#ctor(System.String)
+  commentId: M:AiWorldGeneration.TCP.LocalAsrQuery.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: AiWorldGeneration.TCP.LocalAsrQuery
+  langs:
+  - csharp
+  - vb
+  name: LocalAsrQuery(string)
+  nameWithType: LocalAsrQuery.LocalAsrQuery(string)
+  fullName: AiWorldGeneration.TCP.LocalAsrQuery.LocalAsrQuery(string)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1168
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.TCP
+  syntax:
+    content: public LocalAsrQuery(string audioFilePath = null)
+    parameters:
+    - id: audioFilePath
+      type: System.String
+    content.vb: Public Sub New(audioFilePath As String = Nothing)
+  overload: AiWorldGeneration.TCP.LocalAsrQuery.#ctor*
+  nameWithType.vb: LocalAsrQuery.New(String)
+  fullName.vb: AiWorldGeneration.TCP.LocalAsrQuery.New(String)
+  name.vb: New(String)
+references:
+- uid: AiWorldGeneration.TCP
+  commentId: N:AiWorldGeneration.TCP
+  name: AiWorldGeneration.TCP
+  nameWithType: AiWorldGeneration.TCP
+  fullName: AiWorldGeneration.TCP
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.TCP
+    name: TCP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: AiWorldGeneration.TCP.BaseClientQuery
+  commentId: T:AiWorldGeneration.TCP.BaseClientQuery
+  parent: AiWorldGeneration.TCP
+  name: BaseClientQuery
+  nameWithType: BaseClientQuery
+  fullName: AiWorldGeneration.TCP.BaseClientQuery
+- uid: AiWorldGeneration.TCP.BaseClientQuery.type
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.type
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: type
+  nameWithType: BaseClientQuery.type
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.type
+- uid: AiWorldGeneration.TCP.BaseClientQuery.taskId
+  commentId: F:AiWorldGeneration.TCP.BaseClientQuery.taskId
+  parent: AiWorldGeneration.TCP.BaseClientQuery
+  name: taskId
+  nameWithType: BaseClientQuery.taskId
+  fullName: AiWorldGeneration.TCP.BaseClientQuery.taskId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: AiWorldGeneration.TCP.LocalAsrQuery.#ctor*
+  commentId: Overload:AiWorldGeneration.TCP.LocalAsrQuery.#ctor
+  name: LocalAsrQuery
+  nameWithType: LocalAsrQuery.LocalAsrQuery
+  fullName: AiWorldGeneration.TCP.LocalAsrQuery.LocalAsrQuery
+  nameWithType.vb: LocalAsrQuery.New
+  fullName.vb: AiWorldGeneration.TCP.LocalAsrQuery.New
+  name.vb: New

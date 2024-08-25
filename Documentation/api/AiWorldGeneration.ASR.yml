@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.ASR
+  commentId: N:AiWorldGeneration.ASR
+  id: AiWorldGeneration.ASR
+  children:
+  - AiWorldGeneration.ASR.AudioRecorder
+  - AiWorldGeneration.ASR.SpeechInteraction
+  langs:
+  - csharp
+  - vb
+  name: AiWorldGeneration.ASR
+  nameWithType: AiWorldGeneration.ASR
+  fullName: AiWorldGeneration.ASR
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: AiWorldGeneration.ASR.SpeechInteraction
+  commentId: T:AiWorldGeneration.ASR.SpeechInteraction
+  name: SpeechInteraction
+  nameWithType: SpeechInteraction
+  fullName: AiWorldGeneration.ASR.SpeechInteraction
+- uid: AiWorldGeneration.ASR.AudioRecorder
+  commentId: T:AiWorldGeneration.ASR.AudioRecorder
+  name: AudioRecorder
+  nameWithType: AudioRecorder
+  fullName: AiWorldGeneration.ASR.AudioRecorder
