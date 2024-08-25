@@ -28,7 +28,7 @@
             {
                 "files": [
                     "toc.yml",
-                    "../README.md"
+                    "index.md"
                 ]
             },
             {
@@ -63,7 +63,7 @@
             }
         ],
         "sitemap": {
-            "baseUrl": "https://aiworldgeneration.example.com",
+            "baseUrl": "https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/",
             "changefreq": "weekly",
             "fileOptions": {
                 "api/*": {

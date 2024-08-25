@@ -2,11 +2,11 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
-        "baseUrl": "https://aiworldgeneration.example.com/",
+        "baseUrl": "https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/",
         "changefreq": "daily"
       }
     },
-    "baseUrl": "https://aiworldgeneration.example.com/",
+    "baseUrl": "https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/",
     "changefreq": "weekly"
   },
   "homepages": [],
@@ -600,11 +600,23 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "ta240xgChnJu6gkJwYfpyqo+HqTydxL8b+nYQnCatsA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/manual.md",
       "output": {
         ".html": {
           "relative_path": "manual/manual.html",
-          "hash": "pgiBYad0vsPmFyL0rjDrqKNjIi/0dkXtJJq1wbt2YnY="
+          "hash": "hotAl2cMDfJhRn75ys6e80L8VB4B/T8JYVYAy18TCX0="
         }
       },
       "is_incremental": false,
@@ -617,28 +629,6 @@
         ".html": {
           "relative_path": "manual/toc.html",
           "hash": "kSohEnofHjS1+f0Jf8wCHOn7DofpmPh2mfPpBKKUL8Y="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "resources/ExampleManual.png",
-      "output": {
-        "resource": {
-          "relative_path": "resources/ExampleManual.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "resources/ExampleScriptingApi.png",
-      "output": {
-        "resource": {
-          "relative_path": "resources/ExampleScriptingApi.png"
         }
       },
       "is_incremental": false,
@@ -671,23 +661,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 1,
-          "skipped_file_count": 1
+          "total_file_count": 2,
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 54,
-          "skipped_file_count": 54
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

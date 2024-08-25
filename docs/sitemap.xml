@@ -1,290 +1,296 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.ASR.AudioRecorder.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.ASR.AudioRecorder.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.ASR.SpeechInteraction.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.ASR.SpeechInteraction.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.ASR.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.ASR.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.Desktop.FreeCameraMovement.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.Desktop.FreeCameraMovement.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.Desktop.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.Desktop.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.EditionMode.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.EditionMode.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.InteractionManager.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.InteractionManager.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.Meditation.PSBreather.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.Meditation.PSBreather.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.Meditation.PSController.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.Meditation.PSController.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.Meditation.PSFFController.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.Meditation.PSFFController.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.Meditation.ViewTracker.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.Meditation.ViewTracker.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.Meditation.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.Meditation.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.Skybox.SkyboxMasker.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.Skybox.SkyboxMasker.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.Skybox.SkyboxOrchestrator.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.Skybox.SkyboxOrchestrator.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.Skybox.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.Skybox.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.AsrQuery.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.AsrQuery.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.AsrResponse.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.AsrResponse.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.BaseClientQuery.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.BaseClientQuery.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.ClientController.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.ClientController.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.ClientWorker.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.ClientWorker.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.CompletionQuery.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.CompletionQuery.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.CompletionResponse.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.CompletionResponse.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.ExtendSkyboxQuery.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.ExtendSkyboxQuery.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.ImageEditionQuery.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.ImageEditionQuery.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.ImageResponse.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.ImageResponse.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.InpaintingQuery.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.InpaintingQuery.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.JsonInterface.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.JsonInterface.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.LocalAsrQuery.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.LocalAsrQuery.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.LocalImageResponse.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.LocalImageResponse.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.LocalInpaintingQuery.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.LocalInpaintingQuery.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.LocalInpaintingResponse.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.LocalInpaintingResponse.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.LocalNewSkyboxQuery.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.LocalNewSkyboxQuery.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.NetworkCommunicator.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.NetworkCommunicator.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.NewSkyboxQuery.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.NewSkyboxQuery.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.PingQuery.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.PingQuery.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.PingResponse.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.PingResponse.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.RefineSkyboxQuery.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.RefineSkyboxQuery.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.RemoveSeamQuery.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.RemoveSeamQuery.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.SerializableResponse.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.SerializableResponse.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.SerializableResponseData.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.SerializableResponseData.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.ServerInterface.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.ServerInterface.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.TCP.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.TCP.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.UIManager.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.UIManager.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.VR.BrushBehaviour.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.VR.BrushBehaviour.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.VR.XRDesktopActivation.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.VR.XRDesktopActivation.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.VR.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.VR.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/api/AiWorldGeneration.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/api/AiWorldGeneration.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://aiworldgeneration.example.com/manual/manual.html</loc>
-    <lastmod>2024-08-25T04:21:07+02:00</lastmod>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/index.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/manual/manual.html</loc>
+    <lastmod>2024-08-25T05:02:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

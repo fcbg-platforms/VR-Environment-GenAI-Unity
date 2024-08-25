@@ -87,6 +87,24 @@ The other scenes are for testing pruposes:
 - "Speech Recognition" - A simple scene that only integrates speech-to-text.
 - "Experiments Scene" - A scene containing various legacy experiments.
 
+## Documentation
+
+We provide an [online documentation](https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/), you can also access it in the `documentation` branch, under `docs/`.
+
+The documentation is generated with DocFX, you can regenerate it with [DocFX](https://github.com/dotnet/docfx).
+
+```bash
+cp README.md Documentation/index.md
+
+# Option 1: Offline, static documentation
+docfx Documentation/docfx.json -t statictoc,custom_template
+
+# Option 2: on a web server
+docfx Documentation/docfx.json
+```
+
+Both commands will generate a documentation under `docs/`.
+
 ## Legacy features
 
 ### Skybox Import
@@ -109,22 +127,6 @@ To start the breathing experiment:
 
 1. Enable the breathing asset.
 2. Press the space bar on in-breathing and release on out-breath.
-
-## Documentation
-
-Documentation is generated with DocFX, you can regenerate it with [DocFX](https://github.com/dotnet/docfx).
-
-```bash
-cp README.md Documentation/index.md
-
-# Option 1: Offline, static documentation
-docfx Documentation/docfx.json -t statictoc,custom_template
-
-# Option 2: on a web server
-docfx Documentation/docfx.json
-```
-
-Both commands will generate a documentation under `_site/`.
 
 ## Links
 
