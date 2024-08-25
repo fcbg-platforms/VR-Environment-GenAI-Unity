@@ -1,0 +1,526 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.UIManager
+  commentId: T:AiWorldGeneration.UIManager
+  id: UIManager
+  parent: AiWorldGeneration
+  children:
+  - AiWorldGeneration.UIManager.GetEditionMode(System.Boolean)
+  - AiWorldGeneration.UIManager.GetEditionMode(System.Int32)
+  - AiWorldGeneration.UIManager.GetInpaintingPrompt
+  - AiWorldGeneration.UIManager.GetPrompt
+  - AiWorldGeneration.UIManager.IsModeExpert
+  - AiWorldGeneration.UIManager.SetActiveButtons(System.Int32)
+  - AiWorldGeneration.UIManager.SetAudioAnalyse
+  - AiWorldGeneration.UIManager.SetEditionMode(System.Int32)
+  - AiWorldGeneration.UIManager.SetGenerationChange(System.Boolean)
+  - AiWorldGeneration.UIManager.SetInputFieldText(System.String,System.Boolean)
+  - AiWorldGeneration.UIManager.SetProgressBar(System.Single)
+  - AiWorldGeneration.UIManager.SetRecordingButtonText(System.String)
+  langs:
+  - csharp
+  - vb
+  name: UIManager
+  nameWithType: UIManager
+  fullName: AiWorldGeneration.UIManager
+  type: Class
+  source:
+    id: UIManager
+    path: ''
+    startLine: 38
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  syntax:
+    content: 'public class UIManager : MonoBehaviour'
+    content.vb: Public Class UIManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.UIManager.SetRecordingButtonText(System.String)
+  commentId: M:AiWorldGeneration.UIManager.SetRecordingButtonText(System.String)
+  id: SetRecordingButtonText(System.String)
+  parent: AiWorldGeneration.UIManager
+  langs:
+  - csharp
+  - vb
+  name: SetRecordingButtonText(string)
+  nameWithType: UIManager.SetRecordingButtonText(string)
+  fullName: AiWorldGeneration.UIManager.SetRecordingButtonText(string)
+  type: Method
+  source:
+    id: SetRecordingButtonText
+    path: ''
+    startLine: 89
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nSets the text of the recording button to the provided message.\n"
+  remarks: "\nThis method is used to update the text on the recording button to indicate the current state of the audio recording process.\n"
+  example: []
+  syntax:
+    content: public void SetRecordingButtonText(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: The text to be displayed on the recording button.
+    content.vb: Public Sub SetRecordingButtonText(message As String)
+  overload: AiWorldGeneration.UIManager.SetRecordingButtonText*
+  nameWithType.vb: UIManager.SetRecordingButtonText(String)
+  fullName.vb: AiWorldGeneration.UIManager.SetRecordingButtonText(String)
+  name.vb: SetRecordingButtonText(String)
+- uid: AiWorldGeneration.UIManager.SetInputFieldText(System.String,System.Boolean)
+  commentId: M:AiWorldGeneration.UIManager.SetInputFieldText(System.String,System.Boolean)
+  id: SetInputFieldText(System.String,System.Boolean)
+  parent: AiWorldGeneration.UIManager
+  langs:
+  - csharp
+  - vb
+  name: SetInputFieldText(string, bool)
+  nameWithType: UIManager.SetInputFieldText(string, bool)
+  fullName: AiWorldGeneration.UIManager.SetInputFieldText(string, bool)
+  type: Method
+  source:
+    id: SetInputFieldText
+    path: ''
+    startLine: 107
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nSets the text of the input field based on the provided input and the current UI mode.\n"
+  remarks: "\nThis function also resets the recording button text to &quot;Start Recording&quot; and enables the recording button.\n"
+  example: []
+  syntax:
+    content: public void SetInputFieldText(string input, bool inpaintingMode)
+    parameters:
+    - id: input
+      type: System.String
+      description: The text to be set in the input field.
+    - id: inpaintingMode
+      type: System.Boolean
+      description: "\nA boolean indicating whether the UI is in inpainting mode or not.\nIf true, the text is set in the inpainting input field.\nIf false, the text is set in the regular input field.\n"
+    content.vb: Public Sub SetInputFieldText(input As String, inpaintingMode As Boolean)
+  overload: AiWorldGeneration.UIManager.SetInputFieldText*
+  nameWithType.vb: UIManager.SetInputFieldText(String, Boolean)
+  fullName.vb: AiWorldGeneration.UIManager.SetInputFieldText(String, Boolean)
+  name.vb: SetInputFieldText(String, Boolean)
+- uid: AiWorldGeneration.UIManager.SetAudioAnalyse
+  commentId: M:AiWorldGeneration.UIManager.SetAudioAnalyse
+  id: SetAudioAnalyse
+  parent: AiWorldGeneration.UIManager
+  langs:
+  - csharp
+  - vb
+  name: SetAudioAnalyse()
+  nameWithType: UIManager.SetAudioAnalyse()
+  fullName: AiWorldGeneration.UIManager.SetAudioAnalyse()
+  type: Method
+  source:
+    id: SetAudioAnalyse
+    path: ''
+    startLine: 129
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nSets the UI to indicate that audio analysis is in progress.\n"
+  remarks: "\nThis method changes the text on the recording button to &quot;Analysing...&quot; and disables the button.\nIt is called when the audio analysis process starts.\n"
+  example: []
+  syntax:
+    content: public void SetAudioAnalyse()
+    content.vb: Public Sub SetAudioAnalyse()
+  overload: AiWorldGeneration.UIManager.SetAudioAnalyse*
+- uid: AiWorldGeneration.UIManager.SetGenerationChange(System.Boolean)
+  commentId: M:AiWorldGeneration.UIManager.SetGenerationChange(System.Boolean)
+  id: SetGenerationChange(System.Boolean)
+  parent: AiWorldGeneration.UIManager
+  langs:
+  - csharp
+  - vb
+  name: SetGenerationChange(bool)
+  nameWithType: UIManager.SetGenerationChange(bool)
+  fullName: AiWorldGeneration.UIManager.SetGenerationChange(bool)
+  type: Method
+  source:
+    id: SetGenerationChange
+    path: ''
+    startLine: 143
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nUpdates the UI elements related to the generation process.\n"
+  example: []
+  syntax:
+    content: public void SetGenerationChange(bool generationStarting)
+    parameters:
+    - id: generationStarting
+      type: System.Boolean
+      description: "\nA boolean indicating whether the generation process is starting or not.\nIf true, the progress bar will be activated and the submit button will be disabled.\nIf false, the progress bar will be deactivated and the submit button will be enabled.\n"
+    content.vb: Public Sub SetGenerationChange(generationStarting As Boolean)
+  overload: AiWorldGeneration.UIManager.SetGenerationChange*
+  nameWithType.vb: UIManager.SetGenerationChange(Boolean)
+  fullName.vb: AiWorldGeneration.UIManager.SetGenerationChange(Boolean)
+  name.vb: SetGenerationChange(Boolean)
+- uid: AiWorldGeneration.UIManager.GetPrompt
+  commentId: M:AiWorldGeneration.UIManager.GetPrompt
+  id: GetPrompt
+  parent: AiWorldGeneration.UIManager
+  langs:
+  - csharp
+  - vb
+  name: GetPrompt()
+  nameWithType: UIManager.GetPrompt()
+  fullName: AiWorldGeneration.UIManager.GetPrompt()
+  type: Method
+  source:
+    id: GetPrompt
+    path: ''
+    startLine: 153
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nRetrieves the current text prompt from the input field.\n"
+  example: []
+  syntax:
+    content: public string GetPrompt()
+    return:
+      type: System.String
+      description: The text currently in the input field.
+    content.vb: Public Function GetPrompt() As String
+  overload: AiWorldGeneration.UIManager.GetPrompt*
+- uid: AiWorldGeneration.UIManager.GetInpaintingPrompt
+  commentId: M:AiWorldGeneration.UIManager.GetInpaintingPrompt
+  id: GetInpaintingPrompt
+  parent: AiWorldGeneration.UIManager
+  langs:
+  - csharp
+  - vb
+  name: GetInpaintingPrompt()
+  nameWithType: UIManager.GetInpaintingPrompt()
+  fullName: AiWorldGeneration.UIManager.GetInpaintingPrompt()
+  type: Method
+  source:
+    id: GetInpaintingPrompt
+    path: ''
+    startLine: 162
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nRetrieves the prompt for the inpainting task based on the current UI mode.\n"
+  example: []
+  syntax:
+    content: public string GetInpaintingPrompt()
+    return:
+      type: System.String
+      description: The text prompt for the inpainting task.
+    content.vb: Public Function GetInpaintingPrompt() As String
+  overload: AiWorldGeneration.UIManager.GetInpaintingPrompt*
+- uid: AiWorldGeneration.UIManager.GetEditionMode(System.Int32)
+  commentId: M:AiWorldGeneration.UIManager.GetEditionMode(System.Int32)
+  id: GetEditionMode(System.Int32)
+  parent: AiWorldGeneration.UIManager
+  langs:
+  - csharp
+  - vb
+  name: GetEditionMode(int)
+  nameWithType: UIManager.GetEditionMode(int)
+  fullName: AiWorldGeneration.UIManager.GetEditionMode(int)
+  type: Method
+  source:
+    id: GetEditionMode
+    path: ''
+    startLine: 180
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nRetrieves the edition mode based on the selected dropdown value.\n"
+  example: []
+  syntax:
+    content: public EditionMode GetEditionMode(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+      description: "\nThe index of the selected option in the edition mode dropdown.\n"
+    return:
+      type: AiWorldGeneration.EditionMode
+      description: "\nThe corresponding edition mode based on the selected dropdown value.\nIf the selected option is &quot;skybox creation&quot;, returns EditionMode.BASIC.\nIf the selected option is &quot;skybox edition&quot;, returns EditionMode.PAINTING.\nIf the selected option is &quot;expert mode&quot;, returns EditionMode.EXPERT.\nThrows an InvalidOperationException if the selected dropdown value does not match any of the expected options.\n"
+    content.vb: Public Function GetEditionMode(value As Integer) As EditionMode
+  overload: AiWorldGeneration.UIManager.GetEditionMode*
+  nameWithType.vb: UIManager.GetEditionMode(Integer)
+  fullName.vb: AiWorldGeneration.UIManager.GetEditionMode(Integer)
+  name.vb: GetEditionMode(Integer)
+- uid: AiWorldGeneration.UIManager.GetEditionMode(System.Boolean)
+  commentId: M:AiWorldGeneration.UIManager.GetEditionMode(System.Boolean)
+  id: GetEditionMode(System.Boolean)
+  parent: AiWorldGeneration.UIManager
+  langs:
+  - csharp
+  - vb
+  name: GetEditionMode(bool)
+  nameWithType: UIManager.GetEditionMode(bool)
+  fullName: AiWorldGeneration.UIManager.GetEditionMode(bool)
+  type: Method
+  source:
+    id: GetEditionMode
+    path: ''
+    startLine: 201
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nRetrieves the edition mode based on the current UI mode and input parameters.\n"
+  example: []
+  syntax:
+    content: public EditionMode GetEditionMode(bool inpaintingMode)
+    parameters:
+    - id: inpaintingMode
+      type: System.Boolean
+      description: "\nA boolean indicating whether the UI is in inpainting mode or not.\n"
+    return:
+      type: AiWorldGeneration.EditionMode
+      description: "\nReturns the corresponding edition mode based on the current UI mode and input parameters.\n"
+    content.vb: Public Function GetEditionMode(inpaintingMode As Boolean) As EditionMode
+  overload: AiWorldGeneration.UIManager.GetEditionMode*
+  nameWithType.vb: UIManager.GetEditionMode(Boolean)
+  fullName.vb: AiWorldGeneration.UIManager.GetEditionMode(Boolean)
+  name.vb: GetEditionMode(Boolean)
+- uid: AiWorldGeneration.UIManager.SetActiveButtons(System.Int32)
+  commentId: M:AiWorldGeneration.UIManager.SetActiveButtons(System.Int32)
+  id: SetActiveButtons(System.Int32)
+  parent: AiWorldGeneration.UIManager
+  langs:
+  - csharp
+  - vb
+  name: SetActiveButtons(int)
+  nameWithType: UIManager.SetActiveButtons(int)
+  fullName: AiWorldGeneration.UIManager.SetActiveButtons(int)
+  type: Method
+  source:
+    id: SetActiveButtons
+    path: ''
+    startLine: 221
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nSets the visibility of the skybox buttons based on the current phase.\n"
+  example: []
+  syntax:
+    content: public void SetActiveButtons(int skyboxPhase)
+    parameters:
+    - id: skyboxPhase
+      type: System.Int32
+      description: "\nThe current phase of the skybox creation process.\nThe function will activate the button corresponding to the current phase and deactivate all other buttons.\n"
+    content.vb: Public Sub SetActiveButtons(skyboxPhase As Integer)
+  overload: AiWorldGeneration.UIManager.SetActiveButtons*
+  nameWithType.vb: UIManager.SetActiveButtons(Integer)
+  fullName.vb: AiWorldGeneration.UIManager.SetActiveButtons(Integer)
+  name.vb: SetActiveButtons(Integer)
+- uid: AiWorldGeneration.UIManager.SetProgressBar(System.Single)
+  commentId: M:AiWorldGeneration.UIManager.SetProgressBar(System.Single)
+  id: SetProgressBar(System.Single)
+  parent: AiWorldGeneration.UIManager
+  langs:
+  - csharp
+  - vb
+  name: SetProgressBar(float)
+  nameWithType: UIManager.SetProgressBar(float)
+  fullName: AiWorldGeneration.UIManager.SetProgressBar(float)
+  type: Method
+  source:
+    id: SetProgressBar
+    path: ''
+    startLine: 232
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nUpdate the progress bar.\n"
+  example: []
+  syntax:
+    content: public void SetProgressBar(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    content.vb: Public Sub SetProgressBar(value As Single)
+  overload: AiWorldGeneration.UIManager.SetProgressBar*
+  nameWithType.vb: UIManager.SetProgressBar(Single)
+  fullName.vb: AiWorldGeneration.UIManager.SetProgressBar(Single)
+  name.vb: SetProgressBar(Single)
+- uid: AiWorldGeneration.UIManager.IsModeExpert
+  commentId: M:AiWorldGeneration.UIManager.IsModeExpert
+  id: IsModeExpert
+  parent: AiWorldGeneration.UIManager
+  langs:
+  - csharp
+  - vb
+  name: IsModeExpert()
+  nameWithType: UIManager.IsModeExpert()
+  fullName: AiWorldGeneration.UIManager.IsModeExpert()
+  type: Method
+  source:
+    id: IsModeExpert
+    path: ''
+    startLine: 245
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nRetrieves the current expert mode status based on the UI mode.\n"
+  example: []
+  syntax:
+    content: public bool IsModeExpert()
+    return:
+      type: System.Boolean
+      description: "\nReturns true if expert mode is enabled, false otherwise.\nIn compact mode, it checks the selected dropdown option to determine expert mode.\nIn non-compact mode, it uses the toggle state of the expert mode toggle.\n"
+    content.vb: Public Function IsModeExpert() As Boolean
+  overload: AiWorldGeneration.UIManager.IsModeExpert*
+- uid: AiWorldGeneration.UIManager.SetEditionMode(System.Int32)
+  commentId: M:AiWorldGeneration.UIManager.SetEditionMode(System.Int32)
+  id: SetEditionMode(System.Int32)
+  parent: AiWorldGeneration.UIManager
+  langs:
+  - csharp
+  - vb
+  name: SetEditionMode(int)
+  nameWithType: UIManager.SetEditionMode(int)
+  fullName: AiWorldGeneration.UIManager.SetEditionMode(int)
+  type: Method
+  source:
+    id: SetEditionMode
+    path: ''
+    startLine: 265
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nSets the edition mode of the UI based on the selected dropdown value.\n"
+  remarks: "\nThis function updates the value of the edition mode dropdown and triggers the\nonValueChanged event of the dropdown to reflect the change in the UI.\n"
+  example: []
+  syntax:
+    content: public void SetEditionMode(int newValue)
+    parameters:
+    - id: newValue
+      type: System.Int32
+      description: "\nThe new value to set for the edition mode dropdown.\nThis value corresponds to the index of the selected option in the dropdown.\n"
+    content.vb: Public Sub SetEditionMode(newValue As Integer)
+  overload: AiWorldGeneration.UIManager.SetEditionMode*
+  nameWithType.vb: UIManager.SetEditionMode(Integer)
+  fullName.vb: AiWorldGeneration.UIManager.SetEditionMode(Integer)
+  name.vb: SetEditionMode(Integer)
+references:
+- uid: AiWorldGeneration
+  commentId: N:AiWorldGeneration
+  name: AiWorldGeneration
+  nameWithType: AiWorldGeneration
+  fullName: AiWorldGeneration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AiWorldGeneration.UIManager.SetRecordingButtonText*
+  commentId: Overload:AiWorldGeneration.UIManager.SetRecordingButtonText
+  name: SetRecordingButtonText
+  nameWithType: UIManager.SetRecordingButtonText
+  fullName: AiWorldGeneration.UIManager.SetRecordingButtonText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: AiWorldGeneration.UIManager.SetInputFieldText*
+  commentId: Overload:AiWorldGeneration.UIManager.SetInputFieldText
+  name: SetInputFieldText
+  nameWithType: UIManager.SetInputFieldText
+  fullName: AiWorldGeneration.UIManager.SetInputFieldText
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: AiWorldGeneration.UIManager.SetAudioAnalyse*
+  commentId: Overload:AiWorldGeneration.UIManager.SetAudioAnalyse
+  name: SetAudioAnalyse
+  nameWithType: UIManager.SetAudioAnalyse
+  fullName: AiWorldGeneration.UIManager.SetAudioAnalyse
+- uid: AiWorldGeneration.UIManager.SetGenerationChange*
+  commentId: Overload:AiWorldGeneration.UIManager.SetGenerationChange
+  name: SetGenerationChange
+  nameWithType: UIManager.SetGenerationChange
+  fullName: AiWorldGeneration.UIManager.SetGenerationChange
+- uid: AiWorldGeneration.UIManager.GetPrompt*
+  commentId: Overload:AiWorldGeneration.UIManager.GetPrompt
+  name: GetPrompt
+  nameWithType: UIManager.GetPrompt
+  fullName: AiWorldGeneration.UIManager.GetPrompt
+- uid: AiWorldGeneration.UIManager.GetInpaintingPrompt*
+  commentId: Overload:AiWorldGeneration.UIManager.GetInpaintingPrompt
+  name: GetInpaintingPrompt
+  nameWithType: UIManager.GetInpaintingPrompt
+  fullName: AiWorldGeneration.UIManager.GetInpaintingPrompt
+- uid: AiWorldGeneration.UIManager.GetEditionMode*
+  commentId: Overload:AiWorldGeneration.UIManager.GetEditionMode
+  name: GetEditionMode
+  nameWithType: UIManager.GetEditionMode
+  fullName: AiWorldGeneration.UIManager.GetEditionMode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: AiWorldGeneration.EditionMode
+  commentId: T:AiWorldGeneration.EditionMode
+  parent: AiWorldGeneration
+  name: EditionMode
+  nameWithType: EditionMode
+  fullName: AiWorldGeneration.EditionMode
+- uid: AiWorldGeneration.UIManager.SetActiveButtons*
+  commentId: Overload:AiWorldGeneration.UIManager.SetActiveButtons
+  name: SetActiveButtons
+  nameWithType: UIManager.SetActiveButtons
+  fullName: AiWorldGeneration.UIManager.SetActiveButtons
+- uid: AiWorldGeneration.UIManager.SetProgressBar*
+  commentId: Overload:AiWorldGeneration.UIManager.SetProgressBar
+  name: SetProgressBar
+  nameWithType: UIManager.SetProgressBar
+  fullName: AiWorldGeneration.UIManager.SetProgressBar
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: AiWorldGeneration.UIManager.IsModeExpert*
+  commentId: Overload:AiWorldGeneration.UIManager.IsModeExpert
+  name: IsModeExpert
+  nameWithType: UIManager.IsModeExpert
+  fullName: AiWorldGeneration.UIManager.IsModeExpert
+- uid: AiWorldGeneration.UIManager.SetEditionMode*
+  commentId: Overload:AiWorldGeneration.UIManager.SetEditionMode
+  name: SetEditionMode
+  nameWithType: UIManager.SetEditionMode
+  fullName: AiWorldGeneration.UIManager.SetEditionMode

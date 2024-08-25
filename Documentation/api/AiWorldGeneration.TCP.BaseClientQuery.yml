@@ -17,7 +17,7 @@ items:
   source:
     id: BaseClientQuery
     path: ''
-    startLine: 1114
+    startLine: 855
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -51,7 +51,7 @@ items:
   source:
     id: type
     path: ''
-    startLine: 1120
+    startLine: 861
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -76,7 +76,7 @@ items:
   source:
     id: taskId
     path: ''
-    startLine: 1125
+    startLine: 866
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

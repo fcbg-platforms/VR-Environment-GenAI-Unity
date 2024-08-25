@@ -1,0 +1,387 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class InteractionManager
+ | AIWorldGeneration VR </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class InteractionManager
+ | AIWorldGeneration VR ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AiWorldGeneration.InteractionManager">
+
+
+  <h1 id="AiWorldGeneration_InteractionManager" data-uid="AiWorldGeneration.InteractionManager" class="text-break">Class InteractionManager
+</h1>
+  <div class="markdown level0 summary"><p>Handles the interactions betwwen the user and the scene components.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">InteractionManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AiWorldGeneration.html">AiWorldGeneration</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="AiWorldGeneration_InteractionManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class InteractionManager : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="AiWorldGeneration_InteractionManager_AnalyseSpeech_" data-uid="AiWorldGeneration.InteractionManager.AnalyseSpeech*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_AnalyseSpeech" data-uid="AiWorldGeneration.InteractionManager.AnalyseSpeech">AnalyseSpeech()</h4>
+  <div class="markdown level1 summary"><p>Stops speech recording and do the transcription.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AnalyseSpeech()</code></pre>
+  </div>
+
+
+  <a id="AiWorldGeneration_InteractionManager_ChangeEditionMode_" data-uid="AiWorldGeneration.InteractionManager.ChangeEditionMode*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_ChangeEditionMode_System_Int32_" data-uid="AiWorldGeneration.InteractionManager.ChangeEditionMode(System.Int32)">ChangeEditionMode(int)</h4>
+  <div class="markdown level1 summary"><p>Changes the edition mode and triggers the associated events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeEditionMode(int newValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">newValue</span></td>
+        <td><p>Value to set to the dropdown.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="AiWorldGeneration_InteractionManager_OnCompletePrompt_" data-uid="AiWorldGeneration.InteractionManager.OnCompletePrompt*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_OnCompletePrompt" data-uid="AiWorldGeneration.InteractionManager.OnCompletePrompt">OnCompletePrompt()</h4>
+  <div class="markdown level1 summary"><p>Call it whenever a skybox task gets completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnCompletePrompt()</code></pre>
+  </div>
+
+
+  <a id="AiWorldGeneration_InteractionManager_OnEditionModeChange_" data-uid="AiWorldGeneration.InteractionManager.OnEditionModeChange*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_OnEditionModeChange" data-uid="AiWorldGeneration.InteractionManager.OnEditionModeChange">OnEditionModeChange()</h4>
+  <div class="markdown level1 summary"><p>Changes the UI state based on the selected edition mode.
+The dropdown value is automatically selected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnEditionModeChange()</code></pre>
+  </div>
+
+
+  <a id="AiWorldGeneration_InteractionManager_OnEditionModeChange_" data-uid="AiWorldGeneration.InteractionManager.OnEditionModeChange*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_OnEditionModeChange_System_Int32_" data-uid="AiWorldGeneration.InteractionManager.OnEditionModeChange(System.Int32)">OnEditionModeChange(int)</h4>
+  <div class="markdown level1 summary"><p>Changes the UI state based on the selected edition mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnEditionModeChange(int editionValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">editionValue</span></td>
+        <td><p>Current dropdown value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="AiWorldGeneration_InteractionManager_OnExtendSkybox_" data-uid="AiWorldGeneration.InteractionManager.OnExtendSkybox*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_OnExtendSkybox" data-uid="AiWorldGeneration.InteractionManager.OnExtendSkybox">OnExtendSkybox()</h4>
+  <div class="markdown level1 summary"><p>Starts a skybox extension process.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnExtendSkybox()</code></pre>
+  </div>
+
+
+  <a id="AiWorldGeneration_InteractionManager_OnInpaintingSubmit_" data-uid="AiWorldGeneration.InteractionManager.OnInpaintingSubmit*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_OnInpaintingSubmit" data-uid="AiWorldGeneration.InteractionManager.OnInpaintingSubmit">OnInpaintingSubmit()</h4>
+  <div class="markdown level1 summary"><p>Start an inpainting task.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnInpaintingSubmit()</code></pre>
+  </div>
+
+
+  <a id="AiWorldGeneration_InteractionManager_OnRefine_" data-uid="AiWorldGeneration.InteractionManager.OnRefine*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_OnRefine" data-uid="AiWorldGeneration.InteractionManager.OnRefine">OnRefine()</h4>
+  <div class="markdown level1 summary"><p>Starts a skybox refining process.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRefine()</code></pre>
+  </div>
+
+
+  <a id="AiWorldGeneration_InteractionManager_OnRemoveSeam_" data-uid="AiWorldGeneration.InteractionManager.OnRemoveSeam*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_OnRemoveSeam" data-uid="AiWorldGeneration.InteractionManager.OnRemoveSeam">OnRemoveSeam()</h4>
+  <div class="markdown level1 summary"><p>Starts a skybox refining process.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRemoveSeam()</code></pre>
+  </div>
+
+
+  <a id="AiWorldGeneration_InteractionManager_OnSubmitGeneration_" data-uid="AiWorldGeneration.InteractionManager.OnSubmitGeneration*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_OnSubmitGeneration" data-uid="AiWorldGeneration.InteractionManager.OnSubmitGeneration">OnSubmitGeneration()</h4>
+  <div class="markdown level1 summary"><p>Handles the submission of a new generation request based on the expert mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSubmitGeneration()</code></pre>
+  </div>
+
+
+  <a id="AiWorldGeneration_InteractionManager_OnSubmitGeneration_" data-uid="AiWorldGeneration.InteractionManager.OnSubmitGeneration*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_OnSubmitGeneration_System_Boolean_" data-uid="AiWorldGeneration.InteractionManager.OnSubmitGeneration(System.Boolean)">OnSubmitGeneration(bool)</h4>
+  <div class="markdown level1 summary"><p>Handles the submission of a new generation request based on the expert mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSubmitGeneration(bool expertMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">expertMode</span></td>
+        <td><p>Indicates whether the user wants to use expert mode for the skybox generation.
+If true, the skybox will be generated in several phases.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="AiWorldGeneration_InteractionManager_OnSubmitPrompt_" data-uid="AiWorldGeneration.InteractionManager.OnSubmitPrompt*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_OnSubmitPrompt" data-uid="AiWorldGeneration.InteractionManager.OnSubmitPrompt">OnSubmitPrompt()</h4>
+  <div class="markdown level1 summary"><p>Submits the user's input to the appropriate skybox creation or inpainting process.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSubmitPrompt()</code></pre>
+  </div>
+
+
+  <a id="AiWorldGeneration_InteractionManager_SetInpaintingMode_" data-uid="AiWorldGeneration.InteractionManager.SetInpaintingMode*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_SetInpaintingMode_System_Boolean_" data-uid="AiWorldGeneration.InteractionManager.SetInpaintingMode(System.Boolean)">SetInpaintingMode(bool)</h4>
+  <div class="markdown level1 summary"><p>Set the value of the inpainting mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInpaintingMode(bool newValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">newValue</span></td>
+        <td><p>true if the current state is inpainting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="AiWorldGeneration_InteractionManager_StartSpeechRecording_" data-uid="AiWorldGeneration.InteractionManager.StartSpeechRecording*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_StartSpeechRecording" data-uid="AiWorldGeneration.InteractionManager.StartSpeechRecording">StartSpeechRecording()</h4>
+  <div class="markdown level1 summary"><p>Initiates speech recording.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartSpeechRecording()</code></pre>
+  </div>
+
+
+  <a id="AiWorldGeneration_InteractionManager_StopSpeechRecording_" data-uid="AiWorldGeneration.InteractionManager.StopSpeechRecording*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_StopSpeechRecording" data-uid="AiWorldGeneration.InteractionManager.StopSpeechRecording">StopSpeechRecording()</h4>
+  <div class="markdown level1 summary"><p>Stops the recording.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopSpeechRecording()</code></pre>
+  </div>
+
+
+  <a id="AiWorldGeneration_InteractionManager_ToggleSpeechRecording_" data-uid="AiWorldGeneration.InteractionManager.ToggleSpeechRecording*"></a>
+  <h4 id="AiWorldGeneration_InteractionManager_ToggleSpeechRecording" data-uid="AiWorldGeneration.InteractionManager.ToggleSpeechRecording">ToggleSpeechRecording()</h4>
+  <div class="markdown level1 summary"><p>Toggles the speech recording feature.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleSpeechRecording()</code></pre>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      AIWorldGeneration VR
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

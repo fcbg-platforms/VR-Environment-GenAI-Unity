@@ -16,7 +16,7 @@ items:
   source:
     id: LocalInpaintingResponse
     path: ''
-    startLine: 1099
+    startLine: 713
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -44,7 +44,7 @@ items:
   source:
     id: inpaintedFilePath
     path: ''
-    startLine: 1102
+    startLine: 716
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

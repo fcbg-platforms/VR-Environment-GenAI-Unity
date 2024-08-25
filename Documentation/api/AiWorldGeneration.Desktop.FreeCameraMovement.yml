@@ -1,24 +1,24 @@
 ### YamlMime:ManagedReference
 items:
-- uid: AiWorldGeneration.FreeCameraMovement
-  commentId: T:AiWorldGeneration.FreeCameraMovement
+- uid: AiWorldGeneration.Desktop.FreeCameraMovement
+  commentId: T:AiWorldGeneration.Desktop.FreeCameraMovement
   id: FreeCameraMovement
-  parent: AiWorldGeneration
+  parent: AiWorldGeneration.Desktop
   children: []
   langs:
   - csharp
   - vb
   name: FreeCameraMovement
   nameWithType: FreeCameraMovement
-  fullName: AiWorldGeneration.FreeCameraMovement
+  fullName: AiWorldGeneration.Desktop.FreeCameraMovement
   type: Class
   source:
     id: FreeCameraMovement
     path: ''
-    startLine: 466
+    startLine: 2120
   assemblies:
   - cs.temp.dll
-  namespace: AiWorldGeneration
+  namespace: AiWorldGeneration.Desktop
   summary: "\nControl a camera that can move and rotate in the space.\n"
   example: []
   syntax:
@@ -27,11 +27,23 @@ items:
   inheritance:
   - System.Object
 references:
-- uid: AiWorldGeneration
-  commentId: N:AiWorldGeneration
-  name: AiWorldGeneration
-  nameWithType: AiWorldGeneration
-  fullName: AiWorldGeneration
+- uid: AiWorldGeneration.Desktop
+  commentId: N:AiWorldGeneration.Desktop
+  name: AiWorldGeneration.Desktop
+  nameWithType: AiWorldGeneration.Desktop
+  fullName: AiWorldGeneration.Desktop
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.Desktop
+    name: Desktop
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.Desktop
+    name: Desktop
 - uid: System.Object
   commentId: T:System.Object
   parent: System

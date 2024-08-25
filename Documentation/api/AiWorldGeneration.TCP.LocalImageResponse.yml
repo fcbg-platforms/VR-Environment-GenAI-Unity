@@ -16,7 +16,7 @@ items:
   source:
     id: LocalImageResponse
     path: ''
-    startLine: 1080
+    startLine: 694
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -44,7 +44,7 @@ items:
   source:
     id: skyboxFilePath
     path: ''
-    startLine: 1083
+    startLine: 697
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

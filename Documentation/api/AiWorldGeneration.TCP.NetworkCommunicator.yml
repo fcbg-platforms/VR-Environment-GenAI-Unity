@@ -20,7 +20,7 @@ items:
   source:
     id: NetworkCommunicator
     path: ''
-    startLine: 1471
+    startLine: 1167
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -43,7 +43,7 @@ items:
   source:
     id: GetCompletionStatus
     path: ''
-    startLine: 1504
+    startLine: 1200
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -77,7 +77,7 @@ items:
   source:
     id: SpawnNewTask
     path: ''
-    startLine: 1521
+    startLine: 1217
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -108,7 +108,7 @@ items:
   source:
     id: UpdateClient
     path: ''
-    startLine: 1696
+    startLine: 1392
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -132,7 +132,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1757
+    startLine: 1453
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -166,7 +166,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1767
+    startLine: 1463
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

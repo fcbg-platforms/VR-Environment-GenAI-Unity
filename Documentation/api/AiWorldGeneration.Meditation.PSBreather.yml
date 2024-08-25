@@ -18,7 +18,7 @@ items:
   source:
     id: PSBreather
     path: ''
-    startLine: 530
+    startLine: 1943
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Meditation
@@ -41,7 +41,7 @@ items:
   source:
     id: breathValue
     path: ''
-    startLine: 534
+    startLine: 1947
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Meditation
@@ -64,7 +64,7 @@ items:
   source:
     id: inflowController
     path: ''
-    startLine: 541
+    startLine: 1954
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Meditation
@@ -87,7 +87,7 @@ items:
   source:
     id: outflowController
     path: ''
-    startLine: 543
+    startLine: 1956
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Meditation

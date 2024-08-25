@@ -20,7 +20,7 @@ items:
   source:
     id: ClientWorker
     path: ''
-    startLine: 1784
+    startLine: 730
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -45,7 +45,7 @@ items:
   source:
     id: TaskCompletionSource
     path: ''
-    startLine: 1789
+    startLine: 735
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -72,7 +72,7 @@ items:
   source:
     id: TcpClient
     path: ''
-    startLine: 1794
+    startLine: 740
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -99,7 +99,7 @@ items:
   source:
     id: Progress
     path: ''
-    startLine: 1814
+    startLine: 760
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -126,7 +126,7 @@ items:
   source:
     id: EstimateProgress
     path: ''
-    startLine: 1839
+    startLine: 785
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -152,7 +152,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1848
+    startLine: 794
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

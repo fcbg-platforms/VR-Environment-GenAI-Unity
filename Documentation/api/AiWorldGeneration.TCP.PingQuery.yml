@@ -17,7 +17,7 @@ items:
   source:
     id: PingQuery
     path: ''
-    startLine: 1131
+    startLine: 872
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -46,7 +46,7 @@ items:
   source:
     id: queryTimestamp
     path: ''
-    startLine: 1137
+    startLine: 878
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -71,7 +71,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1139
+    startLine: 880
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

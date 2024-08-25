@@ -19,7 +19,7 @@ items:
   source:
     id: ImageEditionQuery
     path: ''
-    startLine: 1301
+    startLine: 1042
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -53,7 +53,7 @@ items:
   source:
     id: imageBytes
     path: ''
-    startLine: 1307
+    startLine: 1048
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -78,7 +78,7 @@ items:
   source:
     id: prompt
     path: ''
-    startLine: 1312
+    startLine: 1053
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -103,7 +103,7 @@ items:
   source:
     id: reportCompletion
     path: ''
-    startLine: 1317
+    startLine: 1058
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -128,7 +128,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1319
+    startLine: 1060
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

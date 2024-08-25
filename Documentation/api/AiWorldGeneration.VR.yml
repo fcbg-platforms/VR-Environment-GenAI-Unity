@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.VR
+  commentId: N:AiWorldGeneration.VR
+  id: AiWorldGeneration.VR
+  children:
+  - AiWorldGeneration.VR.BrushBehaviour
+  - AiWorldGeneration.VR.XRDesktopActivation
+  langs:
+  - csharp
+  - vb
+  name: AiWorldGeneration.VR
+  nameWithType: AiWorldGeneration.VR
+  fullName: AiWorldGeneration.VR
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: AiWorldGeneration.VR.BrushBehaviour
+  commentId: T:AiWorldGeneration.VR.BrushBehaviour
+  name: BrushBehaviour
+  nameWithType: BrushBehaviour
+  fullName: AiWorldGeneration.VR.BrushBehaviour
+- uid: AiWorldGeneration.VR.XRDesktopActivation
+  commentId: T:AiWorldGeneration.VR.XRDesktopActivation
+  name: XRDesktopActivation
+  nameWithType: XRDesktopActivation
+  fullName: AiWorldGeneration.VR.XRDesktopActivation

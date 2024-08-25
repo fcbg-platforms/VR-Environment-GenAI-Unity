@@ -21,7 +21,7 @@ items:
   source:
     id: LocalInpaintingQuery
     path: ''
-    startLine: 1253
+    startLine: 994
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -50,7 +50,7 @@ items:
   source:
     id: imagePath
     path: ''
-    startLine: 1259
+    startLine: 1000
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -75,7 +75,7 @@ items:
   source:
     id: maskPath
     path: ''
-    startLine: 1264
+    startLine: 1005
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -100,7 +100,7 @@ items:
   source:
     id: prompt
     path: ''
-    startLine: 1269
+    startLine: 1010
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -125,7 +125,7 @@ items:
   source:
     id: outputFilePath
     path: ''
-    startLine: 1274
+    startLine: 1015
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -150,7 +150,7 @@ items:
   source:
     id: reportCompletion
     path: ''
-    startLine: 1279
+    startLine: 1020
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -175,7 +175,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1281
+    startLine: 1022
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

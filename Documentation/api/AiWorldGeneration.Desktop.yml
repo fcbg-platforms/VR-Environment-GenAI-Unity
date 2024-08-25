@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.Desktop
+  commentId: N:AiWorldGeneration.Desktop
+  id: AiWorldGeneration.Desktop
+  children:
+  - AiWorldGeneration.Desktop.FreeCameraMovement
+  langs:
+  - csharp
+  - vb
+  name: AiWorldGeneration.Desktop
+  nameWithType: AiWorldGeneration.Desktop
+  fullName: AiWorldGeneration.Desktop
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: AiWorldGeneration.Desktop.FreeCameraMovement
+  commentId: T:AiWorldGeneration.Desktop.FreeCameraMovement
+  name: FreeCameraMovement
+  nameWithType: FreeCameraMovement
+  fullName: AiWorldGeneration.Desktop.FreeCameraMovement

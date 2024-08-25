@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.VR.BrushBehaviour
+  commentId: T:AiWorldGeneration.VR.BrushBehaviour
+  id: BrushBehaviour
+  parent: AiWorldGeneration.VR
+  children:
+  - AiWorldGeneration.VR.BrushBehaviour.OnSelectEntered(SelectEnterEventArgs)
+  - AiWorldGeneration.VR.BrushBehaviour.OnSelectExited
+  langs:
+  - csharp
+  - vb
+  name: BrushBehaviour
+  nameWithType: BrushBehaviour
+  fullName: AiWorldGeneration.VR.BrushBehaviour
+  type: Class
+  source:
+    id: BrushBehaviour
+    path: ''
+    startLine: 2908
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.VR
+  summary: "\nDescribes the behaviour of a brush tool.\n"
+  example: []
+  syntax:
+    content: 'public class BrushBehaviour : MonoBehaviour'
+    content.vb: Public Class BrushBehaviour Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: AiWorldGeneration.VR.BrushBehaviour.OnSelectEntered(SelectEnterEventArgs)
+  commentId: M:AiWorldGeneration.VR.BrushBehaviour.OnSelectEntered(SelectEnterEventArgs)
+  id: OnSelectEntered(SelectEnterEventArgs)
+  parent: AiWorldGeneration.VR.BrushBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnSelectEntered(SelectEnterEventArgs)
+  nameWithType: BrushBehaviour.OnSelectEntered(SelectEnterEventArgs)
+  fullName: AiWorldGeneration.VR.BrushBehaviour.OnSelectEntered(SelectEnterEventArgs)
+  type: Method
+  source:
+    id: OnSelectEntered
+    path: ''
+    startLine: 2928
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.VR
+  summary: "\nSets the grabber transform to the interactor&apos;s transform.\n"
+  example: []
+  syntax:
+    content: public void OnSelectEntered(SelectEnterEventArgs selectEnterEventArgs)
+    parameters:
+    - id: selectEnterEventArgs
+      type: Global.SelectEnterEventArgs
+      description: "\nThe event arguments containing information about the interactor and the interaction.\n"
+    content.vb: Public Sub OnSelectEntered(selectEnterEventArgs As SelectEnterEventArgs)
+  overload: AiWorldGeneration.VR.BrushBehaviour.OnSelectEntered*
+- uid: AiWorldGeneration.VR.BrushBehaviour.OnSelectExited
+  commentId: M:AiWorldGeneration.VR.BrushBehaviour.OnSelectExited
+  id: OnSelectExited
+  parent: AiWorldGeneration.VR.BrushBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnSelectExited()
+  nameWithType: BrushBehaviour.OnSelectExited()
+  fullName: AiWorldGeneration.VR.BrushBehaviour.OnSelectExited()
+  type: Method
+  source:
+    id: OnSelectExited
+    path: ''
+    startLine: 2936
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.VR
+  summary: "\nSets the grabber transform to null.\n"
+  example: []
+  syntax:
+    content: public void OnSelectExited()
+    content.vb: Public Sub OnSelectExited()
+  overload: AiWorldGeneration.VR.BrushBehaviour.OnSelectExited*
+references:
+- uid: AiWorldGeneration.VR
+  commentId: N:AiWorldGeneration.VR
+  name: AiWorldGeneration.VR
+  nameWithType: AiWorldGeneration.VR
+  fullName: AiWorldGeneration.VR
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.VR
+    name: VR
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.VR
+    name: VR
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AiWorldGeneration.VR.BrushBehaviour.OnSelectEntered*
+  commentId: Overload:AiWorldGeneration.VR.BrushBehaviour.OnSelectEntered
+  name: OnSelectEntered
+  nameWithType: BrushBehaviour.OnSelectEntered
+  fullName: AiWorldGeneration.VR.BrushBehaviour.OnSelectEntered
+- uid: Global.SelectEnterEventArgs
+  commentId: '!:Global.SelectEnterEventArgs'
+  isExternal: true
+  name: SelectEnterEventArgs
+  nameWithType: SelectEnterEventArgs
+  fullName: SelectEnterEventArgs
+- uid: AiWorldGeneration.VR.BrushBehaviour.OnSelectExited*
+  commentId: Overload:AiWorldGeneration.VR.BrushBehaviour.OnSelectExited
+  name: OnSelectExited
+  nameWithType: BrushBehaviour.OnSelectExited
+  fullName: AiWorldGeneration.VR.BrushBehaviour.OnSelectExited

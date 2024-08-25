@@ -17,7 +17,7 @@ items:
   source:
     id: AsrQuery
     path: ''
-    startLine: 1180
+    startLine: 921
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -46,7 +46,7 @@ items:
   source:
     id: audioBytes
     path: ''
-    startLine: 1183
+    startLine: 924
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -69,7 +69,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1185
+    startLine: 926
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

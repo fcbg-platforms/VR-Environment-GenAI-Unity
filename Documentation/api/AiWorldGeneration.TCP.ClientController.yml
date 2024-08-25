@@ -27,7 +27,7 @@ items:
   source:
     id: ClientController
     path: ''
-    startLine: 1867
+    startLine: 1523
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -52,7 +52,7 @@ items:
   source:
     id: ByteArrayFromHexString
     path: ''
-    startLine: 1883
+    startLine: 1539
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -86,7 +86,7 @@ items:
   source:
     id: GetCompletionStatus
     path: ''
-    startLine: 1899
+    startLine: 1555
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -120,7 +120,7 @@ items:
   source:
     id: SendPing
     path: ''
-    startLine: 1909
+    startLine: 1565
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -147,7 +147,7 @@ items:
   source:
     id: TextFromAudio
     path: ''
-    startLine: 1923
+    startLine: 1579
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -181,7 +181,7 @@ items:
   source:
     id: TextFromAudio
     path: ''
-    startLine: 1937
+    startLine: 1593
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -215,7 +215,7 @@ items:
   source:
     id: CreateNewSkyboxLocal
     path: ''
-    startLine: 1955
+    startLine: 1611
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -255,7 +255,7 @@ items:
   source:
     id: CreateNewSkybox
     path: ''
-    startLine: 1981
+    startLine: 1637
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -298,7 +298,7 @@ items:
   source:
     id: InpaintLocal
     path: ''
-    startLine: 2013
+    startLine: 1669
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -344,7 +344,7 @@ items:
   source:
     id: Inpaint
     path: ''
-    startLine: 2061
+    startLine: 1717
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -390,7 +390,7 @@ items:
   source:
     id: RefineSkybox
     path: ''
-    startLine: 2097
+    startLine: 1753
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -433,7 +433,7 @@ items:
   source:
     id: RemoveSkyboxSeam
     path: ''
-    startLine: 2131
+    startLine: 1787
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -473,7 +473,7 @@ items:
   source:
     id: ExtendSkybox
     path: ''
-    startLine: 2163
+    startLine: 1819
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

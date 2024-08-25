@@ -40,11 +40,6 @@ items:
   assemblies:
   - cs.temp.dll
 references:
-- uid: AiWorldGeneration.TCP.SerializableResponse
-  commentId: T:AiWorldGeneration.TCP.SerializableResponse
-  name: SerializableResponse
-  nameWithType: SerializableResponse
-  fullName: AiWorldGeneration.TCP.SerializableResponse
 - uid: AiWorldGeneration.TCP.SerializableResponseData
   commentId: T:AiWorldGeneration.TCP.SerializableResponseData
   parent: AiWorldGeneration.TCP
@@ -81,6 +76,21 @@ references:
   name: LocalInpaintingResponse
   nameWithType: LocalInpaintingResponse
   fullName: AiWorldGeneration.TCP.LocalInpaintingResponse
+- uid: AiWorldGeneration.TCP.ClientWorker
+  commentId: T:AiWorldGeneration.TCP.ClientWorker
+  name: ClientWorker
+  nameWithType: ClientWorker
+  fullName: AiWorldGeneration.TCP.ClientWorker
+- uid: AiWorldGeneration.TCP.JsonInterface
+  commentId: T:AiWorldGeneration.TCP.JsonInterface
+  name: JsonInterface
+  nameWithType: JsonInterface
+  fullName: AiWorldGeneration.TCP.JsonInterface
+- uid: AiWorldGeneration.TCP.ServerInterface
+  commentId: T:AiWorldGeneration.TCP.ServerInterface
+  name: ServerInterface
+  nameWithType: ServerInterface
+  fullName: AiWorldGeneration.TCP.ServerInterface
 - uid: AiWorldGeneration.TCP.BaseClientQuery
   commentId: T:AiWorldGeneration.TCP.BaseClientQuery
   parent: AiWorldGeneration.TCP
@@ -148,26 +158,16 @@ references:
   name: ExtendSkyboxQuery
   nameWithType: ExtendSkyboxQuery
   fullName: AiWorldGeneration.TCP.ExtendSkyboxQuery
-- uid: AiWorldGeneration.TCP.JsonInterface
-  commentId: T:AiWorldGeneration.TCP.JsonInterface
-  name: JsonInterface
-  nameWithType: JsonInterface
-  fullName: AiWorldGeneration.TCP.JsonInterface
-- uid: AiWorldGeneration.TCP.ServerInterface
-  commentId: T:AiWorldGeneration.TCP.ServerInterface
-  name: ServerInterface
-  nameWithType: ServerInterface
-  fullName: AiWorldGeneration.TCP.ServerInterface
 - uid: AiWorldGeneration.TCP.NetworkCommunicator
   commentId: T:AiWorldGeneration.TCP.NetworkCommunicator
   name: NetworkCommunicator
   nameWithType: NetworkCommunicator
   fullName: AiWorldGeneration.TCP.NetworkCommunicator
-- uid: AiWorldGeneration.TCP.ClientWorker
-  commentId: T:AiWorldGeneration.TCP.ClientWorker
-  name: ClientWorker
-  nameWithType: ClientWorker
-  fullName: AiWorldGeneration.TCP.ClientWorker
+- uid: AiWorldGeneration.TCP.SerializableResponse
+  commentId: T:AiWorldGeneration.TCP.SerializableResponse
+  name: SerializableResponse
+  nameWithType: SerializableResponse
+  fullName: AiWorldGeneration.TCP.SerializableResponse
 - uid: AiWorldGeneration.TCP.ClientController
   commentId: T:AiWorldGeneration.TCP.ClientController
   name: ClientController

@@ -20,7 +20,7 @@ items:
   source:
     id: JsonInterface
     path: ''
-    startLine: 1424
+    startLine: 811
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -45,7 +45,7 @@ items:
   source:
     id: maskPath
     path: ''
-    startLine: 1430
+    startLine: 817
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -70,7 +70,7 @@ items:
   source:
     id: audioPath
     path: ''
-    startLine: 1435
+    startLine: 822
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -95,7 +95,7 @@ items:
   source:
     id: serverDefaultIp
     path: ''
-    startLine: 1437
+    startLine: 824
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -118,7 +118,7 @@ items:
   source:
     id: serverDefaultPort
     path: ''
-    startLine: 1439
+    startLine: 826
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -141,7 +141,7 @@ items:
   source:
     id: pythonFallbackApiFile
     path: ''
-    startLine: 1444
+    startLine: 831
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

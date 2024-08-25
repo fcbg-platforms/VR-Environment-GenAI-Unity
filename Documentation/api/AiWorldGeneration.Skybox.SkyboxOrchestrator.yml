@@ -23,7 +23,7 @@ items:
   source:
     id: SkyboxOrchestrator
     path: ''
-    startLine: 2248
+    startLine: 2195
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -48,7 +48,7 @@ items:
   source:
     id: ReportProgress
     path: ''
-    startLine: 2254
+    startLine: 2201
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -75,7 +75,7 @@ items:
   source:
     id: ChangeSkybox
     path: ''
-    startLine: 2293
+    startLine: 2240
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -103,7 +103,7 @@ items:
   source:
     id: GetProgress
     path: ''
-    startLine: 2308
+    startLine: 2255
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -129,7 +129,7 @@ items:
   source:
     id: GenerateNewSkybox
     path: ''
-    startLine: 2449
+    startLine: 2396
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -163,7 +163,7 @@ items:
   source:
     id: StartInpainting
     path: ''
-    startLine: 2480
+    startLine: 2427
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -194,7 +194,7 @@ items:
   source:
     id: RefineSkybox
     path: ''
-    startLine: 2492
+    startLine: 2439
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -225,7 +225,7 @@ items:
   source:
     id: RemoveSeam
     path: ''
-    startLine: 2505
+    startLine: 2452
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -249,7 +249,7 @@ items:
   source:
     id: ExtendSkybox
     path: ''
-    startLine: 2519
+    startLine: 2466
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
