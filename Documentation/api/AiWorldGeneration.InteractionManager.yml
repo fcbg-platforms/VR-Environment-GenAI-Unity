@@ -11,10 +11,15 @@ items:
   - AiWorldGeneration.InteractionManager.OnEditionModeChange
   - AiWorldGeneration.InteractionManager.OnEditionModeChange(System.Int32)
   - AiWorldGeneration.InteractionManager.OnExtendSkybox
+  - AiWorldGeneration.InteractionManager.OnInpaintingSubmit
   - AiWorldGeneration.InteractionManager.OnRefine
   - AiWorldGeneration.InteractionManager.OnRemoveSeam
+  - AiWorldGeneration.InteractionManager.OnSubmitGeneration
+  - AiWorldGeneration.InteractionManager.OnSubmitGeneration(System.Boolean)
   - AiWorldGeneration.InteractionManager.OnSubmitPrompt
+  - AiWorldGeneration.InteractionManager.SetInpaintingMode(System.Boolean)
   - AiWorldGeneration.InteractionManager.StartSpeechRecording
+  - AiWorldGeneration.InteractionManager.StopSpeechRecording
   - AiWorldGeneration.InteractionManager.ToggleSpeechRecording
   langs:
   - csharp
@@ -26,7 +31,7 @@ items:
   source:
     id: InteractionManager
     path: ''
-    startLine: 113
+    startLine: 287
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration
@@ -51,7 +56,7 @@ items:
   source:
     id: OnEditionModeChange
     path: ''
-    startLine: 200
+    startLine: 350
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration
@@ -82,7 +87,7 @@ items:
   source:
     id: OnEditionModeChange
     path: ''
-    startLine: 218
+    startLine: 363
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration
@@ -106,7 +111,7 @@ items:
   source:
     id: ChangeEditionMode
     path: ''
-    startLine: 227
+    startLine: 375
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration
@@ -123,6 +128,37 @@ items:
   nameWithType.vb: InteractionManager.ChangeEditionMode(Integer)
   fullName.vb: AiWorldGeneration.InteractionManager.ChangeEditionMode(Integer)
   name.vb: ChangeEditionMode(Integer)
+- uid: AiWorldGeneration.InteractionManager.SetInpaintingMode(System.Boolean)
+  commentId: M:AiWorldGeneration.InteractionManager.SetInpaintingMode(System.Boolean)
+  id: SetInpaintingMode(System.Boolean)
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: SetInpaintingMode(bool)
+  nameWithType: InteractionManager.SetInpaintingMode(bool)
+  fullName: AiWorldGeneration.InteractionManager.SetInpaintingMode(bool)
+  type: Method
+  source:
+    id: SetInpaintingMode
+    path: ''
+    startLine: 385
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nSet the value of the inpainting mode.\n"
+  example: []
+  syntax:
+    content: public void SetInpaintingMode(bool newValue)
+    parameters:
+    - id: newValue
+      type: System.Boolean
+      description: true if the current state is inpainting.
+    content.vb: Public Sub SetInpaintingMode(newValue As Boolean)
+  overload: AiWorldGeneration.InteractionManager.SetInpaintingMode*
+  nameWithType.vb: InteractionManager.SetInpaintingMode(Boolean)
+  fullName.vb: AiWorldGeneration.InteractionManager.SetInpaintingMode(Boolean)
+  name.vb: SetInpaintingMode(Boolean)
 - uid: AiWorldGeneration.InteractionManager.StartSpeechRecording
   commentId: M:AiWorldGeneration.InteractionManager.StartSpeechRecording
   id: StartSpeechRecording
@@ -137,7 +173,7 @@ items:
   source:
     id: StartSpeechRecording
     path: ''
-    startLine: 238
+    startLine: 394
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration
@@ -147,6 +183,30 @@ items:
     content: public void StartSpeechRecording()
     content.vb: Public Sub StartSpeechRecording()
   overload: AiWorldGeneration.InteractionManager.StartSpeechRecording*
+- uid: AiWorldGeneration.InteractionManager.StopSpeechRecording
+  commentId: M:AiWorldGeneration.InteractionManager.StopSpeechRecording
+  id: StopSpeechRecording
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: StopSpeechRecording()
+  nameWithType: InteractionManager.StopSpeechRecording()
+  fullName: AiWorldGeneration.InteractionManager.StopSpeechRecording()
+  type: Method
+  source:
+    id: StopSpeechRecording
+    path: ''
+    startLine: 420
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nStops the recording.\n"
+  example: []
+  syntax:
+    content: public void StopSpeechRecording()
+    content.vb: Public Sub StopSpeechRecording()
+  overload: AiWorldGeneration.InteractionManager.StopSpeechRecording*
 - uid: AiWorldGeneration.InteractionManager.AnalyseSpeech
   commentId: M:AiWorldGeneration.InteractionManager.AnalyseSpeech
   id: AnalyseSpeech
@@ -161,7 +221,7 @@ items:
   source:
     id: AnalyseSpeech
     path: ''
-    startLine: 263
+    startLine: 430
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration
@@ -185,7 +245,7 @@ items:
   source:
     id: ToggleSpeechRecording
     path: ''
-    startLine: 287
+    startLine: 455
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration
@@ -195,6 +255,61 @@ items:
     content: public void ToggleSpeechRecording()
     content.vb: Public Sub ToggleSpeechRecording()
   overload: AiWorldGeneration.InteractionManager.ToggleSpeechRecording*
+- uid: AiWorldGeneration.InteractionManager.OnSubmitGeneration(System.Boolean)
+  commentId: M:AiWorldGeneration.InteractionManager.OnSubmitGeneration(System.Boolean)
+  id: OnSubmitGeneration(System.Boolean)
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: OnSubmitGeneration(bool)
+  nameWithType: InteractionManager.OnSubmitGeneration(bool)
+  fullName: AiWorldGeneration.InteractionManager.OnSubmitGeneration(bool)
+  type: Method
+  source:
+    id: OnSubmitGeneration
+    path: ''
+    startLine: 488
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nHandles the submission of a new generation request based on the expert mode.\n"
+  example: []
+  syntax:
+    content: public void OnSubmitGeneration(bool expertMode)
+    parameters:
+    - id: expertMode
+      type: System.Boolean
+      description: "\nIndicates whether the user wants to use expert mode for the skybox generation.\nIf true, the skybox will be generated in several phases.\n"
+    content.vb: Public Sub OnSubmitGeneration(expertMode As Boolean)
+  overload: AiWorldGeneration.InteractionManager.OnSubmitGeneration*
+  nameWithType.vb: InteractionManager.OnSubmitGeneration(Boolean)
+  fullName.vb: AiWorldGeneration.InteractionManager.OnSubmitGeneration(Boolean)
+  name.vb: OnSubmitGeneration(Boolean)
+- uid: AiWorldGeneration.InteractionManager.OnSubmitGeneration
+  commentId: M:AiWorldGeneration.InteractionManager.OnSubmitGeneration
+  id: OnSubmitGeneration
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: OnSubmitGeneration()
+  nameWithType: InteractionManager.OnSubmitGeneration()
+  fullName: AiWorldGeneration.InteractionManager.OnSubmitGeneration()
+  type: Method
+  source:
+    id: OnSubmitGeneration
+    path: ''
+    startLine: 503
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nHandles the submission of a new generation request based on the expert mode.\n"
+  example: []
+  syntax:
+    content: public void OnSubmitGeneration()
+    content.vb: Public Sub OnSubmitGeneration()
+  overload: AiWorldGeneration.InteractionManager.OnSubmitGeneration*
 - uid: AiWorldGeneration.InteractionManager.OnSubmitPrompt
   commentId: M:AiWorldGeneration.InteractionManager.OnSubmitPrompt
   id: OnSubmitPrompt
@@ -209,7 +324,7 @@ items:
   source:
     id: OnSubmitPrompt
     path: ''
-    startLine: 309
+    startLine: 511
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration
@@ -219,6 +334,30 @@ items:
     content: public void OnSubmitPrompt()
     content.vb: Public Sub OnSubmitPrompt()
   overload: AiWorldGeneration.InteractionManager.OnSubmitPrompt*
+- uid: AiWorldGeneration.InteractionManager.OnInpaintingSubmit
+  commentId: M:AiWorldGeneration.InteractionManager.OnInpaintingSubmit
+  id: OnInpaintingSubmit
+  parent: AiWorldGeneration.InteractionManager
+  langs:
+  - csharp
+  - vb
+  name: OnInpaintingSubmit()
+  nameWithType: InteractionManager.OnInpaintingSubmit()
+  fullName: AiWorldGeneration.InteractionManager.OnInpaintingSubmit()
+  type: Method
+  source:
+    id: OnInpaintingSubmit
+    path: ''
+    startLine: 527
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  summary: "\nStart an inpainting task.\n"
+  example: []
+  syntax:
+    content: public void OnInpaintingSubmit()
+    content.vb: Public Sub OnInpaintingSubmit()
+  overload: AiWorldGeneration.InteractionManager.OnInpaintingSubmit*
 - uid: AiWorldGeneration.InteractionManager.OnCompletePrompt
   commentId: M:AiWorldGeneration.InteractionManager.OnCompletePrompt
   id: OnCompletePrompt
@@ -233,7 +372,7 @@ items:
   source:
     id: OnCompletePrompt
     path: ''
-    startLine: 336
+    startLine: 537
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration
@@ -257,7 +396,7 @@ items:
   source:
     id: OnRefine
     path: ''
-    startLine: 348
+    startLine: 546
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration
@@ -281,7 +420,7 @@ items:
   source:
     id: OnRemoveSeam
     path: ''
-    startLine: 359
+    startLine: 557
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration
@@ -305,7 +444,7 @@ items:
   source:
     id: OnExtendSkybox
     path: ''
-    startLine: 370
+    startLine: 568
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration
@@ -357,11 +496,31 @@ references:
   name: ChangeEditionMode
   nameWithType: InteractionManager.ChangeEditionMode
   fullName: AiWorldGeneration.InteractionManager.ChangeEditionMode
+- uid: AiWorldGeneration.InteractionManager.SetInpaintingMode*
+  commentId: Overload:AiWorldGeneration.InteractionManager.SetInpaintingMode
+  name: SetInpaintingMode
+  nameWithType: InteractionManager.SetInpaintingMode
+  fullName: AiWorldGeneration.InteractionManager.SetInpaintingMode
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: AiWorldGeneration.InteractionManager.StartSpeechRecording*
   commentId: Overload:AiWorldGeneration.InteractionManager.StartSpeechRecording
   name: StartSpeechRecording
   nameWithType: InteractionManager.StartSpeechRecording
   fullName: AiWorldGeneration.InteractionManager.StartSpeechRecording
+- uid: AiWorldGeneration.InteractionManager.StopSpeechRecording*
+  commentId: Overload:AiWorldGeneration.InteractionManager.StopSpeechRecording
+  name: StopSpeechRecording
+  nameWithType: InteractionManager.StopSpeechRecording
+  fullName: AiWorldGeneration.InteractionManager.StopSpeechRecording
 - uid: AiWorldGeneration.InteractionManager.AnalyseSpeech*
   commentId: Overload:AiWorldGeneration.InteractionManager.AnalyseSpeech
   name: AnalyseSpeech
@@ -372,11 +531,21 @@ references:
   name: ToggleSpeechRecording
   nameWithType: InteractionManager.ToggleSpeechRecording
   fullName: AiWorldGeneration.InteractionManager.ToggleSpeechRecording
+- uid: AiWorldGeneration.InteractionManager.OnSubmitGeneration*
+  commentId: Overload:AiWorldGeneration.InteractionManager.OnSubmitGeneration
+  name: OnSubmitGeneration
+  nameWithType: InteractionManager.OnSubmitGeneration
+  fullName: AiWorldGeneration.InteractionManager.OnSubmitGeneration
 - uid: AiWorldGeneration.InteractionManager.OnSubmitPrompt*
   commentId: Overload:AiWorldGeneration.InteractionManager.OnSubmitPrompt
   name: OnSubmitPrompt
   nameWithType: InteractionManager.OnSubmitPrompt
   fullName: AiWorldGeneration.InteractionManager.OnSubmitPrompt
+- uid: AiWorldGeneration.InteractionManager.OnInpaintingSubmit*
+  commentId: Overload:AiWorldGeneration.InteractionManager.OnInpaintingSubmit
+  name: OnInpaintingSubmit
+  nameWithType: InteractionManager.OnInpaintingSubmit
+  fullName: AiWorldGeneration.InteractionManager.OnInpaintingSubmit
 - uid: AiWorldGeneration.InteractionManager.OnCompletePrompt*
   commentId: Overload:AiWorldGeneration.InteractionManager.OnCompletePrompt
   name: OnCompletePrompt

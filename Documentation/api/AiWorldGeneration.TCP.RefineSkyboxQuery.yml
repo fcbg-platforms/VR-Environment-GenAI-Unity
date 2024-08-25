@@ -16,7 +16,7 @@ items:
   source:
     id: RefineSkyboxQuery
     path: ''
-    startLine: 1363
+    startLine: 1104
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -49,7 +49,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1366
+    startLine: 1107
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

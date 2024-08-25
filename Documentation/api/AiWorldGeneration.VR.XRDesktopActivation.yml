@@ -1,35 +1,49 @@
 ### YamlMime:ManagedReference
 items:
-- uid: AiWorldGeneration.XRDesktopActivation
-  commentId: T:AiWorldGeneration.XRDesktopActivation
+- uid: AiWorldGeneration.VR.XRDesktopActivation
+  commentId: T:AiWorldGeneration.VR.XRDesktopActivation
   id: XRDesktopActivation
-  parent: AiWorldGeneration
+  parent: AiWorldGeneration.VR
   children: []
   langs:
   - csharp
   - vb
   name: XRDesktopActivation
   nameWithType: XRDesktopActivation
-  fullName: AiWorldGeneration.XRDesktopActivation
+  fullName: AiWorldGeneration.VR.XRDesktopActivation
   type: Class
   source:
     id: XRDesktopActivation
     path: ''
-    startLine: 34
+    startLine: 2975
   assemblies:
   - cs.temp.dll
-  namespace: AiWorldGeneration
+  namespace: AiWorldGeneration.VR
+  summary: "\nActivates a desktop VR Cheater when no headset is connect. \n"
+  example: []
   syntax:
     content: 'public class XRDesktopActivation : MonoBehaviour'
     content.vb: Public Class XRDesktopActivation Inherits MonoBehaviour
   inheritance:
   - System.Object
 references:
-- uid: AiWorldGeneration
-  commentId: N:AiWorldGeneration
-  name: AiWorldGeneration
-  nameWithType: AiWorldGeneration
-  fullName: AiWorldGeneration
+- uid: AiWorldGeneration.VR
+  commentId: N:AiWorldGeneration.VR
+  name: AiWorldGeneration.VR
+  nameWithType: AiWorldGeneration.VR
+  fullName: AiWorldGeneration.VR
+  spec.csharp:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.VR
+    name: VR
+  spec.vb:
+  - uid: AiWorldGeneration
+    name: AiWorldGeneration
+  - name: .
+  - uid: AiWorldGeneration.VR
+    name: VR
 - uid: System.Object
   commentId: T:System.Object
   parent: System

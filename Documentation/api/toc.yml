@@ -2,12 +2,12 @@
 - uid: AiWorldGeneration
   name: AiWorldGeneration
   items:
-  - uid: AiWorldGeneration.FreeCameraMovement
-    name: FreeCameraMovement
+  - uid: AiWorldGeneration.EditionMode
+    name: EditionMode
   - uid: AiWorldGeneration.InteractionManager
     name: InteractionManager
-  - uid: AiWorldGeneration.XRDesktopActivation
-    name: XRDesktopActivation
+  - uid: AiWorldGeneration.UIManager
+    name: UIManager
 - uid: AiWorldGeneration.ASR
   name: AiWorldGeneration.ASR
   items:
@@ -15,6 +15,11 @@
     name: AudioRecorder
   - uid: AiWorldGeneration.ASR.SpeechInteraction
     name: SpeechInteraction
+- uid: AiWorldGeneration.Desktop
+  name: AiWorldGeneration.Desktop
+  items:
+  - uid: AiWorldGeneration.Desktop.FreeCameraMovement
+    name: FreeCameraMovement
 - uid: AiWorldGeneration.Meditation
   name: AiWorldGeneration.Meditation
   items:
@@ -88,3 +93,10 @@
     name: SerializableResponseData
   - uid: AiWorldGeneration.TCP.ServerInterface
     name: ServerInterface
+- uid: AiWorldGeneration.VR
+  name: AiWorldGeneration.VR
+  items:
+  - uid: AiWorldGeneration.VR.BrushBehaviour
+    name: BrushBehaviour
+  - uid: AiWorldGeneration.VR.XRDesktopActivation
+    name: XRDesktopActivation

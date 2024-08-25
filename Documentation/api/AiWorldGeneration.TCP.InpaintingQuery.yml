@@ -17,7 +17,7 @@ items:
   source:
     id: InpaintingQuery
     path: ''
-    startLine: 1335
+    startLine: 1076
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -50,7 +50,7 @@ items:
   source:
     id: maskBytes
     path: ''
-    startLine: 1342
+    startLine: 1083
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -75,7 +75,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1344
+    startLine: 1085
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

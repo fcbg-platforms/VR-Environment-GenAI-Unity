@@ -5,6 +5,7 @@ items:
   id: AudioRecorder
   parent: AiWorldGeneration.ASR
   children:
+  - AiWorldGeneration.ASR.AudioRecorder.maxAudioLength
   - AiWorldGeneration.ASR.AudioRecorder.OnComplete
   - AiWorldGeneration.ASR.AudioRecorder.SaveRecording
   - AiWorldGeneration.ASR.AudioRecorder.StartRecording
@@ -19,7 +20,7 @@ items:
   source:
     id: AudioRecorder
     path: ''
-    startLine: 859
+    startLine: 3157
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.ASR
@@ -30,6 +31,31 @@ items:
     content.vb: Public Class AudioRecorder Inherits MonoBehaviour
   inheritance:
   - System.Object
+- uid: AiWorldGeneration.ASR.AudioRecorder.maxAudioLength
+  commentId: F:AiWorldGeneration.ASR.AudioRecorder.maxAudioLength
+  id: maxAudioLength
+  parent: AiWorldGeneration.ASR.AudioRecorder
+  langs:
+  - csharp
+  - vb
+  name: maxAudioLength
+  nameWithType: AudioRecorder.maxAudioLength
+  fullName: AiWorldGeneration.ASR.AudioRecorder.maxAudioLength
+  type: Field
+  source:
+    id: maxAudioLength
+    path: ''
+    startLine: 3171
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.ASR
+  summary: "\nMaximum audio length (s).\n"
+  example: []
+  syntax:
+    content: public readonly int maxAudioLength
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly maxAudioLength As Integer
 - uid: AiWorldGeneration.ASR.AudioRecorder.StartRecording
   commentId: M:AiWorldGeneration.ASR.AudioRecorder.StartRecording
   id: StartRecording
@@ -44,7 +70,7 @@ items:
   source:
     id: StartRecording
     path: ''
-    startLine: 888
+    startLine: 3186
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.ASR
@@ -68,11 +94,11 @@ items:
   source:
     id: StopRecording
     path: ''
-    startLine: 931
+    startLine: 3252
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.ASR
-  summary: "\nStops the recording of the audio, and sends the audio for transcription.\n"
+  summary: "\nStops the recording of the audio, and returns the recorded bytes.\n"
   example: []
   syntax:
     content: public byte[] StopRecording()
@@ -94,7 +120,7 @@ items:
   source:
     id: SaveRecording
     path: ''
-    startLine: 958
+    startLine: 3281
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.ASR
@@ -121,7 +147,7 @@ items:
   source:
     id: OnComplete
     path: ''
-    startLine: 967
+    startLine: 3290
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.ASR
@@ -165,6 +191,16 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: AiWorldGeneration.ASR.AudioRecorder.StartRecording*
   commentId: Overload:AiWorldGeneration.ASR.AudioRecorder.StartRecording
   name: StartRecording

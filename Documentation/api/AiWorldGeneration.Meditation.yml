@@ -18,16 +18,16 @@ items:
   assemblies:
   - cs.temp.dll
 references:
-- uid: AiWorldGeneration.Meditation.PSBreather
-  commentId: T:AiWorldGeneration.Meditation.PSBreather
-  name: PSBreather
-  nameWithType: PSBreather
-  fullName: AiWorldGeneration.Meditation.PSBreather
 - uid: AiWorldGeneration.Meditation.PSFFController
   commentId: T:AiWorldGeneration.Meditation.PSFFController
   name: PSFFController
   nameWithType: PSFFController
   fullName: AiWorldGeneration.Meditation.PSFFController
+- uid: AiWorldGeneration.Meditation.PSBreather
+  commentId: T:AiWorldGeneration.Meditation.PSBreather
+  name: PSBreather
+  nameWithType: PSBreather
+  fullName: AiWorldGeneration.Meditation.PSBreather
 - uid: AiWorldGeneration.Meditation.PSController
   commentId: T:AiWorldGeneration.Meditation.PSController
   name: PSController

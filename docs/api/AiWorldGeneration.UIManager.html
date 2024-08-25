@@ -1,0 +1,523 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class UIManager
+ | AIWorldGeneration VR </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class UIManager
+ | AIWorldGeneration VR ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AiWorldGeneration.UIManager">
+
+
+  <h1 id="AiWorldGeneration_UIManager" data-uid="AiWorldGeneration.UIManager" class="text-break">Class UIManager
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">UIManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AiWorldGeneration.html">AiWorldGeneration</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="AiWorldGeneration_UIManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UIManager : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="AiWorldGeneration_UIManager_GetEditionMode_" data-uid="AiWorldGeneration.UIManager.GetEditionMode*"></a>
+  <h4 id="AiWorldGeneration_UIManager_GetEditionMode_System_Boolean_" data-uid="AiWorldGeneration.UIManager.GetEditionMode(System.Boolean)">GetEditionMode(bool)</h4>
+  <div class="markdown level1 summary"><p>Retrieves the edition mode based on the current UI mode and input parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EditionMode GetEditionMode(bool inpaintingMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">inpaintingMode</span></td>
+        <td><p>A boolean indicating whether the UI is in inpainting mode or not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AiWorldGeneration.EditionMode.html">EditionMode</a></td>
+        <td><p>Returns the corresponding edition mode based on the current UI mode and input parameters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="AiWorldGeneration_UIManager_GetEditionMode_" data-uid="AiWorldGeneration.UIManager.GetEditionMode*"></a>
+  <h4 id="AiWorldGeneration_UIManager_GetEditionMode_System_Int32_" data-uid="AiWorldGeneration.UIManager.GetEditionMode(System.Int32)">GetEditionMode(int)</h4>
+  <div class="markdown level1 summary"><p>Retrieves the edition mode based on the selected dropdown value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EditionMode GetEditionMode(int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The index of the selected option in the edition mode dropdown.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AiWorldGeneration.EditionMode.html">EditionMode</a></td>
+        <td><p>The corresponding edition mode based on the selected dropdown value.
+If the selected option is &quot;skybox creation&quot;, returns EditionMode.BASIC.
+If the selected option is &quot;skybox edition&quot;, returns EditionMode.PAINTING.
+If the selected option is &quot;expert mode&quot;, returns EditionMode.EXPERT.
+Throws an InvalidOperationException if the selected dropdown value does not match any of the expected options.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="AiWorldGeneration_UIManager_GetInpaintingPrompt_" data-uid="AiWorldGeneration.UIManager.GetInpaintingPrompt*"></a>
+  <h4 id="AiWorldGeneration_UIManager_GetInpaintingPrompt" data-uid="AiWorldGeneration.UIManager.GetInpaintingPrompt">GetInpaintingPrompt()</h4>
+  <div class="markdown level1 summary"><p>Retrieves the prompt for the inpainting task based on the current UI mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetInpaintingPrompt()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><p>The text prompt for the inpainting task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="AiWorldGeneration_UIManager_GetPrompt_" data-uid="AiWorldGeneration.UIManager.GetPrompt*"></a>
+  <h4 id="AiWorldGeneration_UIManager_GetPrompt" data-uid="AiWorldGeneration.UIManager.GetPrompt">GetPrompt()</h4>
+  <div class="markdown level1 summary"><p>Retrieves the current text prompt from the input field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetPrompt()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><p>The text currently in the input field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="AiWorldGeneration_UIManager_IsModeExpert_" data-uid="AiWorldGeneration.UIManager.IsModeExpert*"></a>
+  <h4 id="AiWorldGeneration_UIManager_IsModeExpert" data-uid="AiWorldGeneration.UIManager.IsModeExpert">IsModeExpert()</h4>
+  <div class="markdown level1 summary"><p>Retrieves the current expert mode status based on the UI mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsModeExpert()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>Returns true if expert mode is enabled, false otherwise.
+In compact mode, it checks the selected dropdown option to determine expert mode.
+In non-compact mode, it uses the toggle state of the expert mode toggle.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="AiWorldGeneration_UIManager_SetActiveButtons_" data-uid="AiWorldGeneration.UIManager.SetActiveButtons*"></a>
+  <h4 id="AiWorldGeneration_UIManager_SetActiveButtons_System_Int32_" data-uid="AiWorldGeneration.UIManager.SetActiveButtons(System.Int32)">SetActiveButtons(int)</h4>
+  <div class="markdown level1 summary"><p>Sets the visibility of the skybox buttons based on the current phase.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetActiveButtons(int skyboxPhase)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">skyboxPhase</span></td>
+        <td><p>The current phase of the skybox creation process.
+The function will activate the button corresponding to the current phase and deactivate all other buttons.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="AiWorldGeneration_UIManager_SetAudioAnalyse_" data-uid="AiWorldGeneration.UIManager.SetAudioAnalyse*"></a>
+  <h4 id="AiWorldGeneration_UIManager_SetAudioAnalyse" data-uid="AiWorldGeneration.UIManager.SetAudioAnalyse">SetAudioAnalyse()</h4>
+  <div class="markdown level1 summary"><p>Sets the UI to indicate that audio analysis is in progress.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAudioAnalyse()</code></pre>
+  </div>
+  <h5 id="AiWorldGeneration_UIManager_SetAudioAnalyse_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method changes the text on the recording button to &quot;Analysing...&quot; and disables the button.
+It is called when the audio analysis process starts.</p>
+</div>
+
+
+  <a id="AiWorldGeneration_UIManager_SetEditionMode_" data-uid="AiWorldGeneration.UIManager.SetEditionMode*"></a>
+  <h4 id="AiWorldGeneration_UIManager_SetEditionMode_System_Int32_" data-uid="AiWorldGeneration.UIManager.SetEditionMode(System.Int32)">SetEditionMode(int)</h4>
+  <div class="markdown level1 summary"><p>Sets the edition mode of the UI based on the selected dropdown value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetEditionMode(int newValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">newValue</span></td>
+        <td><p>The new value to set for the edition mode dropdown.
+This value corresponds to the index of the selected option in the dropdown.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AiWorldGeneration_UIManager_SetEditionMode_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This function updates the value of the edition mode dropdown and triggers the
+onValueChanged event of the dropdown to reflect the change in the UI.</p>
+</div>
+
+
+  <a id="AiWorldGeneration_UIManager_SetGenerationChange_" data-uid="AiWorldGeneration.UIManager.SetGenerationChange*"></a>
+  <h4 id="AiWorldGeneration_UIManager_SetGenerationChange_System_Boolean_" data-uid="AiWorldGeneration.UIManager.SetGenerationChange(System.Boolean)">SetGenerationChange(bool)</h4>
+  <div class="markdown level1 summary"><p>Updates the UI elements related to the generation process.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetGenerationChange(bool generationStarting)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">generationStarting</span></td>
+        <td><p>A boolean indicating whether the generation process is starting or not.
+If true, the progress bar will be activated and the submit button will be disabled.
+If false, the progress bar will be deactivated and the submit button will be enabled.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="AiWorldGeneration_UIManager_SetInputFieldText_" data-uid="AiWorldGeneration.UIManager.SetInputFieldText*"></a>
+  <h4 id="AiWorldGeneration_UIManager_SetInputFieldText_System_String_System_Boolean_" data-uid="AiWorldGeneration.UIManager.SetInputFieldText(System.String,System.Boolean)">SetInputFieldText(string, bool)</h4>
+  <div class="markdown level1 summary"><p>Sets the text of the input field based on the provided input and the current UI mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInputFieldText(string input, bool inpaintingMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>The text to be set in the input field.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">inpaintingMode</span></td>
+        <td><p>A boolean indicating whether the UI is in inpainting mode or not.
+If true, the text is set in the inpainting input field.
+If false, the text is set in the regular input field.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AiWorldGeneration_UIManager_SetInputFieldText_System_String_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This function also resets the recording button text to &quot;Start Recording&quot; and enables the recording button.</p>
+</div>
+
+
+  <a id="AiWorldGeneration_UIManager_SetProgressBar_" data-uid="AiWorldGeneration.UIManager.SetProgressBar*"></a>
+  <h4 id="AiWorldGeneration_UIManager_SetProgressBar_System_Single_" data-uid="AiWorldGeneration.UIManager.SetProgressBar(System.Single)">SetProgressBar(float)</h4>
+  <div class="markdown level1 summary"><p>Update the progress bar.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetProgressBar(float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="AiWorldGeneration_UIManager_SetRecordingButtonText_" data-uid="AiWorldGeneration.UIManager.SetRecordingButtonText*"></a>
+  <h4 id="AiWorldGeneration_UIManager_SetRecordingButtonText_System_String_" data-uid="AiWorldGeneration.UIManager.SetRecordingButtonText(System.String)">SetRecordingButtonText(string)</h4>
+  <div class="markdown level1 summary"><p>Sets the text of the recording button to the provided message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRecordingButtonText(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The text to be displayed on the recording button.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AiWorldGeneration_UIManager_SetRecordingButtonText_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is used to update the text on the recording button to indicate the current state of the audio recording process.</p>
+</div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      AIWorldGeneration VR
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

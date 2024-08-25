@@ -17,7 +17,7 @@ items:
   source:
     id: ViewTracker
     path: ''
-    startLine: 659
+    startLine: 2022
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Meditation
@@ -40,7 +40,7 @@ items:
   source:
     id: viewTarget
     path: ''
-    startLine: 663
+    startLine: 2026
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Meditation
@@ -63,7 +63,7 @@ items:
   source:
     id: fixationPointRadius
     path: ''
-    startLine: 665
+    startLine: 2028
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Meditation

@@ -7,14 +7,16 @@ items:
   children:
   - AiWorldGeneration.Skybox.SkyboxMasker.FlipTextureHorizontally(Texture2D)
   - AiWorldGeneration.Skybox.SkyboxMasker.GetMaskBytes
+  - AiWorldGeneration.Skybox.SkyboxMasker.MaxStrokeRadius
   - AiWorldGeneration.Skybox.SkyboxMasker.OnPainting
   - AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting(ActivateEventArgs)
   - AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting(InputAction.CallbackContext)
-  - AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting(DeactivateEventArgs)
+  - AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting
   - AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting(InputAction.CallbackContext)
   - AiWorldGeneration.Skybox.SkyboxMasker.PaintingEnabled
   - AiWorldGeneration.Skybox.SkyboxMasker.ResetTexture
   - AiWorldGeneration.Skybox.SkyboxMasker.SaveTexture
+  - AiWorldGeneration.Skybox.SkyboxMasker.SetBrushSize(System.Single)
   langs:
   - csharp
   - vb
@@ -25,7 +27,7 @@ items:
   source:
     id: SkyboxMasker
     path: ''
-    startLine: 2556
+    startLine: 2504
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -50,10 +52,12 @@ items:
   source:
     id: PaintingEnabled
     path: ''
-    startLine: 2613
+    startLine: 2564
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
+  summary: "\nActivate the mask painting.\n"
+  example: []
   syntax:
     content: public bool PaintingEnabled { get; set; }
     parameters: []
@@ -61,6 +65,33 @@ items:
       type: System.Boolean
     content.vb: Public Property PaintingEnabled As Boolean
   overload: AiWorldGeneration.Skybox.SkyboxMasker.PaintingEnabled*
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.MaxStrokeRadius
+  commentId: P:AiWorldGeneration.Skybox.SkyboxMasker.MaxStrokeRadius
+  id: MaxStrokeRadius
+  parent: AiWorldGeneration.Skybox.SkyboxMasker
+  langs:
+  - csharp
+  - vb
+  name: MaxStrokeRadius
+  nameWithType: SkyboxMasker.MaxStrokeRadius
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.MaxStrokeRadius
+  type: Property
+  source:
+    id: MaxStrokeRadius
+    path: ''
+    startLine: 2572
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nMaximum stroke radius.\n"
+  example: []
+  syntax:
+    content: public int MaxStrokeRadius { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property MaxStrokeRadius As Integer
+  overload: AiWorldGeneration.Skybox.SkyboxMasker.MaxStrokeRadius*
 - uid: AiWorldGeneration.Skybox.SkyboxMasker.FlipTextureHorizontally(Texture2D)
   commentId: M:AiWorldGeneration.Skybox.SkyboxMasker.FlipTextureHorizontally(Texture2D)
   id: FlipTextureHorizontally(Texture2D)
@@ -75,7 +106,7 @@ items:
   source:
     id: FlipTextureHorizontally
     path: ''
-    startLine: 2767
+    startLine: 2722
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -106,7 +137,7 @@ items:
   source:
     id: GetMaskBytes
     path: ''
-    startLine: 2788
+    startLine: 2743
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -133,7 +164,7 @@ items:
   source:
     id: SaveTexture
     path: ''
-    startLine: 2797
+    startLine: 2752
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -160,7 +191,7 @@ items:
   source:
     id: ResetTexture
     path: ''
-    startLine: 2808
+    startLine: 2763
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -170,6 +201,36 @@ items:
     content: public void ResetTexture()
     content.vb: Public Sub ResetTexture()
   overload: AiWorldGeneration.Skybox.SkyboxMasker.ResetTexture*
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.SetBrushSize(System.Single)
+  commentId: M:AiWorldGeneration.Skybox.SkyboxMasker.SetBrushSize(System.Single)
+  id: SetBrushSize(System.Single)
+  parent: AiWorldGeneration.Skybox.SkyboxMasker
+  langs:
+  - csharp
+  - vb
+  name: SetBrushSize(float)
+  nameWithType: SkyboxMasker.SetBrushSize(float)
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.SetBrushSize(float)
+  type: Method
+  source:
+    id: SetBrushSize
+    path: ''
+    startLine: 2775
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nSets the radius of the brush stroke. \n"
+  example: []
+  syntax:
+    content: public void SetBrushSize(float radius)
+    parameters:
+    - id: radius
+      type: System.Single
+    content.vb: Public Sub SetBrushSize(radius As Single)
+  overload: AiWorldGeneration.Skybox.SkyboxMasker.SetBrushSize*
+  nameWithType.vb: SkyboxMasker.SetBrushSize(Single)
+  fullName.vb: AiWorldGeneration.Skybox.SkyboxMasker.SetBrushSize(Single)
+  name.vb: SetBrushSize(Single)
 - uid: AiWorldGeneration.Skybox.SkyboxMasker.OnPainting
   commentId: M:AiWorldGeneration.Skybox.SkyboxMasker.OnPainting
   id: OnPainting
@@ -184,7 +245,7 @@ items:
   source:
     id: OnPainting
     path: ''
-    startLine: 2841
+    startLine: 2784
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -208,7 +269,7 @@ items:
   source:
     id: OnStartPainting
     path: ''
-    startLine: 2876
+    startLine: 2819
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -236,7 +297,7 @@ items:
   source:
     id: OnStartPainting
     path: ''
-    startLine: 2885
+    startLine: 2828
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -250,6 +311,30 @@ items:
       description: An object containing the interactable object&apos;s transform.
     content.vb: Public Sub OnStartPainting(eventArgs As ActivateEventArgs)
   overload: AiWorldGeneration.Skybox.SkyboxMasker.OnStartPainting*
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting
+  commentId: M:AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting
+  id: OnStopPainting
+  parent: AiWorldGeneration.Skybox.SkyboxMasker
+  langs:
+  - csharp
+  - vb
+  name: OnStopPainting()
+  nameWithType: SkyboxMasker.OnStopPainting()
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting()
+  type: Method
+  source:
+    id: OnStopPainting
+    path: ''
+    startLine: 2838
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration.Skybox
+  summary: "\nHandles the stop painting event.\n"
+  example: []
+  syntax:
+    content: public void OnStopPainting()
+    content.vb: Public Sub OnStopPainting()
+  overload: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting*
 - uid: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting(InputAction.CallbackContext)
   commentId: M:AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting(InputAction.CallbackContext)
   id: OnStopPainting(InputAction.CallbackContext)
@@ -264,7 +349,7 @@ items:
   source:
     id: OnStopPainting
     path: ''
-    startLine: 2905
+    startLine: 2848
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.Skybox
@@ -277,34 +362,6 @@ items:
       type: Global.InputAction.CallbackContext
       description: The InputAction.CallbackContext object containing the input data.
     content.vb: Public Sub OnStopPainting(callbackContext As InputAction.CallbackContext)
-  overload: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting*
-- uid: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting(DeactivateEventArgs)
-  commentId: M:AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting(DeactivateEventArgs)
-  id: OnStopPainting(DeactivateEventArgs)
-  parent: AiWorldGeneration.Skybox.SkyboxMasker
-  langs:
-  - csharp
-  - vb
-  name: OnStopPainting(DeactivateEventArgs)
-  nameWithType: SkyboxMasker.OnStopPainting(DeactivateEventArgs)
-  fullName: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting(DeactivateEventArgs)
-  type: Method
-  source:
-    id: OnStopPainting
-    path: ''
-    startLine: 2914
-  assemblies:
-  - cs.temp.dll
-  namespace: AiWorldGeneration.Skybox
-  summary: "\nHandles the stop painting event, it is mostly used in VR mode.\n"
-  example: []
-  syntax:
-    content: public void OnStopPainting(DeactivateEventArgs eventArgs)
-    parameters:
-    - id: eventArgs
-      type: Global.DeactivateEventArgs
-      description: An object containing the interactable object&apos;s transform.
-    content.vb: Public Sub OnStopPainting(eventArgs As DeactivateEventArgs)
   overload: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting*
 references:
 - uid: AiWorldGeneration.Skybox
@@ -355,6 +412,21 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.MaxStrokeRadius*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxMasker.MaxStrokeRadius
+  name: MaxStrokeRadius
+  nameWithType: SkyboxMasker.MaxStrokeRadius
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.MaxStrokeRadius
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: AiWorldGeneration.Skybox.SkyboxMasker.FlipTextureHorizontally*
   commentId: Overload:AiWorldGeneration.Skybox.SkyboxMasker.FlipTextureHorizontally
   name: FlipTextureHorizontally
@@ -410,6 +482,21 @@ references:
   name: ResetTexture
   nameWithType: SkyboxMasker.ResetTexture
   fullName: AiWorldGeneration.Skybox.SkyboxMasker.ResetTexture
+- uid: AiWorldGeneration.Skybox.SkyboxMasker.SetBrushSize*
+  commentId: Overload:AiWorldGeneration.Skybox.SkyboxMasker.SetBrushSize
+  name: SetBrushSize
+  nameWithType: SkyboxMasker.SetBrushSize
+  fullName: AiWorldGeneration.Skybox.SkyboxMasker.SetBrushSize
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
 - uid: AiWorldGeneration.Skybox.SkyboxMasker.OnPainting*
   commentId: Overload:AiWorldGeneration.Skybox.SkyboxMasker.OnPainting
   name: OnPainting
@@ -436,9 +523,3 @@ references:
   name: OnStopPainting
   nameWithType: SkyboxMasker.OnStopPainting
   fullName: AiWorldGeneration.Skybox.SkyboxMasker.OnStopPainting
-- uid: Global.DeactivateEventArgs
-  commentId: '!:Global.DeactivateEventArgs'
-  isExternal: true
-  name: DeactivateEventArgs
-  nameWithType: DeactivateEventArgs
-  fullName: DeactivateEventArgs

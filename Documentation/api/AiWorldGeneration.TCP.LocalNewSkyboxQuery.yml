@@ -19,7 +19,7 @@ items:
   source:
     id: LocalNewSkyboxQuery
     path: ''
-    startLine: 1196
+    startLine: 937
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -48,7 +48,7 @@ items:
   source:
     id: prompt
     path: ''
-    startLine: 1199
+    startLine: 940
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -71,7 +71,7 @@ items:
   source:
     id: outputFilePath
     path: ''
-    startLine: 1201
+    startLine: 942
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -94,7 +94,7 @@ items:
   source:
     id: reportCompletion
     path: ''
-    startLine: 1203
+    startLine: 944
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -117,7 +117,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1205
+    startLine: 946
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

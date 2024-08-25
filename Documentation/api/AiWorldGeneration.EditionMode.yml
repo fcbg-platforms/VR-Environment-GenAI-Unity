@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: AiWorldGeneration.EditionMode
+  commentId: T:AiWorldGeneration.EditionMode
+  id: EditionMode
+  parent: AiWorldGeneration
+  children:
+  - AiWorldGeneration.EditionMode.BASIC
+  - AiWorldGeneration.EditionMode.EXPERT
+  - AiWorldGeneration.EditionMode.PAINTING
+  langs:
+  - csharp
+  - vb
+  name: EditionMode
+  nameWithType: EditionMode
+  fullName: AiWorldGeneration.EditionMode
+  type: Enum
+  source:
+    id: EditionMode
+    path: ''
+    startLine: 33
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  syntax:
+    content: public enum EditionMode
+    content.vb: Public Enum EditionMode
+- uid: AiWorldGeneration.EditionMode.BASIC
+  commentId: F:AiWorldGeneration.EditionMode.BASIC
+  id: BASIC
+  parent: AiWorldGeneration.EditionMode
+  langs:
+  - csharp
+  - vb
+  name: BASIC
+  nameWithType: EditionMode.BASIC
+  fullName: AiWorldGeneration.EditionMode.BASIC
+  type: Field
+  source:
+    id: BASIC
+    path: ''
+    startLine: 35
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  syntax:
+    content: BASIC = 0
+    return:
+      type: AiWorldGeneration.EditionMode
+- uid: AiWorldGeneration.EditionMode.EXPERT
+  commentId: F:AiWorldGeneration.EditionMode.EXPERT
+  id: EXPERT
+  parent: AiWorldGeneration.EditionMode
+  langs:
+  - csharp
+  - vb
+  name: EXPERT
+  nameWithType: EditionMode.EXPERT
+  fullName: AiWorldGeneration.EditionMode.EXPERT
+  type: Field
+  source:
+    id: EXPERT
+    path: ''
+    startLine: 35
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  syntax:
+    content: EXPERT = 1
+    return:
+      type: AiWorldGeneration.EditionMode
+- uid: AiWorldGeneration.EditionMode.PAINTING
+  commentId: F:AiWorldGeneration.EditionMode.PAINTING
+  id: PAINTING
+  parent: AiWorldGeneration.EditionMode
+  langs:
+  - csharp
+  - vb
+  name: PAINTING
+  nameWithType: EditionMode.PAINTING
+  fullName: AiWorldGeneration.EditionMode.PAINTING
+  type: Field
+  source:
+    id: PAINTING
+    path: ''
+    startLine: 35
+  assemblies:
+  - cs.temp.dll
+  namespace: AiWorldGeneration
+  syntax:
+    content: PAINTING = 2
+    return:
+      type: AiWorldGeneration.EditionMode
+references:
+- uid: AiWorldGeneration
+  commentId: N:AiWorldGeneration
+  name: AiWorldGeneration
+  nameWithType: AiWorldGeneration
+  fullName: AiWorldGeneration
+- uid: AiWorldGeneration.EditionMode
+  commentId: T:AiWorldGeneration.EditionMode
+  parent: AiWorldGeneration
+  name: EditionMode
+  nameWithType: EditionMode
+  fullName: AiWorldGeneration.EditionMode

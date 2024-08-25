@@ -16,7 +16,7 @@ items:
   source:
     id: SerializableResponseData
     path: ''
-    startLine: 1025
+    startLine: 639
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -48,7 +48,7 @@ items:
   source:
     id: type
     path: ''
-    startLine: 1031
+    startLine: 645
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

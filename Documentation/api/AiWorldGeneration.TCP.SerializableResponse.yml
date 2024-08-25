@@ -20,7 +20,7 @@ items:
   source:
     id: SerializableResponse
     path: ''
-    startLine: 983
+    startLine: 1478
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -45,7 +45,7 @@ items:
   source:
     id: message
     path: ''
-    startLine: 989
+    startLine: 1484
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -70,7 +70,7 @@ items:
   source:
     id: status
     path: ''
-    startLine: 996
+    startLine: 1491
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -95,7 +95,7 @@ items:
   source:
     id: data
     path: ''
-    startLine: 1003
+    startLine: 1498
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -120,7 +120,7 @@ items:
   source:
     id: taskId
     path: ''
-    startLine: 1008
+    startLine: 1503
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -145,7 +145,7 @@ items:
   source:
     id: type
     path: ''
-    startLine: 1013
+    startLine: 1508
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

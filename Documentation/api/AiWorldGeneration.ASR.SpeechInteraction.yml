@@ -17,7 +17,7 @@ items:
   source:
     id: SpeechInteraction
     path: ''
-    startLine: 760
+    startLine: 3057
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.ASR
@@ -42,7 +42,7 @@ items:
   source:
     id: StartRecording
     path: ''
-    startLine: 793
+    startLine: 3090
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.ASR
@@ -66,7 +66,7 @@ items:
   source:
     id: StopRecording
     path: ''
-    startLine: 806
+    startLine: 3103
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.ASR

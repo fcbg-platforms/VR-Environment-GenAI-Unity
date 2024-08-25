@@ -17,7 +17,7 @@ items:
   source:
     id: ServerInterface
     path: ''
-    startLine: 1450
+    startLine: 837
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -42,7 +42,7 @@ items:
   source:
     id: serverIp
     path: ''
-    startLine: 1453
+    startLine: 840
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP
@@ -65,7 +65,7 @@ items:
   source:
     id: serverPort
     path: ''
-    startLine: 1455
+    startLine: 842
   assemblies:
   - cs.temp.dll
   namespace: AiWorldGeneration.TCP

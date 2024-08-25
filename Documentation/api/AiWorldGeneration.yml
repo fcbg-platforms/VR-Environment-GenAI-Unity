@@ -4,9 +4,9 @@ items:
   commentId: N:AiWorldGeneration
   id: AiWorldGeneration
   children:
-  - AiWorldGeneration.FreeCameraMovement
+  - AiWorldGeneration.EditionMode
   - AiWorldGeneration.InteractionManager
-  - AiWorldGeneration.XRDesktopActivation
+  - AiWorldGeneration.UIManager
   langs:
   - csharp
   - vb
@@ -17,18 +17,24 @@ items:
   assemblies:
   - cs.temp.dll
 references:
-- uid: AiWorldGeneration.XRDesktopActivation
-  commentId: T:AiWorldGeneration.XRDesktopActivation
-  name: XRDesktopActivation
-  nameWithType: XRDesktopActivation
-  fullName: AiWorldGeneration.XRDesktopActivation
+- uid: AiWorldGeneration.EditionMode
+  commentId: T:AiWorldGeneration.EditionMode
+  parent: AiWorldGeneration
+  name: EditionMode
+  nameWithType: EditionMode
+  fullName: AiWorldGeneration.EditionMode
+- uid: AiWorldGeneration.UIManager
+  commentId: T:AiWorldGeneration.UIManager
+  name: UIManager
+  nameWithType: UIManager
+  fullName: AiWorldGeneration.UIManager
 - uid: AiWorldGeneration.InteractionManager
   commentId: T:AiWorldGeneration.InteractionManager
   name: InteractionManager
   nameWithType: InteractionManager
   fullName: AiWorldGeneration.InteractionManager
-- uid: AiWorldGeneration.FreeCameraMovement
-  commentId: T:AiWorldGeneration.FreeCameraMovement
-  name: FreeCameraMovement
-  nameWithType: FreeCameraMovement
-  fullName: AiWorldGeneration.FreeCameraMovement
+- uid: AiWorldGeneration
+  commentId: N:AiWorldGeneration
+  name: AiWorldGeneration
+  nameWithType: AiWorldGeneration
+  fullName: AiWorldGeneration

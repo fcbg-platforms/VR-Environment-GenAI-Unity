@@ -5,7 +5,7 @@ This Unity project is a client for generating, modifying and exploring environme
 ![Main VR scene](resources/Main_view_VR.png "View of the main VR screen.")
 
 It features two main scenes, one for desktop and one for virtual reality, that both let you explore new worlds.
-The idea of this project is to let  you access all the (local) AI features from an application, reducing the interruptions in the creation process.
+The idea of this project is to let  you access all the AI features from an application, reducing the interruptions in the creation process.
 
 [Short complete demo.webm](https://github.com/user-attachments/assets/b8a97c92-ae75-4732-95af-c4fb64345bb0)
 
@@ -26,8 +26,10 @@ The project was developed with the HP Reverb G2 (a Windows Mixed Reality Headset
 - If the XR assets do not work, you can try to reinstall them from the [Package Manager](https://docs.unity3d.com/Manual/Packages.html) (Package manager -> XR Interaction Toolkit -> Samples -> Starter Assets -> Reimport).
 - For Windows Mixed Reality Headsets, you may also try to reimport the plugins.
 
-Note that this is only the client,
+> [!Important]
+> This is only the client,
 you need a running server to actually use the AI features!
+The repository to run the server can be found at: [VR-Environment-GenAI-Server](https://github.com/fcbg-hnp-vr/VR-Environment-GenAI-Server).
 
 ## Usage
 
@@ -85,6 +87,24 @@ The other scenes are for testing pruposes:
 - "Speech Recognition" - A simple scene that only integrates speech-to-text.
 - "Experiments Scene" - A scene containing various legacy experiments.
 
+## Documentation
+
+We provide an [online documentation](https://fcbg-hnp-vr.github.io/VR-Environment-GenAI-Unity/), you can also access it in the `documentation` branch, under `docs/`.
+
+The documentation is generated with DocFX, you can regenerate it with [DocFX](https://github.com/dotnet/docfx).
+
+```bash
+cp README.md Documentation/index.md
+
+# Option 1: Offline, static documentation
+docfx Documentation/docfx.json -t statictoc,custom_template
+
+# Option 2: on a web server
+docfx Documentation/docfx.json
+```
+
+Both commands will generate a documentation under `docs/`.
+
 ## Legacy features
 
 ### Skybox Import
@@ -108,22 +128,6 @@ To start the breathing experiment:
 1. Enable the breathing asset.
 2. Press the space bar on in-breathing and release on out-breath.
 
-## Documentation
-
-Documentation is generated with DocFX, you can regenerate it with [DocFX](https://github.com/dotnet/docfx).
-
-```bash
-cp README.md Documentation/index.md
-
-# Option 1: Offline, static documentation
-docfx Documentation/docfx.json -t statictoc,custom_template
-
-# Option 2: on a web server
-docfx Documentation/docfx.json
-```
-
-Both commands will generate a documentation under `_site/`.
-
 ## Links
 
 You can find the project at the following locations.
@@ -131,3 +135,5 @@ You can find the project at the following locations.
 - Official public repository: <https://github.com/fcbg-hnp-vr/VR-Environment-GenAI-Unity>
 - Active public repository: <https://github.com/HugoFara/VR-Environment-GenAI-Unity>
 - Original private repository: <https://gitlab.com/fcbg-hnp-vr/2024/interne/ai-world-generation/vr-viewer>
+
+For the official public AI server: <https://github.com/fcbg-hnp-vr/VR-Environment-GenAI-Server>.
