@@ -130,10 +130,6 @@ To start the breathing experiment:
 
 ## Links
 
-You can find the project at the following locations.
-
-- Official public repository: <https://github.com/fcbg-hnp-vr/VR-Environment-GenAI-Unity>
-- Active public repository: <https://github.com/HugoFara/VR-Environment-GenAI-Unity>
-- Original private repository: <https://gitlab.com/fcbg-hnp-vr/2024/interne/ai-world-generation/vr-viewer>
+You can find the active public repository for this project at: <https://github.com/HugoFara/speech-to-world-unity-client>
 
 For the official public AI server: <https://github.com/fcbg-hnp-vr/VR-Environment-GenAI-Server>.
